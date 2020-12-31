@@ -1,0 +1,223 @@
+object frmheatcontent: Tfrmheatcontent
+  Left = 255
+  Height = 671
+  Top = 174
+  Width = 1258
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Heat content'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 144
+  OnShow = FormShow
+  Position = poOwnerFormCenter
+  LCLVersion = '2.0.6.0'
+  object GroupBox2: TGroupBox
+    Left = 24
+    Height = 186
+    Top = 288
+    Width = 348
+    Caption = 'Layer'
+    ClientHeight = 156
+    ClientWidth = 344
+    ParentFont = False
+    TabOrder = 0
+    object Label5: TLabel
+      Left = 12
+      Height = 25
+      Top = 24
+      Width = 98
+      Caption = 'First level, m'
+      ParentColor = False
+      ParentFont = False
+    end
+    object seTopLimit: TFloatSpinEdit
+      Left = 216
+      Height = 33
+      Top = 16
+      Width = 104
+      MaxValue = 12000
+      MinValue = 0
+      ParentFont = False
+      TabOrder = 0
+      Value = 0
+    end
+    object seBotLimit: TFloatSpinEdit
+      Left = 216
+      Height = 33
+      Top = 64
+      Width = 104
+      MaxValue = 12000
+      MinValue = 0
+      ParentFont = False
+      TabOrder = 1
+      Value = 100
+    end
+    object chkLastLevel: TRadioButton
+      Left = 16
+      Height = 29
+      Top = 68
+      Width = 126
+      Caption = 'Last level, m'
+      TabOrder = 2
+    end
+    object chkBottom: TRadioButton
+      Left = 16
+      Height = 29
+      Top = 104
+      Width = 90
+      Caption = 'Bottom'
+      Checked = True
+      TabOrder = 3
+      TabStop = True
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 144
+    Top = 16
+    Width = 348
+    Caption = 'Parameters'
+    ClientHeight = 114
+    ClientWidth = 344
+    ParentFont = False
+    TabOrder = 1
+    object cbVariableT: TComboBox
+      Left = 152
+      Height = 33
+      Top = 12
+      Width = 170
+      ItemHeight = 25
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 20
+      Height = 25
+      Top = 20
+      Width = 98
+      Caption = 'Temperature'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 20
+      Height = 25
+      Top = 64
+      Width = 56
+      Caption = 'Salinity'
+      ParentColor = False
+    end
+    object cbVariableS: TComboBox
+      Left = 152
+      Height = 33
+      Top = 56
+      Width = 168
+      ItemHeight = 25
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 1
+    end
+  end
+  object btnCalculate: TButton
+    Left = 222
+    Height = 38
+    Top = 609
+    Width = 150
+    Caption = 'Calculate'
+    OnClick = btnCalculateClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 400
+    Height = 631
+    Top = 16
+    Width = 832
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssBoth
+    TabOrder = 3
+  end
+  object GroupBox3: TGroupBox
+    Left = 24
+    Height = 110
+    Top = 488
+    Width = 348
+    Caption = 'Reference value'
+    ClientHeight = 80
+    ClientWidth = 344
+    TabOrder = 4
+    object seTRef: TFloatSpinEdit
+      Left = 216
+      Height = 33
+      Top = 16
+      Width = 104
+      MinValue = 0
+      ParentFont = False
+      TabOrder = 0
+      Value = 0
+    end
+    object Label1: TLabel
+      Left = 12
+      Height = 25
+      Top = 24
+      Width = 149
+      Caption = 'Temperature, degC'
+      ParentColor = False
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 24
+    Height = 110
+    Top = 168
+    Width = 348
+    Caption = 'Predefined area'
+    ClientHeight = 80
+    ClientWidth = 344
+    TabOrder = 5
+    object cbSeaBorders: TComboBox
+      Left = 24
+      Height = 29
+      Top = 24
+      Width = 298
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ItemHeight = 21
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+  end
+  object btnOpenFolder: TBitBtn
+    Left = 24
+    Height = 38
+    Hint = 'Open data folder'
+    Top = 609
+    Width = 38
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      04000000000000010000120B0000120B00001000000000000000000000000000
+      800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00555555555555
+      55555555FFFFFFFFFF55555000000000055555577777777775F55500B8B8B8B8
+      B05555775F555555575F550F0B8B8B8B8B05557F75F555555575550BF0B8B8B8
+      B8B0557F575FFFFFFFF7550FBF0000000000557F557777777777500BFBFBFBFB
+      0555577F555555557F550B0FBFBFBFBF05557F7F555555FF75550F0BFBFBF000
+      55557F75F555577755550BF0BFBF0B0555557F575FFF757F55550FB700007F05
+      55557F557777557F55550BFBFBFBFB0555557F555555557F55550FBFBFBFBF05
+      55557FFFFFFFFF7555550000000000555555777777777755555550FBFB055555
+      5555575FFF755555555557000075555555555577775555555555
+    }
+    NumGlyphs = 2
+    Images = frmmain.IL1
+    ImageIndex = 422
+    OnClick = btnOpenFolderClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+end

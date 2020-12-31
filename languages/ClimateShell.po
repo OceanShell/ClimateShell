@@ -1,0 +1,3347 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ncmain.sallfilesdatesselectedlevel
+msgid "All files, all dates, selected level"
+msgstr ""
+
+#: ncmain.sallfilesselecteddatelevels
+msgctxt "ncmain.sallfilesselecteddatelevels"
+msgid "All files, selected date, levels from the list"
+msgstr ""
+
+#: ncmain.sapr
+msgid "April"
+msgstr ""
+
+#: ncmain.saug
+msgid "August"
+msgstr ""
+
+#: ncmain.sautoallfilesdateslevels
+msgid "All files, all dates, all levels"
+msgstr ""
+
+#: ncmain.sautomationoff
+msgctxt "ncmain.sautomationoff"
+msgid "Automation: OFF"
+msgstr ""
+
+#: ncmain.sautomationon
+msgid "Automation: ON"
+msgstr ""
+
+#: ncmain.sbigdataset
+msgid "Selected file is big. Proceed anyway?"
+msgstr ""
+
+#: ncmain.sdatecannotexceed
+msgid "Date cannot exceed "
+msgstr ""
+
+#: ncmain.sdatecannotprecede
+msgid "Date cannot preceed "
+msgstr ""
+
+#: ncmain.sdec
+msgid "December"
+msgstr ""
+
+#: ncmain.sdirnotempty
+msgid "Output directory is not empty. Clean it now?"
+msgstr ""
+
+#: ncmain.sdone
+msgid "Done!"
+msgstr ""
+
+#: ncmain.serroroccured
+msgid "Something went wrong. Check the output"
+msgstr ""
+
+#: ncmain.sfeb
+msgid "February"
+msgstr ""
+
+#: ncmain.sfilesthesame
+msgctxt "ncmain.sfilesthesame"
+msgid "Files are the same"
+msgstr ""
+
+#: ncmain.sgetdata
+msgctxt "ncmain.sgetdata"
+msgid "Get Data"
+msgstr ""
+
+#: ncmain.shadisstoutdated
+msgid "There is no ice edge data for the selected region and date"
+msgstr ""
+
+#: ncmain.sjan
+msgid "January"
+msgstr ""
+
+#: ncmain.sjul
+msgid "July"
+msgstr ""
+
+#: ncmain.sjun
+msgid "Jun"
+msgstr ""
+
+#: ncmain.skmlnodes
+msgid "nodes have been exported"
+msgstr ""
+
+#: ncmain.slatitude
+msgctxt "ncmain.slatitude"
+msgid "Latitude"
+msgstr ""
+
+#: ncmain.slongitude
+msgctxt "ncmain.slongitude"
+msgid "Longitude"
+msgstr ""
+
+#: ncmain.smar
+msgid "March"
+msgstr ""
+
+#: ncmain.smay
+msgid "May"
+msgstr ""
+
+#: ncmain.sno
+msgid "No"
+msgstr ""
+
+#: ncmain.snocdo
+msgid "CDO is not found"
+msgstr ""
+
+#: ncmain.snographer
+msgid "Grapher is not found"
+msgstr ""
+
+#: ncmain.snopython
+msgid "Python is not found"
+msgstr ""
+
+#: ncmain.snosurfer
+msgid "Surfer is not found"
+msgstr ""
+
+#: ncmain.snov
+msgid "November"
+msgstr ""
+
+#: ncmain.soct
+msgid "October"
+msgstr ""
+
+#: ncmain.sopenfile
+msgctxt "ncmain.sopenfile"
+msgid "Open file?"
+msgstr ""
+
+#: ncmain.sopennc
+msgid "Select netCDF file(s)"
+msgstr ""
+
+#: ncmain.sopennorma
+msgid "Select file with norma"
+msgstr ""
+
+#: ncmain.soutofrange
+msgid "Data is out of range"
+msgstr ""
+
+#: ncmain.splot
+msgctxt "ncmain.splot"
+msgid "Plot"
+msgstr ""
+
+#: ncmain.spredefinedarea
+msgid "Select predefined area..."
+msgstr ""
+
+#: ncmain.sselectedfiledatealllevels
+msgid "Selected file, selected date, all levels"
+msgstr ""
+
+#: ncmain.sselectedfilelevelalldates
+msgid "Selected file, selected level, all dates"
+msgstr ""
+
+#: ncmain.sselectedfilelevelmonth
+msgid "Selected file, selected level, month ="
+msgstr ""
+
+#: ncmain.sselectlevels
+msgid "Please, select levels"
+msgstr ""
+
+#: ncmain.sselectparameters
+msgid "Please, select parameters"
+msgstr ""
+
+#: ncmain.sselectsection
+msgid "Please, select file with section coordinates"
+msgstr ""
+
+#: ncmain.sselectsteps
+msgid "Please, select step"
+msgstr ""
+
+#: ncmain.sselectsubset
+msgid "Would you like to select a subset?"
+msgstr ""
+
+#: ncmain.sselecttime
+msgid "Please, select time"
+msgstr ""
+
+#: ncmain.ssep
+msgid "September"
+msgstr ""
+
+#: ncmain.sunloadedfileempty
+msgid "Unloaded file is empty"
+msgstr ""
+
+#: ncmain.syes
+msgid "Yes"
+msgstr ""
+
+#: tfrmaveragingcdo.btnaverage.caption
+msgid "Average"
+msgstr ""
+
+#: tfrmaveragingcdo.btnopenfolder.hint
+msgctxt "tfrmaveragingcdo.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmaveragingcdo.caption
+msgctxt "tfrmaveragingcdo.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmaveragingcdo.groupbox2.caption
+msgid "Single file with norma"
+msgstr ""
+
+#: tfrmaveragingcdo.rballfiles.caption
+msgid "All files"
+msgstr ""
+
+#: tfrmaveragingcdo.rbmonthbymonth.caption
+msgid "Month by month"
+msgstr ""
+
+#: tfrmaveragingcdo.rbseason.caption
+msgctxt "tfrmaveragingcdo.rbseason.caption"
+msgid "Season (all years)"
+msgstr ""
+
+#: tfrmaveragingcdo.rbseasoneveryyear.caption
+msgctxt "tfrmaveragingcdo.rbseasoneveryyear.caption"
+msgid "Season (year by year)"
+msgstr ""
+
+#: tfrmaveragingcdo.rbselectedmonth.caption
+msgid "Selected month"
+msgstr ""
+
+#: tfrmaveragingcdo.rbyearbyyear.caption
+msgid "Year by year"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.btncalculate.caption
+msgctxt "tfrmcalculatefreezingtemp.btncalculate.caption"
+msgid "Calculate"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.caption
+msgid "Calculate seawater freezing temperature"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.groupbox1.caption
+msgctxt "tfrmcalculatefreezingtemp.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.label1.caption
+msgctxt "tfrmcalculatefreezingtemp.label1.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.label2.caption
+msgctxt "tfrmcalculatefreezingtemp.label2.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.rgalgorythm.caption
+msgid "Algorythm"
+msgstr ""
+
+#: tfrmcats.button1.caption
+msgid "Run"
+msgstr ""
+
+#: tfrmcats.caption
+msgctxt "tfrmcats.caption"
+msgid "CATS"
+msgstr ""
+
+#: tfrmcdodeleteparam.btndelete.caption
+msgctxt "tfrmcdodeleteparam.btndelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmcdodeleteparam.caption
+msgctxt "tfrmcdodeleteparam.caption"
+msgid "Delete parameter"
+msgstr ""
+
+#: tfrmcdodeleteparam.groupbox1.caption
+msgid "Parameters to delete"
+msgstr ""
+
+#: tfrmcdoextractsubset.btnextract.caption
+msgid "Extract"
+msgstr ""
+
+#: tfrmcdoextractsubset.caption
+msgid "Extract Subset by Area"
+msgstr ""
+
+#: tfrmcdoextractsubset.groupbox4.caption
+msgctxt "tfrmcdoextractsubset.groupbox4.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmcdoremap.btnremap.caption
+msgid "Remap"
+msgstr ""
+
+#: tfrmcdoremap.caption
+msgctxt "tfrmcdoremap.caption"
+msgid "Remap grid"
+msgstr ""
+
+#: tfrmcdoremap.groupbox1.caption
+msgid "New grid definition"
+msgstr ""
+
+#: tfrmcdoremap.label1.caption
+msgid "Grid type"
+msgstr ""
+
+#: tfrmcdoremap.label2.caption
+msgid "Y inc"
+msgstr ""
+
+#: tfrmcdoremap.label3.caption
+msgid "Y first"
+msgstr ""
+
+#: tfrmcdoremap.label4.caption
+msgid "X first"
+msgstr ""
+
+#: tfrmcdoremap.label5.caption
+msgid "X inc"
+msgstr ""
+
+#: tfrmcdoremap.label6.caption
+msgid "X size"
+msgstr ""
+
+#: tfrmcdoremap.label7.caption
+msgid "Y size"
+msgstr ""
+
+#: tfrmcdosplit.btnopenfolder.hint
+msgctxt "tfrmcdosplit.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmcdosplit.btnsplit.caption
+msgctxt "tfrmcdosplit.btnsplit.caption"
+msgid "Split"
+msgstr ""
+
+#: tfrmcdosplit.caption
+msgid "Split netCDF"
+msgstr ""
+
+#: tfrmcdosplit.rgsplit.caption
+msgctxt "tfrmcdosplit.rgsplit.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmclimanomalies.btnnorma.caption
+msgctxt "tfrmclimanomalies.btnnorma.caption"
+msgid "Norma"
+msgstr ""
+
+#: tfrmclimanomalies.btnopenfolder.hint
+msgctxt "tfrmclimanomalies.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmclimanomalies.btnopenscript.hint
+msgctxt "tfrmclimanomalies.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmclimanomalies.btnplot.caption
+msgctxt "tfrmclimanomalies.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmclimanomalies.btnsettings.caption
+msgctxt "tfrmclimanomalies.btnsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmclimanomalies.caption
+msgctxt "tfrmclimanomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmclimanomalies.groupbox1.caption
+msgctxt "tfrmclimanomalies.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmclimanomalies.groupbox2.caption
+msgctxt "tfrmclimanomalies.groupbox2.caption"
+msgid "Surfer's colour files"
+msgstr ""
+
+#: tfrmclimanomalies.groupbox3.caption
+msgid "Levels"
+msgstr ""
+
+#: tfrmclimanomalies.label1.caption
+msgid "Field 1"
+msgstr ""
+
+#: tfrmclimanomalies.label2.caption
+msgid "Select/Deselect All"
+msgstr ""
+
+#: tfrmclimanomalies.label3.caption
+msgctxt "tfrmclimanomalies.label3.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmclimanomalies.label9.caption
+msgctxt "tfrmclimanomalies.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmclimanomalies.lbvariable1.caption
+msgid "lbVariable1"
+msgstr ""
+
+#: tfrmclimanomalies.lbvariable2.caption
+msgid "lbVariable2"
+msgstr ""
+
+#: tfrmclimanomalies.rgprojection.caption
+msgctxt "tfrmclimanomalies.rgprojection.caption"
+msgid "Projection"
+msgstr ""
+
+#: tfrmclimfields.automation.caption
+msgctxt "tfrmclimfields.automation.caption"
+msgid "Automation"
+msgstr ""
+
+#: tfrmclimfields.btnallfiles.caption
+msgid "All files + given level"
+msgstr ""
+
+#: tfrmclimfields.btnalllevels.caption
+msgid "Given file + all levels "
+msgstr ""
+
+#: tfrmclimfields.btnopenfolder.hint
+msgctxt "tfrmclimfields.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmclimfields.btnopenscript.hint
+msgctxt "tfrmclimfields.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmclimfields.btnplot.caption
+msgctxt "tfrmclimfields.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmclimfields.btnsettings.caption
+msgctxt "tfrmclimfields.btnsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmclimfields.button1.caption
+msgid "All files + all levels"
+msgstr ""
+
+#: tfrmclimfields.caption
+msgid "Spatial Fields"
+msgstr ""
+
+#: tfrmclimfields.cbtype.text
+msgid "Monthly"
+msgstr ""
+
+#: tfrmclimfields.chkice.caption
+msgid "Plot ice edge"
+msgstr ""
+
+#: tfrmclimfields.chklegend.caption
+msgid "Legend"
+msgstr ""
+
+#: tfrmclimfields.chkpolar.caption
+msgid "Circumpolar projection"
+msgstr ""
+
+#: tfrmclimfields.chkvarb.caption
+msgid "Variant \"B\""
+msgstr ""
+
+#: tfrmclimfields.emaxlat.text
+msgctxt "tfrmclimfields.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmclimfields.emaxlon.text
+msgctxt "tfrmclimfields.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmclimfields.eminlat.text
+msgctxt "tfrmclimfields.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmclimfields.eminlon.text
+msgctxt "tfrmclimfields.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmclimfields.fields.caption
+msgctxt "tfrmclimfields.fields.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmclimfields.groupbox1.caption
+msgctxt "tfrmclimfields.groupbox1.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmclimfields.groupbox2.caption
+msgid "Additional settings"
+msgstr ""
+
+#: tfrmclimfields.groupbox4.caption
+msgid "Parameter"
+msgstr ""
+
+#: tfrmclimfields.groupbox5.caption
+msgctxt "tfrmclimfields.groupbox5.caption"
+msgid "Level"
+msgstr ""
+
+#: tfrmclimfields.groupbox6.caption
+msgctxt "tfrmclimfields.groupbox6.caption"
+msgid "Automation"
+msgstr ""
+
+#: tfrmclimfields.groupbox7.caption
+msgid "Base map"
+msgstr ""
+
+#: tfrmclimfields.lbvariable.caption
+msgctxt "tfrmclimfields.lbvariable.caption"
+msgid "lbVariable"
+msgstr ""
+
+#: tfrmclimprofiles.btngetprofile.caption
+msgid "Get profile"
+msgstr ""
+
+#: tfrmclimprofiles.btninterpolation.caption
+msgid "=>"
+msgstr ""
+
+#: tfrmclimprofiles.caption
+msgctxt "tfrmclimprofiles.caption"
+msgid "Profiles"
+msgstr ""
+
+#: tfrmclimprofiles.cblat.text
+msgctxt "tfrmclimprofiles.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmclimprofiles.cblon.text
+msgctxt "tfrmclimprofiles.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmclimprofiles.cbseaborders.text
+msgctxt "tfrmclimprofiles.cbseaborders.text"
+msgid "cbSeaBorders"
+msgstr ""
+
+#: tfrmclimprofiles.edit1.text
+msgctxt "tfrmclimprofiles.edit1.text"
+msgid "eLatMax"
+msgstr ""
+
+#: tfrmclimprofiles.edit2.text
+msgctxt "tfrmclimprofiles.edit2.text"
+msgid "eLatMin"
+msgstr ""
+
+#: tfrmclimprofiles.edit3.text
+msgctxt "tfrmclimprofiles.edit3.text"
+msgid "eLonMin"
+msgstr ""
+
+#: tfrmclimprofiles.edit4.text
+msgctxt "tfrmclimprofiles.edit4.text"
+msgid "eLonMax"
+msgstr ""
+
+#: tfrmclimprofiles.epointlat.text
+msgctxt "tfrmclimprofiles.epointlat.text"
+msgid "66"
+msgstr ""
+
+#: tfrmclimprofiles.epointlon.text
+msgctxt "tfrmclimprofiles.epointlon.text"
+msgid "2"
+msgstr ""
+
+#: tfrmclimprofiles.epointrad.text
+msgctxt "tfrmclimprofiles.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmclimprofiles.groupbox1.caption
+msgctxt "tfrmclimprofiles.groupbox1.caption"
+msgid "Interpolation"
+msgstr ""
+
+#: tfrmclimprofiles.label1.caption
+msgid "Parameter:"
+msgstr ""
+
+#: tfrmclimprofiles.label2.caption
+msgid "Required level"
+msgstr ""
+
+#: tfrmclimprofiles.label3.caption
+msgctxt "tfrmclimprofiles.label3.caption"
+msgid "Value"
+msgstr ""
+
+#: tfrmclimprofiles.label7.caption
+msgctxt "tfrmclimprofiles.label7.caption"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmclimprofiles.label8.caption
+msgctxt "tfrmclimprofiles.label8.caption"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmclimprofiles.label9.caption
+msgctxt "tfrmclimprofiles.label9.caption"
+msgid "Radius, km"
+msgstr ""
+
+#: tfrmclimprofiles.lbmethod.caption
+msgid "Method: "
+msgstr ""
+
+#: tfrmclimprofiles.lbvariable.caption
+msgctxt "tfrmclimprofiles.lbvariable.caption"
+msgid "lbVariable"
+msgstr ""
+
+#: tfrmclimprofiles.panel1.caption
+msgctxt "tfrmclimprofiles.panel1.caption"
+msgid "Panel1"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet1.caption
+msgctxt "tfrmclimprofiles.tabsheet1.caption"
+msgid "Domain"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet2.caption
+msgctxt "tfrmclimprofiles.tabsheet2.caption"
+msgid "Around point"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet3.caption
+msgctxt "tfrmclimprofiles.tabsheet3.caption"
+msgid "Predefined area"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet4.caption
+msgctxt "tfrmclimprofiles.tabsheet4.caption"
+msgid "SingleNode"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet5.caption
+msgid "Data"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet6.caption
+msgctxt "tfrmclimprofiles.tabsheet6.caption"
+msgid "Map"
+msgstr ""
+
+#: tfrmclimsections.btnopenfolder.hint
+msgctxt "tfrmclimsections.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmclimsections.btnopennorma.caption
+msgctxt "tfrmclimsections.btnopennorma.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmclimsections.btnopenscript.hint
+msgctxt "tfrmclimsections.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmclimsections.btnplot.caption
+msgctxt "tfrmclimsections.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmclimsections.btnplotall.caption
+msgid "Plot all"
+msgstr ""
+
+#: tfrmclimsections.btnsettings.caption
+msgctxt "tfrmclimsections.btnsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmclimsections.caption
+msgctxt "tfrmclimsections.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfrmclimsections.chkanomalies.caption
+msgctxt "tfrmclimsections.chkanomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmclimsections.enorma.text
+msgid "x:\\DIVA\\climatologies\\Nordic Seas v2\\DATA\\VAR_A\\annual-per-period\\Salinity\\Salinity.19002012.0112.nc"
+msgstr ""
+
+#: tfrmclimsections.groupbox1.caption
+msgctxt "tfrmclimsections.groupbox1.caption"
+msgid "Select file with section coordinates"
+msgstr ""
+
+#: tfrmclimsections.groupbox2.caption
+msgid "Path to file with Norma"
+msgstr ""
+
+#: tfrmclimsections.groupbox4.caption
+msgctxt "tfrmclimsections.groupbox4.caption"
+msgid "Plot parameters"
+msgstr ""
+
+#: tfrmclimsections.label4.caption
+msgctxt "tfrmclimsections.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmclimsections.label9.caption
+msgctxt "tfrmclimsections.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmdensity.btncalculate.caption
+msgctxt "tfrmdensity.btncalculate.caption"
+msgid "Calculate"
+msgstr ""
+
+#: tfrmdensity.caption
+msgid "Calculate density"
+msgstr ""
+
+#: tfrmdensity.groupbox1.caption
+msgctxt "tfrmdensity.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmdensity.label1.caption
+msgctxt "tfrmdensity.label1.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmdensity.label2.caption
+msgctxt "tfrmdensity.label2.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmdensity.rgalgorithm.caption
+msgid "Algorithm"
+msgstr ""
+
+#: tfrmexport.btnexport.caption
+msgctxt "tfrmexport.btnexport.caption"
+msgid "Export"
+msgstr ""
+
+#: tfrmexport.caption
+msgctxt "tfrmexport.caption"
+msgid "Export"
+msgstr ""
+
+#: tfrmexport.chkheader.caption
+msgid "Header"
+msgstr ""
+
+#: tfrmexport.lbcheckall.caption
+msgid "Check All"
+msgstr ""
+
+#: tfrmexport_kml.btnexport.caption
+msgctxt "tfrmexport_kml.btnexport.caption"
+msgid "Export"
+msgstr ""
+
+#: tfrmexport_kml.caption
+msgid "KML export"
+msgstr ""
+
+#: tfrmexport_kml.chkopenafterexport.caption
+msgid "Open Exported File"
+msgstr ""
+
+#: tfrmexport_kml.groupbox4.caption
+msgctxt "tfrmexport_kml.groupbox4.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmexport_kml.label1.caption
+msgid "Label scale"
+msgstr ""
+
+#: tfrmexport_kml.rgover.caption
+msgctxt "tfrmexport_kml.rgover.caption"
+msgid "Data over..."
+msgstr ""
+
+#: tfrmfields.btnautomation.caption
+msgctxt "tfrmfields.btnautomation.caption"
+msgid "Start"
+msgstr ""
+
+#: tfrmfields.btncancel.caption
+msgctxt "tfrmfields.btncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfrmfields.btngetdata.caption
+msgctxt "tfrmfields.btngetdata.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmfields.btnopenfolder.hint
+msgctxt "tfrmfields.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmfields.btnopenscript.hint
+msgctxt "tfrmfields.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmfields.btnplot.caption
+msgctxt "tfrmfields.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmfields.btnsettings.caption
+msgctxt "tfrmfields.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr ""
+
+#: tfrmfields.caption
+msgctxt "tfrmfields.caption"
+msgid "Fields"
+msgstr ""
+
+#: tfrmfields.chkice.caption
+msgid "+ Ice Edge (HadISST)"
+msgstr ""
+
+#: tfrmfields.chkplot.caption
+msgctxt "tfrmfields.chkplot.caption"
+msgid "Plot with Surfer"
+msgstr ""
+
+#: tfrmfields.groupbox1.caption
+msgctxt "tfrmfields.groupbox1.caption"
+msgid "Surfer's colour files"
+msgstr ""
+
+#: tfrmfields.groupbox2.caption
+msgctxt "tfrmfields.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmfields.groupbox3.caption
+msgctxt "tfrmfields.groupbox3.caption"
+msgid "Date"
+msgstr ""
+
+#: tfrmfields.groupbox4.caption
+msgctxt "tfrmfields.groupbox4.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmfields.groupbox5.caption
+msgctxt "tfrmfields.groupbox5.caption"
+msgid "Level"
+msgstr ""
+
+#: tfrmfields.label11.caption
+msgctxt "tfrmfields.label11.caption"
+msgid "U"
+msgstr ""
+
+#: tfrmfields.label12.caption
+msgctxt "tfrmfields.label12.caption"
+msgid "V"
+msgstr ""
+
+#: tfrmfields.label2.caption
+msgctxt "tfrmfields.label2.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmfields.label7.caption
+msgid "Scale"
+msgstr ""
+
+#: tfrmfields.label8.caption
+msgid "Offset"
+msgstr ""
+
+#: tfrmfields.label9.caption
+msgctxt "tfrmfields.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmfields.rgautomation.caption
+msgctxt "tfrmfields.rgautomation.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmfields.rgprojection.caption
+msgctxt "tfrmfields.rgprojection.caption"
+msgid "Projection"
+msgstr ""
+
+#: tfrmfields.tabsheet1.caption
+msgctxt "tfrmfields.tabsheet1.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmfields.tabsheet2.caption
+msgctxt "tfrmfields.tabsheet2.caption"
+msgid "Automation"
+msgstr ""
+
+#: tfrmfields.tabsheet3.caption
+msgid "Scalar"
+msgstr ""
+
+#: tfrmfields.tabsheet4.caption
+msgid "Vector"
+msgstr ""
+
+#: tfrmfields.tabsheet5.caption
+msgid "Scale/Offset"
+msgstr ""
+
+#: tfrmfreshwatercontent.btncalculate.caption
+msgctxt "tfrmfreshwatercontent.btncalculate.caption"
+msgid "Calculate"
+msgstr ""
+
+#: tfrmfreshwatercontent.caption
+msgid "Fresh water content (FWC)"
+msgstr ""
+
+#: tfrmfreshwatercontent.groupbox1.caption
+msgctxt "tfrmfreshwatercontent.groupbox1.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmfreshwatercontent.groupbox2.caption
+msgctxt "tfrmfreshwatercontent.groupbox2.caption"
+msgid "Layer"
+msgstr ""
+
+#: tfrmfreshwatercontent.label1.caption
+msgid "Reference value, psu"
+msgstr ""
+
+#: tfrmfreshwatercontent.label4.caption
+msgctxt "tfrmfreshwatercontent.label4.caption"
+msgid "Bottom limit, m"
+msgstr ""
+
+#: tfrmfreshwatercontent.label5.caption
+msgctxt "tfrmfreshwatercontent.label5.caption"
+msgid "Top limit, m"
+msgstr ""
+
+#: tfrmheatcontent.btncalculate.caption
+msgctxt "tfrmheatcontent.btncalculate.caption"
+msgid "Calculate"
+msgstr ""
+
+#: tfrmheatcontent.btnopenfolder.hint
+msgctxt "tfrmheatcontent.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmheatcontent.caption
+msgid "Heat content"
+msgstr ""
+
+#: tfrmheatcontent.chkbottom.caption
+msgid "Bottom"
+msgstr ""
+
+#: tfrmheatcontent.chklastlevel.caption
+msgid "Last level, m"
+msgstr ""
+
+#: tfrmheatcontent.groupbox1.caption
+msgctxt "tfrmheatcontent.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmheatcontent.groupbox2.caption
+msgctxt "tfrmheatcontent.groupbox2.caption"
+msgid "Layer"
+msgstr ""
+
+#: tfrmheatcontent.groupbox3.caption
+msgid "Reference value"
+msgstr ""
+
+#: tfrmheatcontent.groupbox4.caption
+msgctxt "tfrmheatcontent.groupbox4.caption"
+msgid "Predefined area"
+msgstr ""
+
+#: tfrmheatcontent.label1.caption
+msgid "Temperature, degC"
+msgstr ""
+
+#: tfrmheatcontent.label2.caption
+msgctxt "tfrmheatcontent.label2.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmheatcontent.label3.caption
+msgctxt "tfrmheatcontent.label3.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmheatcontent.label5.caption
+msgctxt "tfrmheatcontent.label5.caption"
+msgid "First level, m"
+msgstr ""
+
+#: tfrmmain.ascii1.caption
+msgid "ASCII"
+msgstr ""
+
+#: tfrmmain.btnexit.caption
+msgid "Exit"
+msgstr ""
+
+#: tfrmmain.btnopenfolder.caption
+msgid "Open folder"
+msgstr ""
+
+#: tfrmmain.btnopennc.caption
+msgid "Open *.nc"
+msgstr ""
+
+#: tfrmmain.btnsettings.caption
+msgctxt "tfrmmain.btnsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmmain.caption
+msgid "ASNC"
+msgstr ""
+
+#: tfrmmain.cballvars.hint
+msgctxt "tfrmmain.cballvars.hint"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmmain.cbdates.hint
+msgctxt "tfrmmain.cbdates.hint"
+msgid "Date"
+msgstr ""
+
+#: tfrmmain.cblat.hint
+msgctxt "tfrmmain.cblat.hint"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmmain.cblevels.hint
+msgctxt "tfrmmain.cblevels.hint"
+msgid "Level"
+msgstr ""
+
+#: tfrmmain.cblon.hint
+msgctxt "tfrmmain.cblon.hint"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmmain.iabout.caption
+msgid "About"
+msgstr ""
+
+#: tfrmmain.ianomalies.caption
+msgctxt "tfrmmain.ianomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmmain.iantarcticfront.caption
+msgid "Antarctic Front"
+msgstr ""
+
+#: tfrmmain.iaveraging.caption
+msgctxt "tfrmmain.iaveraging.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmmain.icalculatedensity.caption
+msgctxt "tfrmmain.icalculatedensity.caption"
+msgid "Density"
+msgstr ""
+
+#: tfrmmain.icalculatefreezingtemp.caption
+msgid "Freezing Temperature"
+msgstr ""
+
+#: tfrmmain.icats.caption
+msgctxt "tfrmmain.icats.caption"
+msgid "CATS"
+msgstr ""
+
+#: tfrmmain.icdo.caption
+msgid "CDO"
+msgstr ""
+
+#: tfrmmain.iclimanomalies.caption
+msgctxt "tfrmmain.iclimanomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmmain.iclimatology.caption
+msgctxt "tfrmmain.iclimatology.caption"
+msgid "Climatology"
+msgstr ""
+
+#: tfrmmain.iclimaveraging.caption
+msgctxt "tfrmmain.iclimaveraging.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmmain.iclimfields.caption
+msgctxt "tfrmmain.iclimfields.caption"
+msgid "Fields"
+msgstr ""
+
+#: tfrmmain.iclimprofiles.caption
+msgctxt "tfrmmain.iclimprofiles.caption"
+msgid "Profiles"
+msgstr ""
+
+#: tfrmmain.iclimsections.caption
+msgctxt "tfrmmain.iclimsections.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfrmmain.iclimtimeseries.caption
+msgid "Timeseries"
+msgstr ""
+
+#: tfrmmain.icompressnetcdf4.caption
+msgid "Compress netcdf4"
+msgstr ""
+
+#: tfrmmain.icopylisttoclipboard.caption
+msgid "Copy entire list to clipboard"
+msgstr ""
+
+#: tfrmmain.icopyvaluetoclipboard.caption
+msgid "Copy selected value to clipboard"
+msgstr ""
+
+#: tfrmmain.idatainventory.caption
+msgctxt "tfrmmain.idatainventory.caption"
+msgid "Data Inventory"
+msgstr ""
+
+#: tfrmmain.ideleteparameter.caption
+msgctxt "tfrmmain.ideleteparameter.caption"
+msgid "Delete parameter"
+msgstr ""
+
+#: tfrmmain.idownload.caption
+msgid "Download"
+msgstr ""
+
+#: tfrmmain.idownloadera5.caption
+msgid "ERA5"
+msgstr ""
+
+#: tfrmmain.idownloadmercator.caption
+msgctxt "tfrmmain.idownloadmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmmain.iexport.caption
+msgctxt "tfrmmain.iexport.caption"
+msgid "Export"
+msgstr ""
+
+#: tfrmmain.iexportkml.caption
+msgctxt "tfrmmain.iexportkml.caption"
+msgid "KML"
+msgstr ""
+
+#: tfrmmain.iexportnceplev.caption
+msgid "ASCII (NCEP for AARI)"
+msgstr ""
+
+#: tfrmmain.iextractsubset.caption
+msgid "Extract subset"
+msgstr ""
+
+#: tfrmmain.ifields.caption
+msgctxt "tfrmmain.ifields.caption"
+msgid "Fields"
+msgstr ""
+
+#: tfrmmain.ifile.caption
+msgid "File"
+msgstr ""
+
+#: tfrmmain.ifreshwatercontent.caption
+msgid "Fresh water content"
+msgstr ""
+
+#: tfrmmain.iheatcontent.caption
+msgid "Heat Content"
+msgstr ""
+
+#: tfrmmain.ihelp.caption
+msgctxt "tfrmmain.ihelp.caption"
+msgid "Help"
+msgstr ""
+
+#: tfrmmain.ihelpcontent.caption
+msgctxt "tfrmmain.ihelpcontent.caption"
+msgid "Help"
+msgstr ""
+
+#: tfrmmain.ihovmoeller.caption
+msgid "Hovmoeller"
+msgstr ""
+
+#: tfrmmain.iisolatanomalies.caption
+msgid "Isolat anomalies"
+msgstr ""
+
+#: tfrmmain.ilatlonseries.caption
+msgid "Lat/Lon series"
+msgstr ""
+
+#: tfrmmain.imap.caption
+msgid "Map (KML)"
+msgstr ""
+
+#: tfrmmain.imercatorexport.caption
+msgid "Mercator Export Node"
+msgstr ""
+
+#: tfrmmain.imetadatacorrection.caption
+msgid "Metadata correction"
+msgstr ""
+
+#: tfrmmain.inettransport.caption
+msgid "Net Transport"
+msgstr ""
+
+#: tfrmmain.inettransportnodes.caption
+msgid "Net Transport Nodes"
+msgstr ""
+
+#: tfrmmain.inettransportsection.caption
+msgid "Section"
+msgstr ""
+
+#: tfrmmain.iprofiles.caption
+msgctxt "tfrmmain.iprofiles.caption"
+msgid "Profiles"
+msgstr ""
+
+#: tfrmmain.iremapgrid.caption
+msgctxt "tfrmmain.iremapgrid.caption"
+msgid "Remap grid"
+msgstr ""
+
+#: tfrmmain.isavelistas.caption
+msgid "Save list as..."
+msgstr ""
+
+#: tfrmmain.isections.caption
+msgctxt "tfrmmain.isections.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfrmmain.isections_nodes.caption
+msgid "Sections by nodes"
+msgstr ""
+
+#: tfrmmain.ishfwchc.caption
+msgid "Sterich height, fresh water and heat contents"
+msgstr ""
+
+#: tfrmmain.isplit.caption
+msgid "Split time"
+msgstr ""
+
+#: tfrmmain.isplitdataset.caption
+msgctxt "tfrmmain.isplitdataset.caption"
+msgid "Split dataset"
+msgstr ""
+
+#: tfrmmain.itailoredtools.caption
+msgid "Tailored tools"
+msgstr ""
+
+#: tfrmmain.itdd.caption
+msgid "Time-depth diagram"
+msgstr ""
+
+#: tfrmmain.itimeseries.caption
+msgctxt "tfrmmain.itimeseries.caption"
+msgid "Time series"
+msgstr ""
+
+#: tfrmmain.itimeseriesnodes.caption
+msgid "Time series for nodes"
+msgstr ""
+
+#: tfrmmain.itld.caption
+msgctxt "tfrmmain.itld.caption"
+msgid "Time-level diagram"
+msgstr ""
+
+#: tfrmmain.itools.caption
+msgid "Tools"
+msgstr ""
+
+#: tfrmmain.itopography3d.caption
+msgid "Topography 3D"
+msgstr ""
+
+#: tfrmmain.itsdiagram.caption
+msgctxt "tfrmmain.itsdiagram.caption"
+msgid "TS-Diagram"
+msgstr ""
+
+#: tfrmmain.it_0.caption
+msgid "T_0"
+msgstr ""
+
+#: tfrmmain.iweatherhazards.caption
+msgid "Weather Hazards"
+msgstr ""
+
+#: tfrmmain.menuitem1.caption
+msgid "test"
+msgstr ""
+
+#: tfrmmain.menuitem6.caption
+msgctxt "tfrmmain.menuitem6.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmmain.panel1.caption
+msgctxt "tfrmmain.panel1.caption"
+msgid "Panel1"
+msgstr ""
+
+#: tfrmmain.statusbar1.panels[0].text
+msgid "File name:"
+msgstr ""
+
+#: tfrmmld.btnmldsettings.caption
+msgid "MLD Settings"
+msgstr ""
+
+#: tfrmmld.button1.caption
+msgid "Button1"
+msgstr ""
+
+#: tfrmmld.caption
+msgid "Mixed layer depth (MLD)"
+msgstr ""
+
+#: tfrmmld.groupbox1.caption
+msgctxt "tfrmmld.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmmld.label2.caption
+msgctxt "tfrmmld.label2.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmmld.label3.caption
+msgctxt "tfrmmld.label3.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmncaveraging.btnopenfolder.hint
+msgctxt "tfrmncaveraging.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmncaveraging.btnopenscript.hint
+msgctxt "tfrmncaveraging.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmncaveraging.btnplot.caption
+msgctxt "tfrmncaveraging.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmncaveraging.btnsettings.caption
+msgctxt "tfrmncaveraging.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr ""
+
+#: tfrmncaveraging.btnunloaddata.caption
+msgctxt "tfrmncaveraging.btnunloaddata.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmncaveraging.caption
+msgctxt "tfrmncaveraging.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmncaveraging.eadditionaloffset1.text
+msgctxt "tfrmncaveraging.eadditionaloffset1.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncaveraging.eadditionalscale1.text
+msgctxt "tfrmncaveraging.eadditionalscale1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncaveraging.emaxlat.text
+msgctxt "tfrmncaveraging.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmncaveraging.emaxlon.text
+msgctxt "tfrmncaveraging.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmncaveraging.eminlat.text
+msgctxt "tfrmncaveraging.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmncaveraging.eminlon.text
+msgctxt "tfrmncaveraging.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmncaveraging.groupbox1.caption
+msgid "Period"
+msgstr ""
+
+#: tfrmncaveraging.groupbox2.caption
+msgctxt "tfrmncaveraging.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmncaveraging.groupbox3.caption
+msgctxt "tfrmncaveraging.groupbox3.caption"
+msgid "Level"
+msgstr ""
+
+#: tfrmncaveraging.groupbox4.caption
+msgid "Area"
+msgstr ""
+
+#: tfrmncaveraging.groupbox5.caption
+msgctxt "tfrmncaveraging.groupbox5.caption"
+msgid "Surfer's colour files"
+msgstr ""
+
+#: tfrmncaveraging.groupbox6.caption
+msgid "      Anomalies (norma)"
+msgstr ""
+
+#: tfrmncaveraging.label1.caption
+msgctxt "tfrmncaveraging.label1.caption"
+msgid "Var"
+msgstr ""
+
+#: tfrmncaveraging.label2.caption
+msgctxt "tfrmncaveraging.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncaveraging.label3.caption
+msgctxt "tfrmncaveraging.label3.caption"
+msgid "Additional offset"
+msgstr ""
+
+#: tfrmncaveraging.label4.caption
+msgctxt "tfrmncaveraging.label4.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncaveraging.label5.caption
+msgctxt "tfrmncaveraging.label5.caption"
+msgid "Additional scale"
+msgstr ""
+
+#: tfrmncaveraging.label6.caption
+msgctxt "tfrmncaveraging.label6.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmncaveraging.label9.caption
+msgctxt "tfrmncaveraging.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmncaveraging.rgprojection.caption
+msgctxt "tfrmncaveraging.rgprojection.caption"
+msgid "Projection"
+msgstr ""
+
+#: tfrmncdatainventory.btnmdadd.caption
+msgctxt "tfrmncdatainventory.btnmdadd.caption"
+msgid "Add"
+msgstr ""
+
+#: tfrmncdatainventory.btnmdcommit.caption
+msgctxt "tfrmncdatainventory.btnmdcommit.caption"
+msgid "Commit"
+msgstr ""
+
+#: tfrmncdatainventory.btnmddelete.caption
+msgctxt "tfrmncdatainventory.btnmddelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmncdatainventory.caption
+msgctxt "tfrmncdatainventory.caption"
+msgid "Data Inventory"
+msgstr ""
+
+#: tfrmncdatainventory.dbgrid1.columns[0].title.caption
+msgctxt "tfrmncdatainventory.dbgrid1.columns[0].title.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmncdatainventory.toolbar1.caption
+msgid "ToolBar1"
+msgstr ""
+
+#: tfrmncdatainventory.toolbar2.caption
+msgid "ToolBar2"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton4.caption
+msgctxt "tfrmncdatainventory.toolbutton4.caption"
+msgid "Add"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton5.caption
+msgctxt "tfrmncdatainventory.toolbutton5.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton6.caption
+msgctxt "tfrmncdatainventory.toolbutton6.caption"
+msgid "Commit"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton7.caption
+msgctxt "tfrmncdatainventory.toolbutton7.caption"
+msgid "ToolButton7"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton8.caption
+msgctxt "tfrmncdatainventory.toolbutton8.caption"
+msgid "ToolButton7"
+msgstr ""
+
+#: tfrmncexportfield.btnopenfolder.hint
+msgctxt "tfrmncexportfield.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmncexportfield.button1.caption
+msgctxt "tfrmncexportfield.button1.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmncexportfield.caption
+msgid "Time series in nodes"
+msgstr ""
+
+#: tfrmncexportfield.eadditionaloffset1.text
+msgctxt "tfrmncexportfield.eadditionaloffset1.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncexportfield.eadditionalscale1.text
+msgctxt "tfrmncexportfield.eadditionalscale1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncexportfield.emaxlat.text
+msgctxt "tfrmncexportfield.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmncexportfield.emaxlon.text
+msgctxt "tfrmncexportfield.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmncexportfield.eminlat.text
+msgctxt "tfrmncexportfield.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmncexportfield.eminlon.text
+msgctxt "tfrmncexportfield.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmncexportfield.groupbox1.caption
+msgctxt "tfrmncexportfield.groupbox1.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmncexportfield.groupbox2.caption
+msgctxt "tfrmncexportfield.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmncexportfield.label2.caption
+msgctxt "tfrmncexportfield.label2.caption"
+msgid "Var"
+msgstr ""
+
+#: tfrmncexportfield.label3.caption
+msgctxt "tfrmncexportfield.label3.caption"
+msgid "Additional offset"
+msgstr ""
+
+#: tfrmncexportfield.label5.caption
+msgctxt "tfrmncexportfield.label5.caption"
+msgid "Additional scale"
+msgstr ""
+
+#: tfrmncexportfield.rgover.caption
+msgctxt "tfrmncexportfield.rgover.caption"
+msgid "Data over..."
+msgstr ""
+
+#: tfrmncsections_nodes.btnopenfolder.hint
+msgctxt "tfrmncsections_nodes.btnopenfolder.hint"
+msgid "Open folder with results"
+msgstr ""
+
+#: tfrmncsections_nodes.btnplot.caption
+msgctxt "tfrmncsections_nodes.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmncsections_nodes.caption
+msgctxt "tfrmncsections_nodes.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfrmncsections_nodes.eaddoffset.text
+msgctxt "tfrmncsections_nodes.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncsections_nodes.eaddscale.text
+msgctxt "tfrmncsections_nodes.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncsections_nodes.gbcoords.caption
+msgctxt "tfrmncsections_nodes.gbcoords.caption"
+msgid "Direction"
+msgstr ""
+
+#: tfrmncsections_nodes.groupbox5.caption
+msgctxt "tfrmncsections_nodes.groupbox5.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmncsections_nodes.label2.caption
+msgctxt "tfrmncsections_nodes.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncsections_nodes.label3.caption
+msgctxt "tfrmncsections_nodes.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmncsections_nodes.label4.caption
+msgctxt "tfrmncsections_nodes.label4.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncsections_nodes.label5.caption
+msgctxt "tfrmncsections_nodes.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmncsections_nodes.rglatitudinal.caption
+msgid "Latitudinal"
+msgstr ""
+
+#: tfrmncsections_nodes.rglongitudinal.caption
+msgid "Longitudinal"
+msgstr ""
+
+#: tfrmnctld.btngetdata.caption
+msgctxt "tfrmnctld.btngetdata.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmnctld.btnopenfolder.hint
+msgctxt "tfrmnctld.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmnctld.btnopenscript.hint
+msgctxt "tfrmnctld.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmnctld.btnplot.caption
+msgctxt "tfrmnctld.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmnctld.btnsettings.caption
+msgctxt "tfrmnctld.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr ""
+
+#: tfrmnctld.button2.caption
+msgctxt "tfrmnctld.button2.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmnctld.caption
+msgctxt "tfrmnctld.caption"
+msgid "Time-level diagram"
+msgstr ""
+
+#: tfrmnctld.cblat.text
+msgctxt "tfrmnctld.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmnctld.cblon.text
+msgctxt "tfrmnctld.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmnctld.groupbox2.caption
+msgctxt "tfrmnctld.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmnctld.groupbox4.caption
+msgctxt "tfrmnctld.groupbox4.caption"
+msgid "Additional variable conversion"
+msgstr ""
+
+#: tfrmnctld.groupbox5.caption
+msgctxt "tfrmnctld.groupbox5.caption"
+msgid "Plot parameters"
+msgstr ""
+
+#: tfrmnctld.label12.caption
+msgctxt "tfrmnctld.label12.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmnctld.label13.caption
+msgctxt "tfrmnctld.label13.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmnctld.label3.caption
+msgctxt "tfrmnctld.label3.caption"
+msgid "Offset:"
+msgstr ""
+
+#: tfrmnctld.label5.caption
+msgctxt "tfrmnctld.label5.caption"
+msgid "Scale:"
+msgstr ""
+
+#: tfrmnctld.label7.caption
+msgctxt "tfrmnctld.label7.caption"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmnctld.label8.caption
+msgctxt "tfrmnctld.label8.caption"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmnctld.label9.caption
+msgctxt "tfrmnctld.label9.caption"
+msgid "Radius, km"
+msgstr ""
+
+#: tfrmnctld.tabsheet1.caption
+msgctxt "tfrmnctld.tabsheet1.caption"
+msgid "Domain"
+msgstr ""
+
+#: tfrmnctld.tabsheet2.caption
+msgctxt "tfrmnctld.tabsheet2.caption"
+msgid "Around point"
+msgstr ""
+
+#: tfrmnctld.tabsheet3.caption
+msgctxt "tfrmnctld.tabsheet3.caption"
+msgid "Predefined area"
+msgstr ""
+
+#: tfrmnctld.tabsheet4.caption
+msgctxt "tfrmnctld.tabsheet4.caption"
+msgid "SingleNode"
+msgstr ""
+
+#: tfrmncunloadprofiles.btnopenfolder.hint
+msgctxt "tfrmncunloadprofiles.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmncunloadprofiles.btnplot.caption
+msgid "Unload"
+msgstr ""
+
+#: tfrmncunloadprofiles.caption
+msgid "Unload Profiles"
+msgstr ""
+
+#: tfrmncunloadprofiles.chkdensity.caption
+msgctxt "tfrmncunloadprofiles.chkdensity.caption"
+msgid "Density"
+msgstr ""
+
+#: tfrmncunloadprofiles.groupbox2.caption
+msgctxt "tfrmncunloadprofiles.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmncunloadprofiles.groupbox3.caption
+msgctxt "tfrmncunloadprofiles.groupbox3.caption"
+msgid "Date"
+msgstr ""
+
+#: tfrmncunloadprofiles.groupbox4.caption
+msgctxt "tfrmncunloadprofiles.groupbox4.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmncunloadprofiles.groupbox5.caption
+msgctxt "tfrmncunloadprofiles.groupbox5.caption"
+msgid "Level"
+msgstr ""
+
+#: tfrmncunloadprofiles.label1.caption
+msgid "<= Level <="
+msgstr ""
+
+#: tfrmncunloadprofiles.label7.caption
+msgctxt "tfrmncunloadprofiles.label7.caption"
+msgid "Additional scale"
+msgstr ""
+
+#: tfrmncunloadprofiles.label8.caption
+msgctxt "tfrmncunloadprofiles.label8.caption"
+msgid "Additional offset"
+msgstr ""
+
+#: tfrmnettransport.btncalculate.caption
+msgctxt "tfrmnettransport.btncalculate.caption"
+msgid "Calculate"
+msgstr ""
+
+#: tfrmnettransport.btnopenfolder.hint
+msgctxt "tfrmnettransport.btnopenfolder.hint"
+msgid "Open folder with results"
+msgstr ""
+
+#: tfrmnettransport.btnyearlyaveraging.caption
+msgctxt "tfrmnettransport.btnyearlyaveraging.caption"
+msgid "Yearly averaging"
+msgstr ""
+
+#: tfrmnettransport.caption
+msgid "Net transport"
+msgstr ""
+
+#: tfrmnettransport.gbcoords.caption
+msgctxt "tfrmnettransport.gbcoords.caption"
+msgid "Coordinates"
+msgstr ""
+
+#: tfrmnettransport.groupbox1.caption
+msgctxt "tfrmnettransport.groupbox1.caption"
+msgid "Direction"
+msgstr ""
+
+#: tfrmnettransport.label2.caption
+msgctxt "tfrmnettransport.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmnettransport.lbcoord1.caption
+msgctxt "tfrmnettransport.lbcoord1.caption"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmnettransport.lbcoord2.caption
+msgctxt "tfrmnettransport.lbcoord2.caption"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmnettransport.rgeastward.caption
+msgctxt "tfrmnettransport.rgeastward.caption"
+msgid "Eastward"
+msgstr ""
+
+#: tfrmnettransport.rgnorthward.caption
+msgctxt "tfrmnettransport.rgnorthward.caption"
+msgid "Northward"
+msgstr ""
+
+#: tfrmsections.btngoogle.caption
+msgctxt "tfrmsections.btngoogle.caption"
+msgid "Open as KML"
+msgstr ""
+
+#: tfrmsections.btnopenbln.caption
+msgctxt "tfrmsections.btnopenbln.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsections.btnopenfolder.hint
+msgctxt "tfrmsections.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmsections.btnopenscript.hint
+msgctxt "tfrmsections.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmsections.btnplot.caption
+msgctxt "tfrmsections.btnplot.caption"
+msgid "Execute"
+msgstr ""
+
+#: tfrmsections.btnsavesection.caption
+msgctxt "tfrmsections.btnsavesection.caption"
+msgid "Save"
+msgstr ""
+
+#: tfrmsections.btnsettings.caption
+msgctxt "tfrmsections.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr ""
+
+#: tfrmsections.caption
+msgctxt "tfrmsections.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfrmsections.chkblank.caption
+msgctxt "tfrmsections.chkblank.caption"
+msgid "Blank by data"
+msgstr ""
+
+#: tfrmsections.chkmap.caption
+msgctxt "tfrmsections.chkmap.caption"
+msgid "Plot section map"
+msgstr ""
+
+#: tfrmsections.chkplot.caption
+msgctxt "tfrmsections.chkplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmsections.chkpolar.caption
+msgctxt "tfrmsections.chkpolar.caption"
+msgid "File is in stereographic projection"
+msgstr ""
+
+#: tfrmsections.eaddoffset.text
+msgctxt "tfrmsections.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsections.eaddscale.text
+msgctxt "tfrmsections.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsections.ebln.text
+msgctxt "tfrmsections.ebln.text"
+msgid "ebln"
+msgstr ""
+
+#: tfrmsections.groupbox1.caption
+msgctxt "tfrmsections.groupbox1.caption"
+msgid "Open file with section coordinates"
+msgstr ""
+
+#: tfrmsections.groupbox2.caption
+msgctxt "tfrmsections.groupbox2.caption"
+msgid "Date"
+msgstr ""
+
+#: tfrmsections.groupbox3.caption
+msgctxt "tfrmsections.groupbox3.caption"
+msgid "Projection"
+msgstr ""
+
+#: tfrmsections.groupbox4.caption
+msgctxt "tfrmsections.groupbox4.caption"
+msgid "Plot parameters"
+msgstr ""
+
+#: tfrmsections.groupbox5.caption
+msgctxt "tfrmsections.groupbox5.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmsections.groupbox7.caption
+msgctxt "tfrmsections.groupbox7.caption"
+msgid "Create *.bln"
+msgstr ""
+
+#: tfrmsections.label1.caption
+msgctxt "tfrmsections.label1.caption"
+msgid "Point1"
+msgstr ""
+
+#: tfrmsections.label2.caption
+msgctxt "tfrmsections.label2.caption"
+msgid "Lat"
+msgstr ""
+
+#: tfrmsections.label3.caption
+msgctxt "tfrmsections.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmsections.label4.caption
+msgctxt "tfrmsections.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmsections.label5.caption
+msgctxt "tfrmsections.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmsections.label6.caption
+msgctxt "tfrmsections.label6.caption"
+msgid "Lon"
+msgstr ""
+
+#: tfrmsections.label7.caption
+msgctxt "tfrmsections.label7.caption"
+msgid "Point2"
+msgstr ""
+
+#: tfrmsections.label8.caption
+msgctxt "tfrmsections.label8.caption"
+msgid "Points between"
+msgstr ""
+
+#: tfrmsections.label9.caption
+msgctxt "tfrmsections.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmsections.rbmercator.caption
+msgctxt "tfrmsections.rbmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmsections.rbpolarantarctic.caption
+msgctxt "tfrmsections.rbpolarantarctic.caption"
+msgid "Polar Antarctic"
+msgstr ""
+
+#: tfrmsections.rbpolararctic.caption
+msgctxt "tfrmsections.rbpolararctic.caption"
+msgid "Polar Arctic"
+msgstr ""
+
+#: tfrmsections.rgautomation.caption
+msgctxt "tfrmsections.rgautomation.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmsections.tabsheet1.caption
+msgctxt "tfrmsections.tabsheet1.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmsections.tabsheet2.caption
+msgctxt "tfrmsections.tabsheet2.caption"
+msgid "Automation: OFF"
+msgstr ""
+
+#: tfrmsections.tabsheet3.caption
+msgctxt "tfrmsections.tabsheet3.caption"
+msgid "Create file with section"
+msgstr ""
+
+#: tfrmsections_new.btngoogle.caption
+msgctxt "tfrmsections_new.btngoogle.caption"
+msgid "Open as KML"
+msgstr ""
+
+#: tfrmsections_new.btnopenbln.caption
+msgctxt "tfrmsections_new.btnopenbln.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsections_new.btnopenfolder.hint
+msgctxt "tfrmsections_new.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmsections_new.btnopenscript.hint
+msgctxt "tfrmsections_new.btnopenscript.hint"
+msgid "Open script"
+msgstr ""
+
+#: tfrmsections_new.btnplot.caption
+msgctxt "tfrmsections_new.btnplot.caption"
+msgid "Execute"
+msgstr ""
+
+#: tfrmsections_new.btnsavesection.caption
+msgctxt "tfrmsections_new.btnsavesection.caption"
+msgid "Save"
+msgstr ""
+
+#: tfrmsections_new.btnsettings.caption
+msgctxt "tfrmsections_new.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr ""
+
+#: tfrmsections_new.caption
+msgctxt "tfrmsections_new.caption"
+msgid "Sections NEW"
+msgstr ""
+
+#: tfrmsections_new.chkblank.caption
+msgctxt "tfrmsections_new.chkblank.caption"
+msgid "Blank by data"
+msgstr ""
+
+#: tfrmsections_new.chkmap.caption
+msgctxt "tfrmsections_new.chkmap.caption"
+msgid "Plot section map"
+msgstr ""
+
+#: tfrmsections_new.chkplot.caption
+msgctxt "tfrmsections_new.chkplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmsections_new.chkpolar.caption
+msgctxt "tfrmsections_new.chkpolar.caption"
+msgid "File is in stereographic projection"
+msgstr ""
+
+#: tfrmsections_new.eaddoffset.text
+msgctxt "tfrmsections_new.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsections_new.eaddscale.text
+msgctxt "tfrmsections_new.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsections_new.ebln.text
+msgctxt "tfrmsections_new.ebln.text"
+msgid "ebln"
+msgstr ""
+
+#: tfrmsections_new.groupbox1.caption
+msgctxt "tfrmsections_new.groupbox1.caption"
+msgid "Open file with section coordinates"
+msgstr ""
+
+#: tfrmsections_new.groupbox2.caption
+msgctxt "tfrmsections_new.groupbox2.caption"
+msgid "Date"
+msgstr ""
+
+#: tfrmsections_new.groupbox3.caption
+msgctxt "tfrmsections_new.groupbox3.caption"
+msgid "Projection"
+msgstr ""
+
+#: tfrmsections_new.groupbox4.caption
+msgctxt "tfrmsections_new.groupbox4.caption"
+msgid "Plot parameters"
+msgstr ""
+
+#: tfrmsections_new.groupbox5.caption
+msgctxt "tfrmsections_new.groupbox5.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmsections_new.groupbox7.caption
+msgctxt "tfrmsections_new.groupbox7.caption"
+msgid "Create *.bln"
+msgstr ""
+
+#: tfrmsections_new.label1.caption
+msgctxt "tfrmsections_new.label1.caption"
+msgid "Point1"
+msgstr ""
+
+#: tfrmsections_new.label2.caption
+msgctxt "tfrmsections_new.label2.caption"
+msgid "Lat"
+msgstr ""
+
+#: tfrmsections_new.label3.caption
+msgctxt "tfrmsections_new.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmsections_new.label4.caption
+msgctxt "tfrmsections_new.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmsections_new.label5.caption
+msgctxt "tfrmsections_new.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmsections_new.label6.caption
+msgctxt "tfrmsections_new.label6.caption"
+msgid "Lon"
+msgstr ""
+
+#: tfrmsections_new.label7.caption
+msgctxt "tfrmsections_new.label7.caption"
+msgid "Point2"
+msgstr ""
+
+#: tfrmsections_new.label8.caption
+msgctxt "tfrmsections_new.label8.caption"
+msgid "Points between"
+msgstr ""
+
+#: tfrmsections_new.label9.caption
+msgctxt "tfrmsections_new.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmsections_new.rbmercator.caption
+msgctxt "tfrmsections_new.rbmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmsections_new.rbpolarantarctic.caption
+msgctxt "tfrmsections_new.rbpolarantarctic.caption"
+msgid "Polar Antarctic"
+msgstr ""
+
+#: tfrmsections_new.rbpolararctic.caption
+msgctxt "tfrmsections_new.rbpolararctic.caption"
+msgid "Polar Arctic"
+msgstr ""
+
+#: tfrmsections_new.rgautomation.caption
+msgctxt "tfrmsections_new.rgautomation.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmsections_new.tabsheet1.caption
+msgctxt "tfrmsections_new.tabsheet1.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmsections_new.tabsheet2.caption
+msgctxt "tfrmsections_new.tabsheet2.caption"
+msgid "Automation: OFF"
+msgstr ""
+
+#: tfrmsections_new.tabsheet3.caption
+msgctxt "tfrmsections_new.tabsheet3.caption"
+msgid "Create file with section"
+msgstr ""
+
+#: tfrmsettings.btngrapherpath.caption
+msgctxt "tfrmsettings.btngrapherpath.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsettings.btninstallmissing.caption
+msgid "Install missing modules"
+msgstr ""
+
+#: tfrmsettings.btninstallmissing.hint
+msgid "Install required packages"
+msgstr ""
+
+#: tfrmsettings.btnok.caption
+msgid "Ok"
+msgstr ""
+
+#: tfrmsettings.btnpythonpath.caption
+msgctxt "tfrmsettings.btnpythonpath.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsettings.btnshowinstalled.caption
+msgid "Show installed modules"
+msgstr ""
+
+#: tfrmsettings.btnsupportpath.caption
+msgctxt "tfrmsettings.btnsupportpath.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsettings.btnsurferpath.caption
+msgctxt "tfrmsettings.btnsurferpath.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsettings.btnunloadpath.caption
+msgctxt "tfrmsettings.btnunloadpath.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmsettings.caption
+msgctxt "tfrmsettings.caption"
+msgid "Settings"
+msgstr ""
+
+#: tfrmsettings.chkrelerr.caption
+msgid "Do not use values with Relative Error >"
+msgstr ""
+
+#: tfrmsettings.groupbox1.caption
+msgid "Surfer's scripter"
+msgstr ""
+
+#: tfrmsettings.groupbox2.caption
+msgid "Grapher's scripter"
+msgstr ""
+
+#: tfrmsettings.groupbox3.caption
+msgid "Python path"
+msgstr ""
+
+#: tfrmsettings.groupbox4.caption
+msgctxt "tfrmsettings.groupbox4.caption"
+msgid "KML"
+msgstr ""
+
+#: tfrmsettings.groupbox5.caption
+msgid "Log"
+msgstr ""
+
+#: tfrmsettings.groupbox6.caption
+msgid "Support files"
+msgstr ""
+
+#: tfrmsettings.groupbox7.caption
+msgid "Output directory"
+msgstr ""
+
+#: tfrmsettings.label1.caption
+msgid "KML support:"
+msgstr ""
+
+#: tfrmsettings.lbkml.caption
+msgid "lbKML"
+msgstr ""
+
+#: tfrmsettings.rgbathymetry.caption
+msgctxt "tfrmsettings.rgbathymetry.caption"
+msgid "Topography and Bathymetry"
+msgstr ""
+
+#: tfrmsettings.rglanguage.caption
+msgid "Language"
+msgstr ""
+
+#: tfrmsettings.tabsheet1.caption
+msgctxt "tfrmsettings.tabsheet1.caption"
+msgid "General"
+msgstr ""
+
+#: tfrmsettings.tabsheet2.caption
+msgctxt "tfrmsettings.tabsheet2.caption"
+msgid "Bathymetry"
+msgstr ""
+
+#: tfrmsettings.tabsheet3.caption
+msgid "Advanced"
+msgstr ""
+
+#: tfrmsettings.tabsheet4.caption
+msgid "Python"
+msgstr ""
+
+#: tfrmsettings.tsclimatology.caption
+msgctxt "tfrmsettings.tsclimatology.caption"
+msgid "Climatology"
+msgstr ""
+
+#: tfrmshfwchc.btnopensal.caption
+msgctxt "tfrmshfwchc.btnopensal.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmshfwchc.btnopensaln.caption
+msgctxt "tfrmshfwchc.btnopensaln.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmshfwchc.btnopentempn.caption
+msgctxt "tfrmshfwchc.btnopentempn.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmshfwchc.btnstart.caption
+msgctxt "tfrmshfwchc.btnstart.caption"
+msgid "Start"
+msgstr ""
+
+#: tfrmshfwchc.caption
+msgid "Steric Height, Heat Content & Fresh Water Content"
+msgstr ""
+
+#: tfrmshfwchc.cbbotlimit.text
+msgid "1000"
+msgstr ""
+
+#: tfrmshfwchc.cbtoplimit.text
+msgctxt "tfrmshfwchc.cbtoplimit.text"
+msgid "0"
+msgstr ""
+
+#: tfrmshfwchc.esaln.text
+msgid "eSalN"
+msgstr ""
+
+#: tfrmshfwchc.esref.text
+msgid "36"
+msgstr ""
+
+#: tfrmshfwchc.etempn.text
+msgid "eTempN"
+msgstr ""
+
+#: tfrmshfwchc.etref.text
+msgctxt "tfrmshfwchc.etref.text"
+msgid "0"
+msgstr ""
+
+#: tfrmshfwchc.groupbox1.caption
+msgid "Initial files"
+msgstr ""
+
+#: tfrmshfwchc.groupbox2.caption
+msgctxt "tfrmshfwchc.groupbox2.caption"
+msgid "Layer"
+msgstr ""
+
+#: tfrmshfwchc.groupbox3.caption
+msgid "Reference values"
+msgstr ""
+
+#: tfrmshfwchc.groupbox4.caption
+msgctxt "tfrmshfwchc.groupbox4.caption"
+msgid "Date"
+msgstr ""
+
+#: tfrmshfwchc.groupbox5.caption
+msgctxt "tfrmshfwchc.groupbox5.caption"
+msgid "Norma"
+msgstr ""
+
+#: tfrmshfwchc.label1.caption
+msgid "S ref, psu"
+msgstr ""
+
+#: tfrmshfwchc.label2.caption
+msgid "T ref, C"
+msgstr ""
+
+#: tfrmshfwchc.label3.caption
+msgctxt "tfrmshfwchc.label3.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmshfwchc.label4.caption
+msgctxt "tfrmshfwchc.label4.caption"
+msgid "Bottom limit, m"
+msgstr ""
+
+#: tfrmshfwchc.label5.caption
+msgctxt "tfrmshfwchc.label5.caption"
+msgid "Top limit, m"
+msgstr ""
+
+#: tfrmshfwchc.label6.caption
+msgctxt "tfrmshfwchc.label6.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmshfwchc.label7.caption
+msgctxt "tfrmshfwchc.label7.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmshfwchc.label8.caption
+msgctxt "tfrmshfwchc.label8.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmshfwchc.label9.caption
+msgid "File has to open via File-> open file"
+msgstr ""
+
+#: tfrmsplitdataset.btninfo.hint
+msgctxt "tfrmsplitdataset.btninfo.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmsplitdataset.btnopenfolder.hint
+msgctxt "tfrmsplitdataset.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmsplitdataset.btnsplit.caption
+msgctxt "tfrmsplitdataset.btnsplit.caption"
+msgid "Split"
+msgstr ""
+
+#: tfrmsplitdataset.caption
+msgctxt "tfrmsplitdataset.caption"
+msgid "Split dataset"
+msgstr ""
+
+#: tfrmsplitdataset.rgsplit.caption
+msgctxt "tfrmsplitdataset.rgsplit.caption"
+msgid "Options"
+msgstr ""
+
+#: tfrmsurfersettings.btncancel.caption
+msgctxt "tfrmsurfersettings.btncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfrmsurfersettings.btnsave.caption
+msgctxt "tfrmsurfersettings.btnsave.caption"
+msgid "Save"
+msgstr ""
+
+#: tfrmsurfersettings.caption
+msgid "Surfer settings"
+msgstr ""
+
+#: tfrmsurfersettings.chksearch.caption
+msgid "Enable Search (use all of the data)"
+msgstr ""
+
+#: tfrmsurfersettings.chkshowcolourscale.caption
+msgid "Show colour scale"
+msgstr ""
+
+#: tfrmsurfersettings.eanisratio.text
+msgctxt "tfrmsurfersettings.eanisratio.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.ecurvetol.text
+msgid "1.5"
+msgstr ""
+
+#: tfrmsurfersettings.el2edist.text
+msgctxt "tfrmsurfersettings.el2edist.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.el2ldist.text
+msgctxt "tfrmsurfersettings.el2ldist.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.emcboundtens.text
+msgctxt "tfrmsurfersettings.emcboundtens.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsurfersettings.emcmaxres.text
+msgid "9E-2"
+msgstr ""
+
+#: tfrmsurfersettings.emcrelfact.text
+msgctxt "tfrmsurfersettings.emcrelfact.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.emcreltens.text
+msgctxt "tfrmsurfersettings.emcreltens.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsurfersettings.emissingval.text
+msgid "-9999"
+msgstr ""
+
+#: tfrmsurfersettings.esearchellipserad1.text
+msgctxt "tfrmsurfersettings.esearchellipserad1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.esearchellipserad2.text
+msgctxt "tfrmsurfersettings.esearchellipserad2.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.gbanisotropy.caption
+msgid "Anisotropy"
+msgstr ""
+
+#: tfrmsurfersettings.gbinversedist.caption
+msgid "Inverse distance"
+msgstr ""
+
+#: tfrmsurfersettings.gbkriging.caption
+msgid "Kriging"
+msgstr ""
+
+#: tfrmsurfersettings.gbsearch.caption
+msgid "Search"
+msgstr ""
+
+#: tfrmsurfersettings.gbsearchellipse.caption
+msgid "Search Ellipse"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox1.caption
+msgid "Grid processing"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox2.caption
+msgid "Label tolerance"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox3.caption
+msgid "Affected levels"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox4.caption
+msgid "Colour scale"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox5.caption
+msgid "Method"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox6.caption
+msgid "Axes interval, degrees"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox7.caption
+msgid "Plot size, cm"
+msgstr ""
+
+#: tfrmsurfersettings.label1.caption
+msgid "Missing value"
+msgstr ""
+
+#: tfrmsurfersettings.label10.caption
+msgctxt "tfrmsurfersettings.label10.caption"
+msgid "Angle"
+msgstr ""
+
+#: tfrmsurfersettings.label11.caption
+msgid "Maxium number of data to use from EACH sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label12.caption
+msgid "Minimum number of data in all sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label13.caption
+msgid "Blank node if more then this many sectors are empty"
+msgstr ""
+
+#: tfrmsurfersettings.label14.caption
+msgid "Ratio"
+msgstr ""
+
+#: tfrmsurfersettings.label15.caption
+msgid "Maximum number of data to use from ALL sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label16.caption
+msgctxt "tfrmsurfersettings.label16.caption"
+msgid "Angle"
+msgstr ""
+
+#: tfrmsurfersettings.label17.caption
+msgid "Power"
+msgstr ""
+
+#: tfrmsurfersettings.label18.caption
+msgctxt "tfrmsurfersettings.label18.caption"
+msgid "Smoothing"
+msgstr ""
+
+#: tfrmsurfersettings.label19.caption
+msgid "First"
+msgstr ""
+
+#: tfrmsurfersettings.label2.caption
+msgctxt "tfrmsurfersettings.label2.caption"
+msgid "Smoothing"
+msgstr ""
+
+#: tfrmsurfersettings.label20.caption
+msgid "Set"
+msgstr ""
+
+#: tfrmsurfersettings.label21.caption
+msgctxt "tfrmsurfersettings.label21.caption"
+msgid "Skip"
+msgstr ""
+
+#: tfrmsurfersettings.label22.caption
+msgid "Label frequency"
+msgstr ""
+
+#: tfrmsurfersettings.label23.caption
+msgid "X axis"
+msgstr ""
+
+#: tfrmsurfersettings.label24.caption
+msgid "Type"
+msgstr ""
+
+#: tfrmsurfersettings.label25.caption
+msgid "Drift"
+msgstr ""
+
+#: tfrmsurfersettings.label26.caption
+msgid "Maximum iteration"
+msgstr ""
+
+#: tfrmsurfersettings.label27.caption
+msgid "Maximum residual"
+msgstr ""
+
+#: tfrmsurfersettings.label28.caption
+msgid "Relaxation factor"
+msgstr ""
+
+#: tfrmsurfersettings.label29.caption
+msgid "Internal tension"
+msgstr ""
+
+#: tfrmsurfersettings.label3.caption
+msgid "Curve tolerance"
+msgstr ""
+
+#: tfrmsurfersettings.label30.caption
+msgid "Boundary tension"
+msgstr ""
+
+#: tfrmsurfersettings.label31.caption
+msgid "Y axis"
+msgstr ""
+
+#: tfrmsurfersettings.label32.caption
+msgid "Width"
+msgstr ""
+
+#: tfrmsurfersettings.label33.caption
+msgid "Height"
+msgstr ""
+
+#: tfrmsurfersettings.label5.caption
+msgid "Label to label distance"
+msgstr ""
+
+#: tfrmsurfersettings.label6.caption
+msgid "Label to edge distance"
+msgstr ""
+
+#: tfrmsurfersettings.label7.caption
+msgid "Radius 1"
+msgstr ""
+
+#: tfrmsurfersettings.label8.caption
+msgid "Radius 2"
+msgstr ""
+
+#: tfrmsurfersettings.label9.caption
+msgid "Number of  sectors to search"
+msgstr ""
+
+#: tfrmsurfersettings.rgmincurvature.caption
+msgid "Minimum curvature"
+msgstr ""
+
+#: tfrmsurfersettings.rgorientation.caption
+msgid "Colour scale orientation"
+msgstr ""
+
+#: tfrmsurfersettings.tabsheet1.caption
+msgctxt "tfrmsurfersettings.tabsheet1.caption"
+msgid "General"
+msgstr ""
+
+#: tfrmsurfersettings.tabsheet2.caption
+msgctxt "tfrmsurfersettings.tabsheet2.caption"
+msgid "Interpolation"
+msgstr ""
+
+#: tfrmtimeseries.btnanomalies.caption
+msgctxt "tfrmtimeseries.btnanomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmtimeseries.btnexportasmatrix.caption
+msgid "Export as matrix (year->12 months -> avg)"
+msgstr ""
+
+#: tfrmtimeseries.btnopenfolder.hint
+msgctxt "tfrmtimeseries.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmtimeseries.btnplot.caption
+msgctxt "tfrmtimeseries.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmtimeseries.btnseasonalcircleremoval.caption
+msgid "Remove Seasonal Circle"
+msgstr ""
+
+#: tfrmtimeseries.button1.caption
+msgid "Monthly averaging"
+msgstr ""
+
+#: tfrmtimeseries.button2.caption
+msgctxt "tfrmtimeseries.button2.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmtimeseries.button3.caption
+msgctxt "tfrmtimeseries.button3.caption"
+msgid "All files, selected date, levels from the list"
+msgstr ""
+
+#: tfrmtimeseries.button4.caption
+msgid "Combine timeseries"
+msgstr ""
+
+#: tfrmtimeseries.caption
+msgctxt "tfrmtimeseries.caption"
+msgid "Time series"
+msgstr ""
+
+#: tfrmtimeseries.cblat.text
+msgctxt "tfrmtimeseries.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmtimeseries.cblon.text
+msgctxt "tfrmtimeseries.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmtimeseries.epointlat.text
+msgctxt "tfrmtimeseries.epointlat.text"
+msgid "0"
+msgstr ""
+
+#: tfrmtimeseries.epointlon.text
+msgctxt "tfrmtimeseries.epointlon.text"
+msgid "0"
+msgstr ""
+
+#: tfrmtimeseries.epointrad.text
+msgctxt "tfrmtimeseries.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmtimeseries.gbaddconv.caption
+msgctxt "tfrmtimeseries.gbaddconv.caption"
+msgid "Additional variable conversion"
+msgstr ""
+
+#: tfrmtimeseries.groupbox1.caption
+msgctxt "tfrmtimeseries.groupbox1.caption"
+msgid "Level"
+msgstr ""
+
+#: tfrmtimeseries.groupbox2.caption
+msgctxt "tfrmtimeseries.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmtimeseries.label1.caption
+msgctxt "tfrmtimeseries.label1.caption"
+msgid "Months:"
+msgstr ""
+
+#: tfrmtimeseries.label10.caption
+msgctxt "tfrmtimeseries.label10.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label11.caption
+msgid "Precision"
+msgstr ""
+
+#: tfrmtimeseries.label2.caption
+msgctxt "tfrmtimeseries.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label3.caption
+msgctxt "tfrmtimeseries.label3.caption"
+msgid "Offset:"
+msgstr ""
+
+#: tfrmtimeseries.label4.caption
+msgctxt "tfrmtimeseries.label4.caption"
+msgid "Years:"
+msgstr ""
+
+#: tfrmtimeseries.label5.caption
+msgctxt "tfrmtimeseries.label5.caption"
+msgid "Scale:"
+msgstr ""
+
+#: tfrmtimeseries.label6.caption
+msgctxt "tfrmtimeseries.label6.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label7.caption
+msgctxt "tfrmtimeseries.label7.caption"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmtimeseries.label8.caption
+msgctxt "tfrmtimeseries.label8.caption"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmtimeseries.label9.caption
+msgctxt "tfrmtimeseries.label9.caption"
+msgid "Radius, km"
+msgstr ""
+
+#: tfrmtimeseries.rgover.caption
+msgctxt "tfrmtimeseries.rgover.caption"
+msgid "Data over..."
+msgstr ""
+
+#: tfrmtimeseries.tabsheet1.caption
+msgctxt "tfrmtimeseries.tabsheet1.caption"
+msgid "Domain"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet10.caption
+msgctxt "tfrmtimeseries.tabsheet10.caption"
+msgid "Automation"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet11.caption
+msgid "Post processing"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet2.caption
+msgctxt "tfrmtimeseries.tabsheet2.caption"
+msgid "Around point"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet3.caption
+msgctxt "tfrmtimeseries.tabsheet3.caption"
+msgid "Predefined area"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet4.caption
+msgctxt "tfrmtimeseries.tabsheet4.caption"
+msgid "Node"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet5.caption
+msgctxt "tfrmtimeseries.tabsheet5.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet6.caption
+msgid "Seas. circle"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet7.caption
+msgctxt "tfrmtimeseries.tabsheet7.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet8.caption
+msgid "Matrix"
+msgstr ""
+
+#: tfrmtimeseries.tabsheet9.caption
+msgid "Time Series"
+msgstr ""
+
+#: tfrmtimeserieslayers.btnanomalies.caption
+msgctxt "tfrmtimeserieslayers.btnanomalies.caption"
+msgid "Anomalies"
+msgstr ""
+
+#: tfrmtimeserieslayers.btngettimeseries.caption
+msgctxt "tfrmtimeserieslayers.btngettimeseries.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmtimeserieslayers.btnopenfolder.hint
+msgctxt "tfrmtimeserieslayers.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmtimeserieslayers.caption
+msgid "TS in layers"
+msgstr ""
+
+#: tfrmtimeserieslayers.cblevel1.text
+msgctxt "tfrmtimeserieslayers.cblevel1.text"
+msgid "Level 1..."
+msgstr ""
+
+#: tfrmtimeserieslayers.cblevel2.text
+msgctxt "tfrmtimeserieslayers.cblevel2.text"
+msgid "Level 2..."
+msgstr ""
+
+#: tfrmtimeserieslayers.cbvariable.text
+msgctxt "tfrmtimeserieslayers.cbvariable.text"
+msgid "Select variable..."
+msgstr ""
+
+#: tfrmtimeserieslayers.edit1.text
+msgctxt "tfrmtimeserieslayers.edit1.text"
+msgid "eLatMax"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit2.text
+msgctxt "tfrmtimeserieslayers.edit2.text"
+msgid "eLatMin"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit3.text
+msgctxt "tfrmtimeserieslayers.edit3.text"
+msgid "eLonMin"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit4.text
+msgctxt "tfrmtimeserieslayers.edit4.text"
+msgid "eLonMax"
+msgstr ""
+
+#: tfrmtimeserieslayers.eerr.text
+msgctxt "tfrmtimeserieslayers.eerr.text"
+msgid "0.25"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointlat.text
+msgctxt "tfrmtimeserieslayers.epointlat.text"
+msgid "66"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointlon.text
+msgctxt "tfrmtimeserieslayers.epointlon.text"
+msgid "2"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointrad.text
+msgctxt "tfrmtimeserieslayers.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmtimeserieslayers.gbaveraging.caption
+msgctxt "tfrmtimeserieslayers.gbaveraging.caption"
+msgid "Averaging"
+msgstr ""
+
+#: tfrmtimeserieslayers.groupbox1.caption
+msgctxt "tfrmtimeserieslayers.groupbox1.caption"
+msgid "Layer"
+msgstr ""
+
+#: tfrmtimeserieslayers.groupbox2.caption
+msgctxt "tfrmtimeserieslayers.groupbox2.caption"
+msgid "Variable"
+msgstr ""
+
+#: tfrmtimeserieslayers.label1.caption
+msgctxt "tfrmtimeserieslayers.label1.caption"
+msgid "Months:"
+msgstr ""
+
+#: tfrmtimeserieslayers.label2.caption
+msgctxt "tfrmtimeserieslayers.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label3.caption
+msgctxt "tfrmtimeserieslayers.label3.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label4.caption
+msgctxt "tfrmtimeserieslayers.label4.caption"
+msgid "Years:"
+msgstr ""
+
+#: tfrmtimeserieslayers.label5.caption
+msgid "Rel. Err."
+msgstr ""
+
+#: tfrmtimeserieslayers.label6.caption
+msgctxt "tfrmtimeserieslayers.label6.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label7.caption
+msgctxt "tfrmtimeserieslayers.label7.caption"
+msgid "Latitude"
+msgstr ""
+
+#: tfrmtimeserieslayers.label8.caption
+msgctxt "tfrmtimeserieslayers.label8.caption"
+msgid "Longitude"
+msgstr ""
+
+#: tfrmtimeserieslayers.label9.caption
+msgctxt "tfrmtimeserieslayers.label9.caption"
+msgid "Radius, km"
+msgstr ""
+
+#: tfrmtimeserieslayers.rbdomain.caption
+msgctxt "tfrmtimeserieslayers.rbdomain.caption"
+msgid "Domain"
+msgstr ""
+
+#: tfrmtimeserieslayers.rbradius.caption
+msgid "Area around fixed point"
+msgstr ""
+
+#: tfrmtoolst_0.btnpreparefwc.caption
+msgid "Prepare FWC"
+msgstr ""
+
+#: tfrmtoolst_0.btnprepartt_0.caption
+msgid "Prepare T_0"
+msgstr ""
+
+#: tfrmtoolst_0.btnt_0_norma.caption
+msgid "T_0 norma"
+msgstr ""
+
+#: tfrmtoolst_0.button1.caption
+msgid "FWC norma"
+msgstr ""
+
+#: tfrmtoolst_0.button2.caption
+msgid "Prepare T_0 Andrey"
+msgstr ""
+
+#: tfrmtoolst_0.button3.caption
+msgid "Prepare FWC Andrey"
+msgstr ""
+
+#: tfrmtoolst_0.caption
+msgid "frmtoolsT_0"
+msgstr ""
+
+#: tfrmtopography3d.btnplot.caption
+msgctxt "tfrmtopography3d.btnplot.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmtopography3d.caption
+msgid "3D topography"
+msgstr ""
+
+#: tfrmtopography3d.checkbox1.caption
+msgid "Over the sea only"
+msgstr ""
+
+#: tfrmtopography3d.groupbox1.caption
+msgctxt "tfrmtopography3d.groupbox1.caption"
+msgid "Region"
+msgstr ""
+
+#: tfrmtopography3d.label1.caption
+msgctxt "tfrmtopography3d.label1.caption"
+msgid "Skip"
+msgstr ""
+
+#: tfrmtsdiagram.btngetdata.caption
+msgctxt "tfrmtsdiagram.btngetdata.caption"
+msgid "Get data"
+msgstr ""
+
+#: tfrmtsdiagram.btnopenbln.caption
+msgctxt "tfrmtsdiagram.btnopenbln.caption"
+msgid "..."
+msgstr ""
+
+#: tfrmtsdiagram.btnopenfolder.hint
+msgctxt "tfrmtsdiagram.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr ""
+
+#: tfrmtsdiagram.btnplotpython.caption
+msgctxt "tfrmtsdiagram.btnplotpython.caption"
+msgid "Plot"
+msgstr ""
+
+#: tfrmtsdiagram.caption
+msgctxt "tfrmtsdiagram.caption"
+msgid "TS-Diagram"
+msgstr ""
+
+#: tfrmtsdiagram.groupbox1.caption
+msgctxt "tfrmtsdiagram.groupbox1.caption"
+msgid "Parameters"
+msgstr ""
+
+#: tfrmtsdiagram.groupbox2.caption
+msgctxt "tfrmtsdiagram.groupbox2.caption"
+msgid "Select file with section coordinates"
+msgstr ""
+
+#: tfrmtsdiagram.label1.caption
+msgctxt "tfrmtsdiagram.label1.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmtsdiagram.label2.caption
+msgctxt "tfrmtsdiagram.label2.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmtsdiagram.label3.caption
+msgctxt "tfrmtsdiagram.label3.caption"
+msgid "Temperature"
+msgstr ""
+
+#: tfrmtsdiagram.label4.caption
+msgctxt "tfrmtsdiagram.label4.caption"
+msgid "Salinity"
+msgstr ""
+
+#: tfrmtsdiagram.label5.caption
+msgid "Min"
+msgstr ""
+
+#: tfrmtsdiagram.label6.caption
+msgid "Max"
+msgstr ""
+
+#: tfrmtsdiagram.label7.caption
+msgid "Density isolines amount"
+msgstr ""
+
+#: tfrmtsdiagram.limits.caption
+msgid "Limits"
+msgstr ""
+

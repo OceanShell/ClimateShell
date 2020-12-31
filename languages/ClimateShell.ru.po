@@ -1,0 +1,3506 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: ncmain.sallfilesdatesselectedlevel
+msgctxt "ncmain.sallfilesdatesselectedlevel"
+msgid "All files, all dates, selected level"
+msgstr "Все файлы, все даты, выбранный горизонт"
+
+#: ncmain.sallfilesselecteddatelevels
+msgctxt "ncmain.sallfilesselecteddatelevels"
+msgid "All files, selected date, levels from the list"
+msgstr "Все файлы, выбранная дата, горизонты из списка"
+
+#: ncmain.sapr
+msgid "April"
+msgstr "Апрель"
+
+#: ncmain.saug
+msgid "August"
+msgstr "Август"
+
+#: ncmain.sautoallfilesdateslevels
+msgctxt "ncmain.sautoallfilesdateslevels"
+msgid "All files, all dates, all levels"
+msgstr "Все файлы, все даты, все горизонты"
+
+#: ncmain.sautomationoff
+msgctxt "ncmain.sautomationoff"
+msgid "Automation: OFF"
+msgstr "Автоматизация: ВЫКЛ."
+
+#: ncmain.sautomationon
+msgid "Automation: ON"
+msgstr "Автоматизация: ВКЛ."
+
+#: ncmain.sbigdataset
+msgid "Selected file is big. Proceed anyway?"
+msgstr "Выбранный файл очень большой. Продолжить?"
+
+#: ncmain.sdatecannotexceed
+msgctxt "ncmain.sdatecannotexceed"
+msgid "Date cannot exceed "
+msgstr "Дата не может быть больше "
+
+#: ncmain.sdatecannotprecede
+msgid "Date cannot preceed "
+msgstr "Дата не может быть меньше "
+
+#: ncmain.sdec
+msgid "December"
+msgstr "Декабрь"
+
+#: ncmain.sdirnotempty
+msgid "Output directory is not empty. Clean it now?"
+msgstr "В папке для результатов расчетов есть файлы. Удалить их?"
+
+#: ncmain.sdone
+msgid "Done!"
+msgstr "Выполнено!"
+
+#: ncmain.serroroccured
+msgid "Something went wrong. Check the output"
+msgstr "Что-то пошло не так :( Проверьте лог"
+
+#: ncmain.sfeb
+msgid "February"
+msgstr "Февраль"
+
+#: ncmain.sfilesthesame
+msgctxt "ncmain.sfilesthesame"
+msgid "Files are the same"
+msgstr "Файлы одинаковы"
+
+#: ncmain.sgetdata
+msgctxt "ncmain.sgetdata"
+msgid "Get Data"
+msgstr "Получить данные"
+
+#: ncmain.shadisstoutdated
+#, fuzzy
+#| msgid "HadISST file is outdated. There is no selected month in the file"
+msgid "There is no ice edge data for the selected region and date"
+msgstr "Файл HadISST устарел. Выбранный месяц отсутствует в данных"
+
+#: ncmain.sjan
+msgid "January"
+msgstr "Январь"
+
+#: ncmain.sjul
+msgid "July"
+msgstr "Июль"
+
+#: ncmain.sjun
+msgid "Jun"
+msgstr "Июнь"
+
+#: ncmain.skmlnodes
+msgid "nodes have been exported"
+msgstr ""
+
+#: ncmain.slatitude
+#, fuzzy
+msgctxt "ncmain.slatitude"
+msgid "Latitude"
+msgstr "Широта"
+
+#: ncmain.slongitude
+#, fuzzy
+msgctxt "ncmain.slongitude"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: ncmain.smar
+msgid "March"
+msgstr "Март"
+
+#: ncmain.smay
+msgid "May"
+msgstr "Май"
+
+#: ncmain.sno
+msgid "No"
+msgstr "Нет"
+
+#: ncmain.snocdo
+msgid "CDO is not found"
+msgstr "Программа CDO не найдена"
+
+#: ncmain.snographer
+msgid "Grapher is not found"
+msgstr "Программа Grapher не найдена"
+
+#: ncmain.snopython
+msgid "Python is not found"
+msgstr "Интерпретатор Python не найден"
+
+#: ncmain.snosurfer
+msgid "Surfer is not found"
+msgstr "Пакет Surfer не найден"
+
+#: ncmain.snov
+msgid "November"
+msgstr "Ноябрь"
+
+#: ncmain.soct
+msgid "October"
+msgstr "Октябрь"
+
+#: ncmain.sopenfile
+msgctxt "ncmain.sopenfile"
+msgid "Open file?"
+msgstr "Открыть файл?"
+
+#: ncmain.sopennc
+msgid "Select netCDF file(s)"
+msgstr "Выберите netCDF фай(ы)"
+
+#: ncmain.sopennorma
+msgid "Select file with norma"
+msgstr "Выберите файл с нормой"
+
+#: ncmain.soutofrange
+msgid "Data is out of range"
+msgstr "Дата вне диапазона"
+
+#: ncmain.splot
+msgctxt "ncmain.splot"
+msgid "Plot"
+msgstr "Построить"
+
+#: ncmain.spredefinedarea
+msgid "Select predefined area..."
+msgstr "Выберите предопределенную область..."
+
+#: ncmain.sselectedfiledatealllevels
+msgctxt "ncmain.sselectedfiledatealllevels"
+msgid "Selected file, selected date, all levels"
+msgstr "Выбранные файл и дата, все горизонты"
+
+#: ncmain.sselectedfilelevelalldates
+msgctxt "ncmain.sselectedfilelevelalldates"
+msgid "Selected file, selected level, all dates"
+msgstr "Выбранный файл, горизонт, все даты"
+
+#: ncmain.sselectedfilelevelmonth
+msgid "Selected file, selected level, month ="
+msgstr "Выбранный файл, горизонт, месяц="
+
+#: ncmain.sselectlevels
+msgid "Please, select levels"
+msgstr "Пожалуйста, выберите уровни"
+
+#: ncmain.sselectparameters
+msgid "Please, select parameters"
+msgstr "Пожалуйста, выберите параметры"
+
+#: ncmain.sselectsection
+msgid "Please, select file with section coordinates"
+msgstr "Пожалуйста, выберите файл с координатами разреза"
+
+#: ncmain.sselectsteps
+msgid "Please, select step"
+msgstr "Пожалуйста, выберите шаг"
+
+#: ncmain.sselectsubset
+msgid "Would you like to select a subset?"
+msgstr "Вы бы хотели выбрать подобласть?"
+
+#: ncmain.sselecttime
+msgid "Please, select time"
+msgstr "Пожалуйста, выберите время"
+
+#: ncmain.ssep
+msgid "September"
+msgstr "Сентябрь"
+
+#: ncmain.sunloadedfileempty
+msgid "Unloaded file is empty"
+msgstr "Выгруженный файл пуст"
+
+#: ncmain.syes
+msgid "Yes"
+msgstr "Да"
+
+#: tfrmaveragingcdo.btnaverage.caption
+msgid "Average"
+msgstr "Осреднить"
+
+#: tfrmaveragingcdo.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmaveragingcdo.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmaveragingcdo.caption
+msgctxt "tfrmaveragingcdo.caption"
+msgid "Averaging"
+msgstr "Осреднение"
+
+#: tfrmaveragingcdo.groupbox2.caption
+msgid "Single file with norma"
+msgstr ""
+
+#: tfrmaveragingcdo.rballfiles.caption
+msgctxt "tfrmaveragingcdo.rballfiles.caption"
+msgid "All files"
+msgstr "Все файлы"
+
+#: tfrmaveragingcdo.rbmonthbymonth.caption
+msgctxt "tfrmaveragingcdo.rbmonthbymonth.caption"
+msgid "Month by month"
+msgstr "Месяц за месяцем"
+
+#: tfrmaveragingcdo.rbseason.caption
+msgctxt "tfrmaveragingcdo.rbseason.caption"
+msgid "Season (all years)"
+msgstr ""
+
+#: tfrmaveragingcdo.rbseasoneveryyear.caption
+#, fuzzy
+#| msgid "Season"
+msgctxt "tfrmaveragingcdo.rbseasoneveryyear.caption"
+msgid "Season (year by year)"
+msgstr "Сезон"
+
+#: tfrmaveragingcdo.rbselectedmonth.caption
+msgctxt "tfrmaveragingcdo.rbselectedmonth.caption"
+msgid "Selected month"
+msgstr "Выбранный месяц"
+
+#: tfrmaveragingcdo.rbyearbyyear.caption
+msgid "Year by year"
+msgstr "Год за годом"
+
+#: tfrmcalculatefreezingtemp.btncalculate.caption
+#, fuzzy
+msgctxt "tfrmcalculatefreezingtemp.btncalculate.caption"
+msgid "Calculate"
+msgstr "Расчет"
+
+#: tfrmcalculatefreezingtemp.caption
+msgid "Calculate seawater freezing temperature"
+msgstr ""
+
+#: tfrmcalculatefreezingtemp.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmcalculatefreezingtemp.groupbox1.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmcalculatefreezingtemp.label1.caption
+#, fuzzy
+msgctxt "tfrmcalculatefreezingtemp.label1.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmcalculatefreezingtemp.label2.caption
+#, fuzzy
+msgctxt "tfrmcalculatefreezingtemp.label2.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmcalculatefreezingtemp.rgalgorythm.caption
+msgid "Algorythm"
+msgstr ""
+
+#: tfrmcats.button1.caption
+msgctxt "tfrmcats.button1.caption"
+msgid "Run"
+msgstr "Старт"
+
+#: tfrmcats.caption
+msgctxt "tfrmcats.caption"
+msgid "CATS"
+msgstr ""
+
+#: tfrmcdodeleteparam.btndelete.caption
+msgctxt "tfrmcdodeleteparam.btndelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmcdodeleteparam.caption
+msgctxt "tfrmcdodeleteparam.caption"
+msgid "Delete parameter"
+msgstr ""
+
+#: tfrmcdodeleteparam.groupbox1.caption
+msgid "Parameters to delete"
+msgstr ""
+
+#: tfrmcdoextractsubset.btnextract.caption
+msgid "Extract"
+msgstr "Вырезать"
+
+#: tfrmcdoextractsubset.caption
+msgid "Extract Subset by Area"
+msgstr "Вырезать подобласть"
+
+#: tfrmcdoextractsubset.groupbox4.caption
+msgctxt "tfrmcdoextractsubset.groupbox4.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmcdoremap.btnremap.caption
+msgid "Remap"
+msgstr ""
+
+#: tfrmcdoremap.caption
+msgctxt "tfrmcdoremap.caption"
+msgid "Remap grid"
+msgstr ""
+
+#: tfrmcdoremap.groupbox1.caption
+msgid "New grid definition"
+msgstr ""
+
+#: tfrmcdoremap.label1.caption
+msgid "Grid type"
+msgstr ""
+
+#: tfrmcdoremap.label2.caption
+msgid "Y inc"
+msgstr ""
+
+#: tfrmcdoremap.label3.caption
+msgid "Y first"
+msgstr ""
+
+#: tfrmcdoremap.label4.caption
+msgid "X first"
+msgstr ""
+
+#: tfrmcdoremap.label5.caption
+msgid "X inc"
+msgstr ""
+
+#: tfrmcdoremap.label6.caption
+msgid "X size"
+msgstr ""
+
+#: tfrmcdoremap.label7.caption
+msgid "Y size"
+msgstr ""
+
+#: tfrmcdosplit.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmcdosplit.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmcdosplit.btnsplit.caption
+msgctxt "tfrmcdosplit.btnsplit.caption"
+msgid "Split"
+msgstr ""
+
+#: tfrmcdosplit.caption
+msgid "Split netCDF"
+msgstr ""
+
+#: tfrmcdosplit.rgsplit.caption
+#, fuzzy
+msgctxt "tfrmcdosplit.rgsplit.caption"
+msgid "Options"
+msgstr "Опции"
+
+#: tfrmclimanomalies.btnnorma.caption
+msgctxt "tfrmclimanomalies.btnnorma.caption"
+msgid "Norma"
+msgstr ""
+
+#: tfrmclimanomalies.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmclimanomalies.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmclimanomalies.btnopenscript.hint
+#, fuzzy
+msgctxt "tfrmclimanomalies.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmclimanomalies.btnplot.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmclimanomalies.btnsettings.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.btnsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmclimanomalies.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmclimanomalies.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.groupbox1.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmclimanomalies.groupbox2.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.groupbox2.caption"
+msgid "Surfer's colour files"
+msgstr "Файл заливки для Surfer"
+
+#: tfrmclimanomalies.groupbox3.caption
+msgid "Levels"
+msgstr ""
+
+#: tfrmclimanomalies.label1.caption
+msgid "Field 1"
+msgstr ""
+
+#: tfrmclimanomalies.label2.caption
+msgid "Select/Deselect All"
+msgstr ""
+
+#: tfrmclimanomalies.label3.caption
+msgctxt "tfrmclimanomalies.label3.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmclimanomalies.label9.caption
+msgctxt "tfrmclimanomalies.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmclimanomalies.lbvariable1.caption
+msgid "lbVariable1"
+msgstr ""
+
+#: tfrmclimanomalies.lbvariable2.caption
+msgid "lbVariable2"
+msgstr ""
+
+#: tfrmclimanomalies.rgprojection.caption
+#, fuzzy
+msgctxt "tfrmclimanomalies.rgprojection.caption"
+msgid "Projection"
+msgstr "Проекция"
+
+#: tfrmclimfields.automation.caption
+msgctxt "tfrmclimfields.automation.caption"
+msgid "Automation"
+msgstr "Автоматизация"
+
+#: tfrmclimfields.btnallfiles.caption
+msgid "All files + given level"
+msgstr "Все файлы, все даты, выбранный горизонт"
+
+#: tfrmclimfields.btnalllevels.caption
+msgid "Given file + all levels "
+msgstr "Выбранный файл, все горизонты"
+
+#: tfrmclimfields.btnopenfolder.hint
+msgctxt "tfrmclimfields.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmclimfields.btnopenscript.hint
+msgctxt "tfrmclimfields.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmclimfields.btnplot.caption
+msgctxt "tfrmclimfields.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmclimfields.btnsettings.caption
+msgctxt "tfrmclimfields.btnsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmclimfields.button1.caption
+msgid "All files + all levels"
+msgstr "Все файлы и все горизонты"
+
+#: tfrmclimfields.caption
+msgid "Spatial Fields"
+msgstr "Поля"
+
+#: tfrmclimfields.cbtype.text
+msgctxt "tfrmclimfields.cbtype.text"
+msgid "Monthly"
+msgstr "Месячные"
+
+#: tfrmclimfields.chkice.caption
+msgid "Plot ice edge"
+msgstr "Ледовая кромка"
+
+#: tfrmclimfields.chklegend.caption
+msgid "Legend"
+msgstr "Легенда"
+
+#: tfrmclimfields.chkpolar.caption
+msgid "Circumpolar projection"
+msgstr "Циркумполярная проекция"
+
+#: tfrmclimfields.chkvarb.caption
+msgid "Variant \"B\""
+msgstr ""
+
+#: tfrmclimfields.emaxlat.text
+msgctxt "tfrmclimfields.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmclimfields.emaxlon.text
+msgctxt "tfrmclimfields.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmclimfields.eminlat.text
+msgctxt "tfrmclimfields.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmclimfields.eminlon.text
+msgctxt "tfrmclimfields.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmclimfields.fields.caption
+msgctxt "tfrmclimfields.fields.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmclimfields.groupbox1.caption
+msgctxt "tfrmclimfields.groupbox1.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmclimfields.groupbox2.caption
+msgid "Additional settings"
+msgstr "Дополнительные опции"
+
+#: tfrmclimfields.groupbox4.caption
+msgid "Parameter"
+msgstr "Параметр"
+
+#: tfrmclimfields.groupbox5.caption
+msgctxt "tfrmclimfields.groupbox5.caption"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmclimfields.groupbox6.caption
+msgctxt "tfrmclimfields.groupbox6.caption"
+msgid "Automation"
+msgstr "Автоматизация"
+
+#: tfrmclimfields.groupbox7.caption
+msgid "Base map"
+msgstr "Карта"
+
+#: tfrmclimfields.lbvariable.caption
+msgctxt "tfrmclimfields.lbvariable.caption"
+msgid "lbVariable"
+msgstr ""
+
+#: tfrmclimprofiles.btngetprofile.caption
+msgid "Get profile"
+msgstr "Профиль"
+
+#: tfrmclimprofiles.btninterpolation.caption
+msgid "=>"
+msgstr ""
+
+#: tfrmclimprofiles.caption
+msgctxt "tfrmclimprofiles.caption"
+msgid "Profiles"
+msgstr "Профили"
+
+#: tfrmclimprofiles.cblat.text
+msgctxt "tfrmclimprofiles.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmclimprofiles.cblon.text
+msgctxt "tfrmclimprofiles.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmclimprofiles.cbseaborders.text
+msgctxt "tfrmclimprofiles.cbseaborders.text"
+msgid "cbSeaBorders"
+msgstr ""
+
+#: tfrmclimprofiles.edit1.text
+msgctxt "tfrmclimprofiles.edit1.text"
+msgid "eLatMax"
+msgstr ""
+
+#: tfrmclimprofiles.edit2.text
+msgctxt "tfrmclimprofiles.edit2.text"
+msgid "eLatMin"
+msgstr ""
+
+#: tfrmclimprofiles.edit3.text
+msgctxt "tfrmclimprofiles.edit3.text"
+msgid "eLonMin"
+msgstr ""
+
+#: tfrmclimprofiles.edit4.text
+msgctxt "tfrmclimprofiles.edit4.text"
+msgid "eLonMax"
+msgstr ""
+
+#: tfrmclimprofiles.epointlat.text
+msgctxt "tfrmclimprofiles.epointlat.text"
+msgid "66"
+msgstr ""
+
+#: tfrmclimprofiles.epointlon.text
+msgctxt "tfrmclimprofiles.epointlon.text"
+msgid "2"
+msgstr ""
+
+#: tfrmclimprofiles.epointrad.text
+msgctxt "tfrmclimprofiles.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmclimprofiles.groupbox1.caption
+msgctxt "tfrmclimprofiles.groupbox1.caption"
+msgid "Interpolation"
+msgstr "Интерполяция"
+
+#: tfrmclimprofiles.label1.caption
+msgid "Parameter:"
+msgstr "Параметр:"
+
+#: tfrmclimprofiles.label2.caption
+msgid "Required level"
+msgstr "Требуемый горизонт"
+
+#: tfrmclimprofiles.label3.caption
+msgctxt "tfrmclimprofiles.label3.caption"
+msgid "Value"
+msgstr "Значение"
+
+#: tfrmclimprofiles.label7.caption
+msgctxt "tfrmclimprofiles.label7.caption"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmclimprofiles.label8.caption
+msgctxt "tfrmclimprofiles.label8.caption"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmclimprofiles.label9.caption
+msgctxt "tfrmclimprofiles.label9.caption"
+msgid "Radius, km"
+msgstr "Радиус, км"
+
+#: tfrmclimprofiles.lbmethod.caption
+msgid "Method: "
+msgstr "Метод:"
+
+#: tfrmclimprofiles.lbvariable.caption
+msgctxt "tfrmclimprofiles.lbvariable.caption"
+msgid "lbVariable"
+msgstr ""
+
+#: tfrmclimprofiles.panel1.caption
+msgctxt "tfrmclimprofiles.panel1.caption"
+msgid "Panel1"
+msgstr ""
+
+#: tfrmclimprofiles.tabsheet1.caption
+msgctxt "tfrmclimprofiles.tabsheet1.caption"
+msgid "Domain"
+msgstr "Область"
+
+#: tfrmclimprofiles.tabsheet2.caption
+msgctxt "tfrmclimprofiles.tabsheet2.caption"
+msgid "Around point"
+msgstr "Вокруг точки"
+
+#: tfrmclimprofiles.tabsheet3.caption
+msgctxt "tfrmclimprofiles.tabsheet3.caption"
+msgid "Predefined area"
+msgstr "Предопр. область"
+
+#: tfrmclimprofiles.tabsheet4.caption
+msgctxt "tfrmclimprofiles.tabsheet4.caption"
+msgid "SingleNode"
+msgstr "Отдельный узел"
+
+#: tfrmclimprofiles.tabsheet5.caption
+msgctxt "tfrmclimprofiles.tabsheet5.caption"
+msgid "Data"
+msgstr "Данные"
+
+#: tfrmclimprofiles.tabsheet6.caption
+msgctxt "tfrmclimprofiles.tabsheet6.caption"
+msgid "Map"
+msgstr "Карта"
+
+#: tfrmclimsections.btnopenfolder.hint
+msgctxt "tfrmclimsections.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmclimsections.btnopennorma.caption
+#, fuzzy
+msgctxt "tfrmclimsections.btnopennorma.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmclimsections.btnopenscript.hint
+msgctxt "tfrmclimsections.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmclimsections.btnplot.caption
+msgctxt "tfrmclimsections.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmclimsections.btnplotall.caption
+msgid "Plot all"
+msgstr "Построить всё"
+
+#: tfrmclimsections.btnsettings.caption
+msgctxt "tfrmclimsections.btnsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmclimsections.caption
+msgctxt "tfrmclimsections.caption"
+msgid "Sections"
+msgstr "Разрезы"
+
+#: tfrmclimsections.chkanomalies.caption
+msgctxt "tfrmclimsections.chkanomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmclimsections.enorma.text
+msgid "x:\\DIVA\\climatologies\\Nordic Seas v2\\DATA\\VAR_A\\annual-per-period\\Salinity\\Salinity.19002012.0112.nc"
+msgstr ""
+
+#: tfrmclimsections.groupbox1.caption
+msgctxt "tfrmclimsections.groupbox1.caption"
+msgid "Select file with section coordinates"
+msgstr "Пожалуйста, выберите файл с координатами разреза"
+
+#: tfrmclimsections.groupbox2.caption
+msgid "Path to file with Norma"
+msgstr "Выберите файл с нормой"
+
+#: tfrmclimsections.groupbox4.caption
+msgctxt "tfrmclimsections.groupbox4.caption"
+msgid "Plot parameters"
+msgstr "Параметры"
+
+#: tfrmclimsections.label4.caption
+msgctxt "tfrmclimsections.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmclimsections.label9.caption
+msgctxt "tfrmclimsections.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmdensity.btncalculate.caption
+msgctxt "tfrmdensity.btncalculate.caption"
+msgid "Calculate"
+msgstr "Расчет"
+
+#: tfrmdensity.caption
+msgid "Calculate density"
+msgstr "Рассчитать плотность"
+
+#: tfrmdensity.groupbox1.caption
+msgctxt "tfrmdensity.groupbox1.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmdensity.label1.caption
+msgctxt "tfrmdensity.label1.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmdensity.label2.caption
+msgctxt "tfrmdensity.label2.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmdensity.rgalgorithm.caption
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+#: tfrmexport.btnexport.caption
+msgctxt "tfrmexport.btnexport.caption"
+msgid "Export"
+msgstr "Экспорт"
+
+#: tfrmexport.caption
+msgctxt "tfrmexport.caption"
+msgid "Export"
+msgstr "Экспорт"
+
+#: tfrmexport.chkheader.caption
+msgid "Header"
+msgstr "Метаданные"
+
+#: tfrmexport.lbcheckall.caption
+msgid "Check All"
+msgstr "Отметить все"
+
+#: tfrmexport_kml.btnexport.caption
+msgctxt "tfrmexport_kml.btnexport.caption"
+msgid "Export"
+msgstr "Экспорт"
+
+#: tfrmexport_kml.caption
+msgid "KML export"
+msgstr "KML экспорт"
+
+#: tfrmexport_kml.chkopenafterexport.caption
+msgid "Open Exported File"
+msgstr "Открыть экспортированный файл"
+
+#: tfrmexport_kml.groupbox4.caption
+msgctxt "tfrmexport_kml.groupbox4.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmexport_kml.label1.caption
+msgid "Label scale"
+msgstr ""
+
+#: tfrmexport_kml.rgover.caption
+#, fuzzy
+msgctxt "tfrmexport_kml.rgover.caption"
+msgid "Data over..."
+msgstr "Данные над..."
+
+#: tfrmfields.btnautomation.caption
+msgctxt "tfrmfields.btnautomation.caption"
+msgid "Start"
+msgstr "Начать"
+
+#: tfrmfields.btncancel.caption
+msgctxt "tfrmfields.btncancel.caption"
+msgid "Cancel"
+msgstr "Отменить"
+
+#: tfrmfields.btngetdata.caption
+msgctxt "tfrmfields.btngetdata.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmfields.btnopenfolder.hint
+msgctxt "tfrmfields.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmfields.btnopenscript.hint
+msgctxt "tfrmfields.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmfields.btnplot.caption
+msgctxt "tfrmfields.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmfields.btnsettings.caption
+#, fuzzy
+#| msgid "Serfer Settings"
+msgctxt "tfrmfields.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr "Настройки Surfer"
+
+#: tfrmfields.caption
+msgctxt "tfrmfields.caption"
+msgid "Fields"
+msgstr "Поля"
+
+#: tfrmfields.chkice.caption
+msgid "+ Ice Edge (HadISST)"
+msgstr "+Ледовая кромка (HadISST)"
+
+#: tfrmfields.chkplot.caption
+#, fuzzy
+#| msgid "Plot"
+msgctxt "tfrmfields.chkplot.caption"
+msgid "Plot with Surfer"
+msgstr "Построить"
+
+#: tfrmfields.groupbox1.caption
+msgctxt "tfrmfields.groupbox1.caption"
+msgid "Surfer's colour files"
+msgstr "Файл заливки для Surfer"
+
+#: tfrmfields.groupbox2.caption
+msgctxt "tfrmfields.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmfields.groupbox3.caption
+msgctxt "tfrmfields.groupbox3.caption"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmfields.groupbox4.caption
+msgctxt "tfrmfields.groupbox4.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmfields.groupbox5.caption
+msgctxt "tfrmfields.groupbox5.caption"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmfields.label11.caption
+msgctxt "tfrmfields.label11.caption"
+msgid "U"
+msgstr ""
+
+#: tfrmfields.label12.caption
+msgctxt "tfrmfields.label12.caption"
+msgid "V"
+msgstr ""
+
+#: tfrmfields.label2.caption
+msgctxt "tfrmfields.label2.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmfields.label7.caption
+msgctxt "tfrmfields.label7.caption"
+msgid "Scale"
+msgstr "Доп. масштаб"
+
+#: tfrmfields.label8.caption
+msgctxt "tfrmfields.label8.caption"
+msgid "Offset"
+msgstr "Доп. сдвиг"
+
+#: tfrmfields.label9.caption
+msgctxt "tfrmfields.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmfields.rgautomation.caption
+msgctxt "tfrmfields.rgautomation.caption"
+msgid "Options"
+msgstr "Опции"
+
+#: tfrmfields.rgprojection.caption
+msgctxt "tfrmfields.rgprojection.caption"
+msgid "Projection"
+msgstr "Проекция"
+
+#: tfrmfields.tabsheet1.caption
+msgctxt "tfrmfields.tabsheet1.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmfields.tabsheet2.caption
+msgctxt "tfrmfields.tabsheet2.caption"
+msgid "Automation"
+msgstr "Автоматизация"
+
+#: tfrmfields.tabsheet3.caption
+msgid "Scalar"
+msgstr "Скаляр"
+
+#: tfrmfields.tabsheet4.caption
+msgid "Vector"
+msgstr "Вектор"
+
+#: tfrmfields.tabsheet5.caption
+msgid "Scale/Offset"
+msgstr "Масштаб/сдвиг"
+
+#: tfrmfreshwatercontent.btncalculate.caption
+#, fuzzy
+msgctxt "tfrmfreshwatercontent.btncalculate.caption"
+msgid "Calculate"
+msgstr "Расчет"
+
+#: tfrmfreshwatercontent.caption
+msgid "Fresh water content (FWC)"
+msgstr ""
+
+#: tfrmfreshwatercontent.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmfreshwatercontent.groupbox1.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmfreshwatercontent.groupbox2.caption
+#, fuzzy
+msgctxt "tfrmfreshwatercontent.groupbox2.caption"
+msgid "Layer"
+msgstr "Слой"
+
+#: tfrmfreshwatercontent.label1.caption
+msgid "Reference value, psu"
+msgstr ""
+
+#: tfrmfreshwatercontent.label4.caption
+msgctxt "tfrmfreshwatercontent.label4.caption"
+msgid "Bottom limit, m"
+msgstr ""
+
+#: tfrmfreshwatercontent.label5.caption
+msgctxt "tfrmfreshwatercontent.label5.caption"
+msgid "Top limit, m"
+msgstr ""
+
+#: tfrmheatcontent.btncalculate.caption
+#, fuzzy
+msgctxt "tfrmheatcontent.btncalculate.caption"
+msgid "Calculate"
+msgstr "Расчет"
+
+#: tfrmheatcontent.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmheatcontent.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmheatcontent.caption
+msgid "Heat content"
+msgstr ""
+
+#: tfrmheatcontent.chkbottom.caption
+msgid "Bottom"
+msgstr ""
+
+#: tfrmheatcontent.chklastlevel.caption
+msgid "Last level, m"
+msgstr ""
+
+#: tfrmheatcontent.groupbox1.caption
+#, fuzzy
+#| msgid "Temperature"
+msgctxt "tfrmheatcontent.groupbox1.caption"
+msgid "Parameters"
+msgstr "Температура"
+
+#: tfrmheatcontent.groupbox2.caption
+#, fuzzy
+msgctxt "tfrmheatcontent.groupbox2.caption"
+msgid "Layer"
+msgstr "Слой"
+
+#: tfrmheatcontent.groupbox3.caption
+msgid "Reference value"
+msgstr ""
+
+#: tfrmheatcontent.groupbox4.caption
+#, fuzzy
+msgctxt "tfrmheatcontent.groupbox4.caption"
+msgid "Predefined area"
+msgstr "Предопр. область"
+
+#: tfrmheatcontent.label1.caption
+msgid "Temperature, degC"
+msgstr ""
+
+#: tfrmheatcontent.label2.caption
+#, fuzzy
+msgctxt "tfrmheatcontent.label2.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmheatcontent.label3.caption
+#, fuzzy
+msgctxt "tfrmheatcontent.label3.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmheatcontent.label5.caption
+msgctxt "tfrmheatcontent.label5.caption"
+msgid "First level, m"
+msgstr ""
+
+#: tfrmmain.ascii1.caption
+msgid "ASCII"
+msgstr ""
+
+#: tfrmmain.btnexit.caption
+msgid "Exit"
+msgstr "Выход"
+
+#: tfrmmain.btnopenfolder.caption
+msgctxt "tfrmmain.btnopenfolder.caption"
+msgid "Open folder"
+msgstr "Открыть папку"
+
+#: tfrmmain.btnopennc.caption
+msgid "Open *.nc"
+msgstr "Открыть *.nc"
+
+#: tfrmmain.btnsettings.caption
+msgctxt "tfrmmain.btnsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmmain.caption
+msgid "ASNC"
+msgstr ""
+
+#: tfrmmain.cballvars.hint
+msgctxt "tfrmmain.cballvars.hint"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmmain.cbdates.hint
+msgctxt "tfrmmain.cbdates.hint"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmmain.cblat.hint
+msgctxt "tfrmmain.cblat.hint"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmmain.cblevels.hint
+msgctxt "tfrmmain.cblevels.hint"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmmain.cblon.hint
+msgctxt "tfrmmain.cblon.hint"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmmain.iabout.caption
+msgid "About"
+msgstr "О программе"
+
+#: tfrmmain.ianomalies.caption
+#, fuzzy
+#| msgid "Anomalies (CDO)"
+msgctxt "tfrmmain.ianomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии (CDO)"
+
+#: tfrmmain.iantarcticfront.caption
+msgid "Antarctic Front"
+msgstr "Антарктический фронт"
+
+#: tfrmmain.iaveraging.caption
+#, fuzzy
+#| msgid "Averaging (CDO)"
+msgctxt "tfrmmain.iaveraging.caption"
+msgid "Averaging"
+msgstr "Осреднение (CDO)"
+
+#: tfrmmain.icalculatedensity.caption
+#, fuzzy
+#| msgid "Density Calculation"
+msgctxt "tfrmmain.icalculatedensity.caption"
+msgid "Density"
+msgstr "Расчет плотности"
+
+#: tfrmmain.icalculatefreezingtemp.caption
+msgid "Freezing Temperature"
+msgstr ""
+
+#: tfrmmain.icats.caption
+msgctxt "tfrmmain.icats.caption"
+msgid "CATS"
+msgstr ""
+
+#: tfrmmain.icdo.caption
+msgid "CDO"
+msgstr ""
+
+#: tfrmmain.iclimanomalies.caption
+msgctxt "tfrmmain.iclimanomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmmain.iclimatology.caption
+msgctxt "tfrmmain.iclimatology.caption"
+msgid "Climatology"
+msgstr "Климатология"
+
+#: tfrmmain.iclimaveraging.caption
+msgctxt "tfrmmain.iclimaveraging.caption"
+msgid "Averaging"
+msgstr "Осреднение"
+
+#: tfrmmain.iclimfields.caption
+msgctxt "tfrmmain.iclimfields.caption"
+msgid "Fields"
+msgstr "Поля"
+
+#: tfrmmain.iclimprofiles.caption
+msgctxt "tfrmmain.iclimprofiles.caption"
+msgid "Profiles"
+msgstr "Профили"
+
+#: tfrmmain.iclimsections.caption
+msgctxt "tfrmmain.iclimsections.caption"
+msgid "Sections"
+msgstr "Разрезы"
+
+#: tfrmmain.iclimtimeseries.caption
+msgid "Timeseries"
+msgstr "Временные серии"
+
+#: tfrmmain.icompressnetcdf4.caption
+#, fuzzy
+#| msgid "Compress netCDF4 (CDO)"
+msgid "Compress netcdf4"
+msgstr "Сжать netCDF4"
+
+#: tfrmmain.icopylisttoclipboard.caption
+msgid "Copy entire list to clipboard"
+msgstr "Копировать весь список в буфер"
+
+#: tfrmmain.icopyvaluetoclipboard.caption
+msgid "Copy selected value to clipboard"
+msgstr "Копировать выделенное значение в буфер"
+
+#: tfrmmain.idatainventory.caption
+msgctxt "tfrmmain.idatainventory.caption"
+msgid "Data Inventory"
+msgstr ""
+
+#: tfrmmain.ideleteparameter.caption
+msgctxt "tfrmmain.ideleteparameter.caption"
+msgid "Delete parameter"
+msgstr ""
+
+#: tfrmmain.idownload.caption
+msgctxt "tfrmmain.idownload.caption"
+msgid "Download"
+msgstr "Загрузить"
+
+#: tfrmmain.idownloadera5.caption
+msgid "ERA5"
+msgstr ""
+
+#: tfrmmain.idownloadmercator.caption
+msgctxt "tfrmmain.idownloadmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmmain.iexport.caption
+msgctxt "tfrmmain.iexport.caption"
+msgid "Export"
+msgstr "Экспорт"
+
+#: tfrmmain.iexportkml.caption
+msgctxt "tfrmmain.iexportkml.caption"
+msgid "KML"
+msgstr ""
+
+#: tfrmmain.iexportnceplev.caption
+msgid "ASCII (NCEP for AARI)"
+msgstr ""
+
+#: tfrmmain.iextractsubset.caption
+#, fuzzy
+#| msgid "Extract Subset (CDO)"
+msgid "Extract subset"
+msgstr "Вырезать подобласть (CDO)"
+
+#: tfrmmain.ifields.caption
+msgctxt "tfrmmain.ifields.caption"
+msgid "Fields"
+msgstr "Поля"
+
+#: tfrmmain.ifile.caption
+msgid "File"
+msgstr "Файл"
+
+#: tfrmmain.ifreshwatercontent.caption
+msgid "Fresh water content"
+msgstr ""
+
+#: tfrmmain.iheatcontent.caption
+msgid "Heat Content"
+msgstr ""
+
+#: tfrmmain.ihelp.caption
+msgctxt "tfrmmain.ihelp.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tfrmmain.ihelpcontent.caption
+msgctxt "tfrmmain.ihelpcontent.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tfrmmain.ihovmoeller.caption
+msgid "Hovmoeller"
+msgstr ""
+
+#: tfrmmain.iisolatanomalies.caption
+msgctxt "tfrmmain.iisolatanomalies.caption"
+msgid "Isolat anomalies"
+msgstr "Аномалии по изолатам"
+
+#: tfrmmain.ilatlonseries.caption
+msgid "Lat/Lon series"
+msgstr ""
+
+#: tfrmmain.imap.caption
+msgctxt "tfrmmain.imap.caption"
+msgid "Map (KML)"
+msgstr "Карта"
+
+#: tfrmmain.imercatorexport.caption
+msgid "Mercator Export Node"
+msgstr ""
+
+#: tfrmmain.imetadatacorrection.caption
+msgid "Metadata correction"
+msgstr "Изменение метаданных"
+
+#: tfrmmain.inettransport.caption
+msgid "Net Transport"
+msgstr ""
+
+#: tfrmmain.inettransportnodes.caption
+msgid "Net Transport Nodes"
+msgstr ""
+
+#: tfrmmain.inettransportsection.caption
+msgid "Section"
+msgstr ""
+
+#: tfrmmain.iprofiles.caption
+msgctxt "tfrmmain.iprofiles.caption"
+msgid "Profiles"
+msgstr "Профили"
+
+#: tfrmmain.iremapgrid.caption
+msgctxt "tfrmmain.iremapgrid.caption"
+msgid "Remap grid"
+msgstr ""
+
+#: tfrmmain.isavelistas.caption
+msgid "Save list as..."
+msgstr "Сохранить список как..."
+
+#: tfrmmain.isections.caption
+msgctxt "tfrmmain.isections.caption"
+msgid "Sections"
+msgstr "Разрезы"
+
+#: tfrmmain.isections_nodes.caption
+msgid "Sections by nodes"
+msgstr ""
+
+#: tfrmmain.ishfwchc.caption
+msgid "Sterich height, fresh water and heat contents"
+msgstr "Дин. высоты, СПВ и теплосодержание"
+
+#: tfrmmain.isplit.caption
+msgid "Split time"
+msgstr ""
+
+#: tfrmmain.isplitdataset.caption
+msgctxt "tfrmmain.isplitdataset.caption"
+msgid "Split dataset"
+msgstr ""
+
+#: tfrmmain.itailoredtools.caption
+msgid "Tailored tools"
+msgstr ""
+
+#: tfrmmain.itdd.caption
+msgid "Time-depth diagram"
+msgstr "Пространственно-временная диаграмма"
+
+#: tfrmmain.itimeseries.caption
+msgctxt "tfrmmain.itimeseries.caption"
+msgid "Time series"
+msgstr "Временные серии"
+
+#: tfrmmain.itimeseriesnodes.caption
+msgctxt "tfrmmain.itimeseriesnodes.caption"
+msgid "Time series for nodes"
+msgstr "Временные серии для узлов"
+
+#: tfrmmain.itld.caption
+msgctxt "tfrmmain.itld.caption"
+msgid "Time-level diagram"
+msgstr "Пространственно-временная диаграмма"
+
+#: tfrmmain.itools.caption
+msgid "Tools"
+msgstr "Инструменты"
+
+#: tfrmmain.itopography3d.caption
+msgid "Topography 3D"
+msgstr ""
+
+#: tfrmmain.itsdiagram.caption
+msgctxt "tfrmmain.itsdiagram.caption"
+msgid "TS-Diagram"
+msgstr "TS-диаграмма"
+
+#: tfrmmain.it_0.caption
+msgid "T_0"
+msgstr ""
+
+#: tfrmmain.iweatherhazards.caption
+msgctxt "tfrmmain.iweatherhazards.caption"
+msgid "Weather Hazards"
+msgstr ""
+
+#: tfrmmain.menuitem1.caption
+msgid "test"
+msgstr ""
+
+#: tfrmmain.menuitem6.caption
+#, fuzzy
+msgctxt "tfrmmain.menuitem6.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmmain.panel1.caption
+msgctxt "tfrmmain.panel1.caption"
+msgid "Panel1"
+msgstr ""
+
+#: tfrmmain.statusbar1.panels[0].text
+msgid "File name:"
+msgstr "Имя файла:"
+
+#: tfrmmld.btnmldsettings.caption
+msgid "MLD Settings"
+msgstr ""
+
+#: tfrmmld.button1.caption
+msgid "Button1"
+msgstr ""
+
+#: tfrmmld.caption
+msgid "Mixed layer depth (MLD)"
+msgstr ""
+
+#: tfrmmld.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmmld.groupbox1.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmmld.label2.caption
+#, fuzzy
+msgctxt "tfrmmld.label2.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmmld.label3.caption
+#, fuzzy
+msgctxt "tfrmmld.label3.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmncaveraging.btnopenfolder.hint
+msgctxt "tfrmncaveraging.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmncaveraging.btnopenscript.hint
+msgctxt "tfrmncaveraging.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmncaveraging.btnplot.caption
+msgctxt "tfrmncaveraging.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmncaveraging.btnsettings.caption
+msgctxt "tfrmncaveraging.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr "Настройки Surfer"
+
+#: tfrmncaveraging.btnunloaddata.caption
+msgctxt "tfrmncaveraging.btnunloaddata.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmncaveraging.caption
+msgctxt "tfrmncaveraging.caption"
+msgid "Averaging"
+msgstr "Осреднение"
+
+#: tfrmncaveraging.eadditionaloffset1.text
+msgctxt "tfrmncaveraging.eadditionaloffset1.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncaveraging.eadditionalscale1.text
+msgctxt "tfrmncaveraging.eadditionalscale1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncaveraging.emaxlat.text
+msgctxt "tfrmncaveraging.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmncaveraging.emaxlon.text
+msgctxt "tfrmncaveraging.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmncaveraging.eminlat.text
+msgctxt "tfrmncaveraging.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmncaveraging.eminlon.text
+msgctxt "tfrmncaveraging.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmncaveraging.groupbox1.caption
+msgid "Period"
+msgstr ""
+
+#: tfrmncaveraging.groupbox2.caption
+msgctxt "tfrmncaveraging.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmncaveraging.groupbox3.caption
+msgctxt "tfrmncaveraging.groupbox3.caption"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmncaveraging.groupbox4.caption
+msgid "Area"
+msgstr ""
+
+#: tfrmncaveraging.groupbox5.caption
+msgctxt "tfrmncaveraging.groupbox5.caption"
+msgid "Surfer's colour files"
+msgstr "Файл заливки для Surfer"
+
+#: tfrmncaveraging.groupbox6.caption
+msgid "      Anomalies (norma)"
+msgstr ""
+
+#: tfrmncaveraging.label1.caption
+msgctxt "tfrmncaveraging.label1.caption"
+msgid "Var"
+msgstr ""
+
+#: tfrmncaveraging.label2.caption
+msgctxt "tfrmncaveraging.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncaveraging.label3.caption
+msgctxt "tfrmncaveraging.label3.caption"
+msgid "Additional offset"
+msgstr "Доп. сдвиг"
+
+#: tfrmncaveraging.label4.caption
+msgctxt "tfrmncaveraging.label4.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncaveraging.label5.caption
+msgctxt "tfrmncaveraging.label5.caption"
+msgid "Additional scale"
+msgstr "Доп. масштаб"
+
+#: tfrmncaveraging.label6.caption
+msgctxt "tfrmncaveraging.label6.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmncaveraging.label9.caption
+msgctxt "tfrmncaveraging.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmncaveraging.rgprojection.caption
+msgctxt "tfrmncaveraging.rgprojection.caption"
+msgid "Projection"
+msgstr "Проекция"
+
+#: tfrmncdatainventory.btnmdadd.caption
+msgctxt "tfrmncdatainventory.btnmdadd.caption"
+msgid "Add"
+msgstr ""
+
+#: tfrmncdatainventory.btnmdcommit.caption
+msgctxt "tfrmncdatainventory.btnmdcommit.caption"
+msgid "Commit"
+msgstr ""
+
+#: tfrmncdatainventory.btnmddelete.caption
+msgctxt "tfrmncdatainventory.btnmddelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmncdatainventory.caption
+msgctxt "tfrmncdatainventory.caption"
+msgid "Data Inventory"
+msgstr ""
+
+#: tfrmncdatainventory.dbgrid1.columns[0].title.caption
+msgctxt "tfrmncdatainventory.dbgrid1.columns[0].title.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmncdatainventory.toolbar1.caption
+msgid "ToolBar1"
+msgstr ""
+
+#: tfrmncdatainventory.toolbar2.caption
+msgid "ToolBar2"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton4.caption
+msgctxt "tfrmncdatainventory.toolbutton4.caption"
+msgid "Add"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton5.caption
+msgctxt "tfrmncdatainventory.toolbutton5.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton6.caption
+msgctxt "tfrmncdatainventory.toolbutton6.caption"
+msgid "Commit"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton7.caption
+msgctxt "tfrmncdatainventory.toolbutton7.caption"
+msgid "ToolButton7"
+msgstr ""
+
+#: tfrmncdatainventory.toolbutton8.caption
+msgctxt "tfrmncdatainventory.toolbutton8.caption"
+msgid "ToolButton7"
+msgstr ""
+
+#: tfrmncexportfield.btnopenfolder.hint
+msgctxt "tfrmncexportfield.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmncexportfield.button1.caption
+msgctxt "tfrmncexportfield.button1.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmncexportfield.caption
+msgid "Time series in nodes"
+msgstr ""
+
+#: tfrmncexportfield.eadditionaloffset1.text
+msgctxt "tfrmncexportfield.eadditionaloffset1.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncexportfield.eadditionalscale1.text
+msgctxt "tfrmncexportfield.eadditionalscale1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncexportfield.emaxlat.text
+msgctxt "tfrmncexportfield.emaxlat.text"
+msgid "eMaxLat"
+msgstr ""
+
+#: tfrmncexportfield.emaxlon.text
+msgctxt "tfrmncexportfield.emaxlon.text"
+msgid "eMaxLon"
+msgstr ""
+
+#: tfrmncexportfield.eminlat.text
+msgctxt "tfrmncexportfield.eminlat.text"
+msgid "eMinLat"
+msgstr ""
+
+#: tfrmncexportfield.eminlon.text
+msgctxt "tfrmncexportfield.eminlon.text"
+msgid "eMinLon"
+msgstr ""
+
+#: tfrmncexportfield.groupbox1.caption
+msgctxt "tfrmncexportfield.groupbox1.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmncexportfield.groupbox2.caption
+msgctxt "tfrmncexportfield.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmncexportfield.label2.caption
+msgctxt "tfrmncexportfield.label2.caption"
+msgid "Var"
+msgstr ""
+
+#: tfrmncexportfield.label3.caption
+msgctxt "tfrmncexportfield.label3.caption"
+msgid "Additional offset"
+msgstr "Доп. сдвиг"
+
+#: tfrmncexportfield.label5.caption
+msgctxt "tfrmncexportfield.label5.caption"
+msgid "Additional scale"
+msgstr "Доп. масштаб"
+
+#: tfrmncexportfield.rgover.caption
+msgctxt "tfrmncexportfield.rgover.caption"
+msgid "Data over..."
+msgstr "Данные над..."
+
+#: tfrmncsections_nodes.btnopenfolder.hint
+msgctxt "tfrmncsections_nodes.btnopenfolder.hint"
+msgid "Open folder with results"
+msgstr ""
+
+#: tfrmncsections_nodes.btnplot.caption
+#, fuzzy
+msgctxt "tfrmncsections_nodes.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmncsections_nodes.caption
+#, fuzzy
+msgctxt "tfrmncsections_nodes.caption"
+msgid "Sections"
+msgstr "Разрезы"
+
+#: tfrmncsections_nodes.eaddoffset.text
+msgctxt "tfrmncsections_nodes.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmncsections_nodes.eaddscale.text
+msgctxt "tfrmncsections_nodes.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmncsections_nodes.gbcoords.caption
+msgctxt "tfrmncsections_nodes.gbcoords.caption"
+msgid "Direction"
+msgstr ""
+
+#: tfrmncsections_nodes.groupbox5.caption
+#, fuzzy
+msgctxt "tfrmncsections_nodes.groupbox5.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmncsections_nodes.label2.caption
+msgctxt "tfrmncsections_nodes.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncsections_nodes.label3.caption
+msgctxt "tfrmncsections_nodes.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmncsections_nodes.label4.caption
+msgctxt "tfrmncsections_nodes.label4.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmncsections_nodes.label5.caption
+msgctxt "tfrmncsections_nodes.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmncsections_nodes.rglatitudinal.caption
+msgid "Latitudinal"
+msgstr ""
+
+#: tfrmncsections_nodes.rglongitudinal.caption
+msgid "Longitudinal"
+msgstr ""
+
+#: tfrmnctld.btngetdata.caption
+#, fuzzy
+msgctxt "tfrmnctld.btngetdata.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmnctld.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmnctld.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmnctld.btnopenscript.hint
+#, fuzzy
+msgctxt "tfrmnctld.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmnctld.btnplot.caption
+msgctxt "tfrmnctld.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmnctld.btnsettings.caption
+#, fuzzy
+#| msgid "Settings"
+msgctxt "tfrmnctld.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr "Настройки"
+
+#: tfrmnctld.button2.caption
+#, fuzzy
+msgctxt "tfrmnctld.button2.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmnctld.caption
+msgctxt "tfrmnctld.caption"
+msgid "Time-level diagram"
+msgstr "Пространственно-временная диаграмма"
+
+#: tfrmnctld.cblat.text
+msgctxt "tfrmnctld.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmnctld.cblon.text
+msgctxt "tfrmnctld.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmnctld.groupbox2.caption
+msgctxt "tfrmnctld.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmnctld.groupbox4.caption
+msgctxt "tfrmnctld.groupbox4.caption"
+msgid "Additional variable conversion"
+msgstr "Доп. преобразование"
+
+#: tfrmnctld.groupbox5.caption
+#, fuzzy
+#| msgid "Month"
+msgctxt "tfrmnctld.groupbox5.caption"
+msgid "Plot parameters"
+msgstr "Месяц"
+
+#: tfrmnctld.label12.caption
+msgctxt "tfrmnctld.label12.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmnctld.label13.caption
+msgctxt "tfrmnctld.label13.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmnctld.label3.caption
+msgctxt "tfrmnctld.label3.caption"
+msgid "Offset:"
+msgstr "Сдвиг:"
+
+#: tfrmnctld.label5.caption
+msgctxt "tfrmnctld.label5.caption"
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: tfrmnctld.label7.caption
+#, fuzzy
+msgctxt "tfrmnctld.label7.caption"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmnctld.label8.caption
+#, fuzzy
+msgctxt "tfrmnctld.label8.caption"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmnctld.label9.caption
+#, fuzzy
+msgctxt "tfrmnctld.label9.caption"
+msgid "Radius, km"
+msgstr "Радиус, км"
+
+#: tfrmnctld.tabsheet1.caption
+#, fuzzy
+msgctxt "tfrmnctld.tabsheet1.caption"
+msgid "Domain"
+msgstr "Область"
+
+#: tfrmnctld.tabsheet2.caption
+#, fuzzy
+msgctxt "tfrmnctld.tabsheet2.caption"
+msgid "Around point"
+msgstr "Вокруг точки"
+
+#: tfrmnctld.tabsheet3.caption
+#, fuzzy
+msgctxt "tfrmnctld.tabsheet3.caption"
+msgid "Predefined area"
+msgstr "Предопр. область"
+
+#: tfrmnctld.tabsheet4.caption
+#, fuzzy
+msgctxt "tfrmnctld.tabsheet4.caption"
+msgid "SingleNode"
+msgstr "Отдельный узел"
+
+#: tfrmncunloadprofiles.btnopenfolder.hint
+msgctxt "tfrmncunloadprofiles.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmncunloadprofiles.btnplot.caption
+msgid "Unload"
+msgstr "Выгрузить"
+
+#: tfrmncunloadprofiles.caption
+msgid "Unload Profiles"
+msgstr "Выгрузить профили"
+
+#: tfrmncunloadprofiles.chkdensity.caption
+msgctxt "tfrmncunloadprofiles.chkdensity.caption"
+msgid "Density"
+msgstr "Плотность"
+
+#: tfrmncunloadprofiles.groupbox2.caption
+msgctxt "tfrmncunloadprofiles.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmncunloadprofiles.groupbox3.caption
+msgctxt "tfrmncunloadprofiles.groupbox3.caption"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmncunloadprofiles.groupbox4.caption
+msgctxt "tfrmncunloadprofiles.groupbox4.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmncunloadprofiles.groupbox5.caption
+msgctxt "tfrmncunloadprofiles.groupbox5.caption"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmncunloadprofiles.label1.caption
+msgid "<= Level <="
+msgstr "<=Горизонт<="
+
+#: tfrmncunloadprofiles.label7.caption
+msgctxt "tfrmncunloadprofiles.label7.caption"
+msgid "Additional scale"
+msgstr "Доп. масштаб"
+
+#: tfrmncunloadprofiles.label8.caption
+msgctxt "tfrmncunloadprofiles.label8.caption"
+msgid "Additional offset"
+msgstr "Доп. сдвиг"
+
+#: tfrmnettransport.btncalculate.caption
+#, fuzzy
+msgctxt "tfrmnettransport.btncalculate.caption"
+msgid "Calculate"
+msgstr "Расчет"
+
+#: tfrmnettransport.btnopenfolder.hint
+#, fuzzy
+#| msgid "Open data folder"
+msgctxt "tfrmnettransport.btnopenfolder.hint"
+msgid "Open folder with results"
+msgstr "Открыть папку"
+
+#: tfrmnettransport.btnyearlyaveraging.caption
+msgctxt "tfrmnettransport.btnyearlyaveraging.caption"
+msgid "Yearly averaging"
+msgstr ""
+
+#: tfrmnettransport.caption
+msgid "Net transport"
+msgstr ""
+
+#: tfrmnettransport.gbcoords.caption
+msgctxt "tfrmnettransport.gbcoords.caption"
+msgid "Coordinates"
+msgstr ""
+
+#: tfrmnettransport.groupbox1.caption
+msgctxt "tfrmnettransport.groupbox1.caption"
+msgid "Direction"
+msgstr ""
+
+#: tfrmnettransport.label2.caption
+msgctxt "tfrmnettransport.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmnettransport.lbcoord1.caption
+#, fuzzy
+msgctxt "tfrmnettransport.lbcoord1.caption"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmnettransport.lbcoord2.caption
+#, fuzzy
+msgctxt "tfrmnettransport.lbcoord2.caption"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmnettransport.rgeastward.caption
+msgctxt "tfrmnettransport.rgeastward.caption"
+msgid "Eastward"
+msgstr ""
+
+#: tfrmnettransport.rgnorthward.caption
+msgctxt "tfrmnettransport.rgnorthward.caption"
+msgid "Northward"
+msgstr ""
+
+#: tfrmsections.btngoogle.caption
+msgctxt "tfrmsections.btngoogle.caption"
+msgid "Open as KML"
+msgstr "Открыть как KML"
+
+#: tfrmsections.btnopenbln.caption
+msgctxt "tfrmsections.btnopenbln.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsections.btnopenfolder.hint
+msgctxt "tfrmsections.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmsections.btnopenscript.hint
+msgctxt "tfrmsections.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmsections.btnplot.caption
+msgctxt "tfrmsections.btnplot.caption"
+msgid "Execute"
+msgstr "Выполнить"
+
+#: tfrmsections.btnsavesection.caption
+msgctxt "tfrmsections.btnsavesection.caption"
+msgid "Save"
+msgstr "Сохранить"
+
+#: tfrmsections.btnsettings.caption
+msgctxt "tfrmsections.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr "Настройки Surfer"
+
+#: tfrmsections.caption
+msgctxt "tfrmsections.caption"
+msgid "Sections"
+msgstr "Разрезы"
+
+#: tfrmsections.chkblank.caption
+msgctxt "tfrmsections.chkblank.caption"
+msgid "Blank by data"
+msgstr "Обрезка по данным"
+
+#: tfrmsections.chkmap.caption
+msgctxt "tfrmsections.chkmap.caption"
+msgid "Plot section map"
+msgstr "Построить карту разреза"
+
+#: tfrmsections.chkplot.caption
+msgctxt "tfrmsections.chkplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmsections.chkpolar.caption
+msgctxt "tfrmsections.chkpolar.caption"
+msgid "File is in stereographic projection"
+msgstr "Файл в стереографической проекции"
+
+#: tfrmsections.eaddoffset.text
+msgctxt "tfrmsections.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsections.eaddscale.text
+msgctxt "tfrmsections.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsections.ebln.text
+msgctxt "tfrmsections.ebln.text"
+msgid "ebln"
+msgstr ""
+
+#: tfrmsections.groupbox1.caption
+msgctxt "tfrmsections.groupbox1.caption"
+msgid "Open file with section coordinates"
+msgstr ""
+
+#: tfrmsections.groupbox2.caption
+msgctxt "tfrmsections.groupbox2.caption"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmsections.groupbox3.caption
+msgctxt "tfrmsections.groupbox3.caption"
+msgid "Projection"
+msgstr "Проекция"
+
+#: tfrmsections.groupbox4.caption
+msgctxt "tfrmsections.groupbox4.caption"
+msgid "Plot parameters"
+msgstr "Параметры"
+
+#: tfrmsections.groupbox5.caption
+msgctxt "tfrmsections.groupbox5.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmsections.groupbox7.caption
+msgctxt "tfrmsections.groupbox7.caption"
+msgid "Create *.bln"
+msgstr ""
+
+#: tfrmsections.label1.caption
+msgctxt "tfrmsections.label1.caption"
+msgid "Point1"
+msgstr ""
+
+#: tfrmsections.label2.caption
+msgctxt "tfrmsections.label2.caption"
+msgid "Lat"
+msgstr ""
+
+#: tfrmsections.label3.caption
+msgctxt "tfrmsections.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmsections.label4.caption
+msgctxt "tfrmsections.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmsections.label5.caption
+msgctxt "tfrmsections.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmsections.label6.caption
+msgctxt "tfrmsections.label6.caption"
+msgid "Lon"
+msgstr ""
+
+#: tfrmsections.label7.caption
+msgctxt "tfrmsections.label7.caption"
+msgid "Point2"
+msgstr ""
+
+#: tfrmsections.label8.caption
+msgctxt "tfrmsections.label8.caption"
+msgid "Points between"
+msgstr ""
+
+#: tfrmsections.label9.caption
+msgctxt "tfrmsections.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmsections.rbmercator.caption
+msgctxt "tfrmsections.rbmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmsections.rbpolarantarctic.caption
+msgctxt "tfrmsections.rbpolarantarctic.caption"
+msgid "Polar Antarctic"
+msgstr ""
+
+#: tfrmsections.rbpolararctic.caption
+msgctxt "tfrmsections.rbpolararctic.caption"
+msgid "Polar Arctic"
+msgstr ""
+
+#: tfrmsections.rgautomation.caption
+msgctxt "tfrmsections.rgautomation.caption"
+msgid "Options"
+msgstr "Настройки"
+
+#: tfrmsections.tabsheet1.caption
+msgctxt "tfrmsections.tabsheet1.caption"
+msgid "Options"
+msgstr "Настройки"
+
+#: tfrmsections.tabsheet2.caption
+msgctxt "tfrmsections.tabsheet2.caption"
+msgid "Automation: OFF"
+msgstr "Автоматизация: ВЫКЛ."
+
+#: tfrmsections.tabsheet3.caption
+msgctxt "tfrmsections.tabsheet3.caption"
+msgid "Create file with section"
+msgstr "Создать файл с координатами разреза"
+
+#: tfrmsections_new.btngoogle.caption
+msgctxt "tfrmsections_new.btngoogle.caption"
+msgid "Open as KML"
+msgstr "Открыть как KML"
+
+#: tfrmsections_new.btnopenbln.caption
+#, fuzzy
+msgctxt "tfrmsections_new.btnopenbln.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsections_new.btnopenfolder.hint
+msgctxt "tfrmsections_new.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmsections_new.btnopenscript.hint
+msgctxt "tfrmsections_new.btnopenscript.hint"
+msgid "Open script"
+msgstr "Открыть скрипт"
+
+#: tfrmsections_new.btnplot.caption
+msgctxt "tfrmsections_new.btnplot.caption"
+msgid "Execute"
+msgstr "Выполнить"
+
+#: tfrmsections_new.btnsavesection.caption
+msgctxt "tfrmsections_new.btnsavesection.caption"
+msgid "Save"
+msgstr "Сохранить"
+
+#: tfrmsections_new.btnsettings.caption
+msgctxt "tfrmsections_new.btnsettings.caption"
+msgid "Surfer Settings"
+msgstr "Настройки Surfer"
+
+#: tfrmsections_new.caption
+#, fuzzy
+#| msgid "Sections"
+msgctxt "tfrmsections_new.caption"
+msgid "Sections NEW"
+msgstr "Разрезы"
+
+#: tfrmsections_new.chkblank.caption
+msgctxt "tfrmsections_new.chkblank.caption"
+msgid "Blank by data"
+msgstr "Обрезка по данным"
+
+#: tfrmsections_new.chkmap.caption
+msgctxt "tfrmsections_new.chkmap.caption"
+msgid "Plot section map"
+msgstr "Построить карту разреза"
+
+#: tfrmsections_new.chkplot.caption
+msgctxt "tfrmsections_new.chkplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmsections_new.chkpolar.caption
+msgctxt "tfrmsections_new.chkpolar.caption"
+msgid "File is in stereographic projection"
+msgstr "Файл в стереографической проекции"
+
+#: tfrmsections_new.eaddoffset.text
+msgctxt "tfrmsections_new.eaddoffset.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsections_new.eaddscale.text
+msgctxt "tfrmsections_new.eaddscale.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsections_new.ebln.text
+msgctxt "tfrmsections_new.ebln.text"
+msgid "ebln"
+msgstr ""
+
+#: tfrmsections_new.groupbox1.caption
+msgctxt "tfrmsections_new.groupbox1.caption"
+msgid "Open file with section coordinates"
+msgstr ""
+
+#: tfrmsections_new.groupbox2.caption
+msgctxt "tfrmsections_new.groupbox2.caption"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmsections_new.groupbox3.caption
+msgctxt "tfrmsections_new.groupbox3.caption"
+msgid "Projection"
+msgstr "Проекция"
+
+#: tfrmsections_new.groupbox4.caption
+#, fuzzy
+msgctxt "tfrmsections_new.groupbox4.caption"
+msgid "Plot parameters"
+msgstr "Параметры"
+
+#: tfrmsections_new.groupbox5.caption
+msgctxt "tfrmsections_new.groupbox5.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmsections_new.groupbox7.caption
+msgctxt "tfrmsections_new.groupbox7.caption"
+msgid "Create *.bln"
+msgstr ""
+
+#: tfrmsections_new.label1.caption
+msgctxt "tfrmsections_new.label1.caption"
+msgid "Point1"
+msgstr ""
+
+#: tfrmsections_new.label2.caption
+msgctxt "tfrmsections_new.label2.caption"
+msgid "Lat"
+msgstr ""
+
+#: tfrmsections_new.label3.caption
+msgctxt "tfrmsections_new.label3.caption"
+msgid "Add offset"
+msgstr ""
+
+#: tfrmsections_new.label4.caption
+msgctxt "tfrmsections_new.label4.caption"
+msgid "lvl"
+msgstr ""
+
+#: tfrmsections_new.label5.caption
+msgctxt "tfrmsections_new.label5.caption"
+msgid "Add. scale"
+msgstr ""
+
+#: tfrmsections_new.label6.caption
+msgctxt "tfrmsections_new.label6.caption"
+msgid "Lon"
+msgstr ""
+
+#: tfrmsections_new.label7.caption
+msgctxt "tfrmsections_new.label7.caption"
+msgid "Point2"
+msgstr ""
+
+#: tfrmsections_new.label8.caption
+msgctxt "tfrmsections_new.label8.caption"
+msgid "Points between"
+msgstr ""
+
+#: tfrmsections_new.label9.caption
+msgctxt "tfrmsections_new.label9.caption"
+msgid "clr"
+msgstr ""
+
+#: tfrmsections_new.rbmercator.caption
+msgctxt "tfrmsections_new.rbmercator.caption"
+msgid "Mercator"
+msgstr ""
+
+#: tfrmsections_new.rbpolarantarctic.caption
+msgctxt "tfrmsections_new.rbpolarantarctic.caption"
+msgid "Polar Antarctic"
+msgstr ""
+
+#: tfrmsections_new.rbpolararctic.caption
+msgctxt "tfrmsections_new.rbpolararctic.caption"
+msgid "Polar Arctic"
+msgstr ""
+
+#: tfrmsections_new.rgautomation.caption
+msgctxt "tfrmsections_new.rgautomation.caption"
+msgid "Options"
+msgstr "Опции"
+
+#: tfrmsections_new.tabsheet1.caption
+msgctxt "tfrmsections_new.tabsheet1.caption"
+msgid "Options"
+msgstr "Опции"
+
+#: tfrmsections_new.tabsheet2.caption
+msgctxt "tfrmsections_new.tabsheet2.caption"
+msgid "Automation: OFF"
+msgstr "Автоматизация: выкл."
+
+#: tfrmsections_new.tabsheet3.caption
+msgctxt "tfrmsections_new.tabsheet3.caption"
+msgid "Create file with section"
+msgstr "Создать файл с координатами разреза"
+
+#: tfrmsettings.btngrapherpath.caption
+msgctxt "tfrmsettings.btngrapherpath.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsettings.btninstallmissing.caption
+msgid "Install missing modules"
+msgstr "Установить модули"
+
+#: tfrmsettings.btninstallmissing.hint
+msgctxt "tfrmsettings.btninstallmissing.hint"
+msgid "Install required packages"
+msgstr "Установить требуемые пакеты"
+
+#: tfrmsettings.btnok.caption
+msgid "Ok"
+msgstr ""
+
+#: tfrmsettings.btnpythonpath.caption
+#, fuzzy
+msgctxt "tfrmsettings.btnpythonpath.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsettings.btnshowinstalled.caption
+msgid "Show installed modules"
+msgstr "Показать установленные модули"
+
+#: tfrmsettings.btnsupportpath.caption
+#, fuzzy
+msgctxt "tfrmsettings.btnsupportpath.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsettings.btnsurferpath.caption
+#, fuzzy
+msgctxt "tfrmsettings.btnsurferpath.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsettings.btnunloadpath.caption
+#, fuzzy
+msgctxt "tfrmsettings.btnunloadpath.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmsettings.caption
+msgctxt "tfrmsettings.caption"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tfrmsettings.chkrelerr.caption
+msgid "Do not use values with Relative Error >"
+msgstr "Не использовать значения с относ. ошибкой"
+
+#: tfrmsettings.groupbox1.caption
+msgid "Surfer's scripter"
+msgstr "Скриптер Surfer"
+
+#: tfrmsettings.groupbox2.caption
+msgid "Grapher's scripter"
+msgstr "Скриптер Grapher"
+
+#: tfrmsettings.groupbox3.caption
+msgctxt "tfrmsettings.groupbox3.caption"
+msgid "Python path"
+msgstr "Путь к интерпретатору Python"
+
+#: tfrmsettings.groupbox4.caption
+msgctxt "tfrmsettings.groupbox4.caption"
+msgid "KML"
+msgstr ""
+
+#: tfrmsettings.groupbox5.caption
+msgctxt "tfrmsettings.groupbox5.caption"
+msgid "Log"
+msgstr ""
+
+#: tfrmsettings.groupbox6.caption
+msgid "Support files"
+msgstr "Дополнительные файлы программы"
+
+#: tfrmsettings.groupbox7.caption
+msgid "Output directory"
+msgstr "Папка с результатами расчетов"
+
+#: tfrmsettings.label1.caption
+msgid "KML support:"
+msgstr "Поддержка KML:"
+
+#: tfrmsettings.lbkml.caption
+msgid "lbKML"
+msgstr ""
+
+#: tfrmsettings.rgbathymetry.caption
+msgctxt "tfrmsettings.rgbathymetry.caption"
+msgid "Topography and Bathymetry"
+msgstr ""
+
+#: tfrmsettings.rglanguage.caption
+msgid "Language"
+msgstr "Язык"
+
+#: tfrmsettings.tabsheet1.caption
+msgctxt "tfrmsettings.tabsheet1.caption"
+msgid "General"
+msgstr "Общие"
+
+#: tfrmsettings.tabsheet2.caption
+msgctxt "tfrmsettings.tabsheet2.caption"
+msgid "Bathymetry"
+msgstr "Батиметрия"
+
+#: tfrmsettings.tabsheet3.caption
+msgctxt "tfrmsettings.tabsheet3.caption"
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: tfrmsettings.tabsheet4.caption
+msgctxt "tfrmsettings.tabsheet4.caption"
+msgid "Python"
+msgstr "Путь к интерпретатору Python"
+
+#: tfrmsettings.tsclimatology.caption
+msgctxt "tfrmsettings.tsclimatology.caption"
+msgid "Climatology"
+msgstr "Климатология"
+
+#: tfrmshfwchc.btnopensal.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.btnopensal.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmshfwchc.btnopensaln.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.btnopensaln.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmshfwchc.btnopentempn.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.btnopentempn.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmshfwchc.btnstart.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.btnstart.caption"
+msgid "Start"
+msgstr "Начать"
+
+#: tfrmshfwchc.caption
+msgid "Steric Height, Heat Content & Fresh Water Content"
+msgstr ""
+
+#: tfrmshfwchc.cbbotlimit.text
+msgid "1000"
+msgstr ""
+
+#: tfrmshfwchc.cbtoplimit.text
+msgctxt "tfrmshfwchc.cbtoplimit.text"
+msgid "0"
+msgstr ""
+
+#: tfrmshfwchc.esaln.text
+msgid "eSalN"
+msgstr ""
+
+#: tfrmshfwchc.esref.text
+msgid "36"
+msgstr ""
+
+#: tfrmshfwchc.etempn.text
+msgid "eTempN"
+msgstr ""
+
+#: tfrmshfwchc.etref.text
+msgctxt "tfrmshfwchc.etref.text"
+msgid "0"
+msgstr ""
+
+#: tfrmshfwchc.groupbox1.caption
+msgid "Initial files"
+msgstr ""
+
+#: tfrmshfwchc.groupbox2.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.groupbox2.caption"
+msgid "Layer"
+msgstr "Слой"
+
+#: tfrmshfwchc.groupbox3.caption
+msgid "Reference values"
+msgstr ""
+
+#: tfrmshfwchc.groupbox4.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.groupbox4.caption"
+msgid "Date"
+msgstr "Дата"
+
+#: tfrmshfwchc.groupbox5.caption
+msgctxt "tfrmshfwchc.groupbox5.caption"
+msgid "Norma"
+msgstr ""
+
+#: tfrmshfwchc.label1.caption
+msgid "S ref, psu"
+msgstr ""
+
+#: tfrmshfwchc.label2.caption
+msgid "T ref, C"
+msgstr ""
+
+#: tfrmshfwchc.label3.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.label3.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmshfwchc.label4.caption
+msgctxt "tfrmshfwchc.label4.caption"
+msgid "Bottom limit, m"
+msgstr ""
+
+#: tfrmshfwchc.label5.caption
+msgctxt "tfrmshfwchc.label5.caption"
+msgid "Top limit, m"
+msgstr ""
+
+#: tfrmshfwchc.label6.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.label6.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmshfwchc.label7.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.label7.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmshfwchc.label8.caption
+#, fuzzy
+msgctxt "tfrmshfwchc.label8.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmshfwchc.label9.caption
+msgid "File has to open via File-> open file"
+msgstr ""
+
+#: tfrmsplitdataset.btninfo.hint
+#, fuzzy
+msgctxt "tfrmsplitdataset.btninfo.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmsplitdataset.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmsplitdataset.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmsplitdataset.btnsplit.caption
+msgctxt "tfrmsplitdataset.btnsplit.caption"
+msgid "Split"
+msgstr ""
+
+#: tfrmsplitdataset.caption
+msgctxt "tfrmsplitdataset.caption"
+msgid "Split dataset"
+msgstr ""
+
+#: tfrmsplitdataset.rgsplit.caption
+#, fuzzy
+msgctxt "tfrmsplitdataset.rgsplit.caption"
+msgid "Options"
+msgstr "Опции"
+
+#: tfrmsurfersettings.btncancel.caption
+msgctxt "tfrmsurfersettings.btncancel.caption"
+msgid "Cancel"
+msgstr "Отменить"
+
+#: tfrmsurfersettings.btnsave.caption
+msgctxt "tfrmsurfersettings.btnsave.caption"
+msgid "Save"
+msgstr "Сохранить"
+
+#: tfrmsurfersettings.caption
+msgid "Surfer settings"
+msgstr "Настройки Surfer"
+
+#: tfrmsurfersettings.chksearch.caption
+msgid "Enable Search (use all of the data)"
+msgstr ""
+
+#: tfrmsurfersettings.chkshowcolourscale.caption
+msgid "Show colour scale"
+msgstr ""
+
+#: tfrmsurfersettings.eanisratio.text
+msgctxt "tfrmsurfersettings.eanisratio.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.ecurvetol.text
+msgid "1.5"
+msgstr ""
+
+#: tfrmsurfersettings.el2edist.text
+msgctxt "tfrmsurfersettings.el2edist.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.el2ldist.text
+msgctxt "tfrmsurfersettings.el2ldist.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.emcboundtens.text
+msgctxt "tfrmsurfersettings.emcboundtens.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsurfersettings.emcmaxres.text
+msgid "9E-2"
+msgstr ""
+
+#: tfrmsurfersettings.emcrelfact.text
+msgctxt "tfrmsurfersettings.emcrelfact.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.emcreltens.text
+msgctxt "tfrmsurfersettings.emcreltens.text"
+msgid "0"
+msgstr ""
+
+#: tfrmsurfersettings.emissingval.text
+msgid "-9999"
+msgstr ""
+
+#: tfrmsurfersettings.esearchellipserad1.text
+msgctxt "tfrmsurfersettings.esearchellipserad1.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.esearchellipserad2.text
+msgctxt "tfrmsurfersettings.esearchellipserad2.text"
+msgid "1"
+msgstr ""
+
+#: tfrmsurfersettings.gbanisotropy.caption
+msgid "Anisotropy"
+msgstr ""
+
+#: tfrmsurfersettings.gbinversedist.caption
+msgid "Inverse distance"
+msgstr ""
+
+#: tfrmsurfersettings.gbkriging.caption
+msgid "Kriging"
+msgstr ""
+
+#: tfrmsurfersettings.gbsearch.caption
+msgid "Search"
+msgstr ""
+
+#: tfrmsurfersettings.gbsearchellipse.caption
+msgid "Search Ellipse"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox1.caption
+msgid "Grid processing"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox2.caption
+msgid "Label tolerance"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox3.caption
+msgid "Affected levels"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox4.caption
+msgid "Colour scale"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox5.caption
+msgid "Method"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox6.caption
+msgid "Axes interval, degrees"
+msgstr ""
+
+#: tfrmsurfersettings.groupbox7.caption
+msgid "Plot size, cm"
+msgstr ""
+
+#: tfrmsurfersettings.label1.caption
+msgid "Missing value"
+msgstr ""
+
+#: tfrmsurfersettings.label10.caption
+msgctxt "tfrmsurfersettings.label10.caption"
+msgid "Angle"
+msgstr ""
+
+#: tfrmsurfersettings.label11.caption
+msgid "Maxium number of data to use from EACH sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label12.caption
+msgid "Minimum number of data in all sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label13.caption
+msgid "Blank node if more then this many sectors are empty"
+msgstr ""
+
+#: tfrmsurfersettings.label14.caption
+msgid "Ratio"
+msgstr ""
+
+#: tfrmsurfersettings.label15.caption
+msgid "Maximum number of data to use from ALL sectors"
+msgstr ""
+
+#: tfrmsurfersettings.label16.caption
+msgctxt "tfrmsurfersettings.label16.caption"
+msgid "Angle"
+msgstr ""
+
+#: tfrmsurfersettings.label17.caption
+msgid "Power"
+msgstr ""
+
+#: tfrmsurfersettings.label18.caption
+msgctxt "tfrmsurfersettings.label18.caption"
+msgid "Smoothing"
+msgstr ""
+
+#: tfrmsurfersettings.label19.caption
+msgid "First"
+msgstr ""
+
+#: tfrmsurfersettings.label2.caption
+msgctxt "tfrmsurfersettings.label2.caption"
+msgid "Smoothing"
+msgstr ""
+
+#: tfrmsurfersettings.label20.caption
+msgid "Set"
+msgstr ""
+
+#: tfrmsurfersettings.label21.caption
+msgctxt "tfrmsurfersettings.label21.caption"
+msgid "Skip"
+msgstr ""
+
+#: tfrmsurfersettings.label22.caption
+msgid "Label frequency"
+msgstr ""
+
+#: tfrmsurfersettings.label23.caption
+msgid "X axis"
+msgstr ""
+
+#: tfrmsurfersettings.label24.caption
+msgctxt "tfrmsurfersettings.label24.caption"
+msgid "Type"
+msgstr ""
+
+#: tfrmsurfersettings.label25.caption
+msgid "Drift"
+msgstr ""
+
+#: tfrmsurfersettings.label26.caption
+msgid "Maximum iteration"
+msgstr ""
+
+#: tfrmsurfersettings.label27.caption
+msgid "Maximum residual"
+msgstr ""
+
+#: tfrmsurfersettings.label28.caption
+msgid "Relaxation factor"
+msgstr ""
+
+#: tfrmsurfersettings.label29.caption
+msgid "Internal tension"
+msgstr ""
+
+#: tfrmsurfersettings.label3.caption
+msgid "Curve tolerance"
+msgstr ""
+
+#: tfrmsurfersettings.label30.caption
+msgid "Boundary tension"
+msgstr ""
+
+#: tfrmsurfersettings.label31.caption
+msgid "Y axis"
+msgstr ""
+
+#: tfrmsurfersettings.label32.caption
+msgid "Width"
+msgstr ""
+
+#: tfrmsurfersettings.label33.caption
+msgid "Height"
+msgstr ""
+
+#: tfrmsurfersettings.label5.caption
+msgid "Label to label distance"
+msgstr ""
+
+#: tfrmsurfersettings.label6.caption
+msgid "Label to edge distance"
+msgstr ""
+
+#: tfrmsurfersettings.label7.caption
+msgid "Radius 1"
+msgstr ""
+
+#: tfrmsurfersettings.label8.caption
+msgid "Radius 2"
+msgstr ""
+
+#: tfrmsurfersettings.label9.caption
+msgid "Number of  sectors to search"
+msgstr ""
+
+#: tfrmsurfersettings.rgmincurvature.caption
+msgid "Minimum curvature"
+msgstr ""
+
+#: tfrmsurfersettings.rgorientation.caption
+msgid "Colour scale orientation"
+msgstr ""
+
+#: tfrmsurfersettings.tabsheet1.caption
+#, fuzzy
+msgctxt "tfrmsurfersettings.tabsheet1.caption"
+msgid "General"
+msgstr "Общие"
+
+#: tfrmsurfersettings.tabsheet2.caption
+#, fuzzy
+msgctxt "tfrmsurfersettings.tabsheet2.caption"
+msgid "Interpolation"
+msgstr "Интерполяция"
+
+#: tfrmtimeseries.btnanomalies.caption
+msgctxt "tfrmtimeseries.btnanomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmtimeseries.btnexportasmatrix.caption
+msgid "Export as matrix (year->12 months -> avg)"
+msgstr "Выгрузить как матрицу (год-> 12 месяцев-> среднее)"
+
+#: tfrmtimeseries.btnopenfolder.hint
+msgctxt "tfrmtimeseries.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmtimeseries.btnplot.caption
+#, fuzzy
+#| msgid "Get data"
+msgctxt "tfrmtimeseries.btnplot.caption"
+msgid "Plot"
+msgstr "Получить данные"
+
+#: tfrmtimeseries.btnseasonalcircleremoval.caption
+msgid "Remove Seasonal Circle"
+msgstr "Удалить сезонный цикл"
+
+#: tfrmtimeseries.button1.caption
+msgid "Monthly averaging"
+msgstr "Месячное осреднение"
+
+#: tfrmtimeseries.button2.caption
+#, fuzzy
+#| msgid "Norma"
+msgctxt "tfrmtimeseries.button2.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmtimeseries.button3.caption
+msgctxt "tfrmtimeseries.button3.caption"
+msgid "All files, selected date, levels from the list"
+msgstr "Все файлы, выбранная дата, горизонты из списка"
+
+#: tfrmtimeseries.button4.caption
+msgid "Combine timeseries"
+msgstr "Объединить серии"
+
+#: tfrmtimeseries.caption
+#, fuzzy
+#| msgid "Time series"
+msgctxt "tfrmtimeseries.caption"
+msgid "Time series"
+msgstr "Временные серии для области"
+
+#: tfrmtimeseries.cblat.text
+msgctxt "tfrmtimeseries.cblat.text"
+msgid "lat..."
+msgstr ""
+
+#: tfrmtimeseries.cblon.text
+msgctxt "tfrmtimeseries.cblon.text"
+msgid "lon..."
+msgstr ""
+
+#: tfrmtimeseries.epointlat.text
+msgctxt "tfrmtimeseries.epointlat.text"
+msgid "0"
+msgstr ""
+
+#: tfrmtimeseries.epointlon.text
+msgctxt "tfrmtimeseries.epointlon.text"
+msgid "0"
+msgstr ""
+
+#: tfrmtimeseries.epointrad.text
+msgctxt "tfrmtimeseries.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmtimeseries.gbaddconv.caption
+msgctxt "tfrmtimeseries.gbaddconv.caption"
+msgid "Additional variable conversion"
+msgstr "Доп. преобразование"
+
+#: tfrmtimeseries.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmtimeseries.groupbox1.caption"
+msgid "Level"
+msgstr "Горизонт"
+
+#: tfrmtimeseries.groupbox2.caption
+#, fuzzy
+#| msgid "Variable and level"
+msgctxt "tfrmtimeseries.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная и горизонт"
+
+#: tfrmtimeseries.label1.caption
+msgctxt "tfrmtimeseries.label1.caption"
+msgid "Months:"
+msgstr "Месяцы:"
+
+#: tfrmtimeseries.label10.caption
+msgctxt "tfrmtimeseries.label10.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label11.caption
+msgid "Precision"
+msgstr "Точность"
+
+#: tfrmtimeseries.label2.caption
+msgctxt "tfrmtimeseries.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label3.caption
+msgctxt "tfrmtimeseries.label3.caption"
+msgid "Offset:"
+msgstr "Сдвиг:"
+
+#: tfrmtimeseries.label4.caption
+msgctxt "tfrmtimeseries.label4.caption"
+msgid "Years:"
+msgstr "Годы:"
+
+#: tfrmtimeseries.label5.caption
+msgctxt "tfrmtimeseries.label5.caption"
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: tfrmtimeseries.label6.caption
+msgctxt "tfrmtimeseries.label6.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeseries.label7.caption
+msgctxt "tfrmtimeseries.label7.caption"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmtimeseries.label8.caption
+msgctxt "tfrmtimeseries.label8.caption"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmtimeseries.label9.caption
+msgctxt "tfrmtimeseries.label9.caption"
+msgid "Radius, km"
+msgstr "Радиус, км"
+
+#: tfrmtimeseries.rgover.caption
+msgctxt "tfrmtimeseries.rgover.caption"
+msgid "Data over..."
+msgstr "Данные над..."
+
+#: tfrmtimeseries.tabsheet1.caption
+msgctxt "tfrmtimeseries.tabsheet1.caption"
+msgid "Domain"
+msgstr "Область"
+
+#: tfrmtimeseries.tabsheet10.caption
+msgctxt "tfrmtimeseries.tabsheet10.caption"
+msgid "Automation"
+msgstr "Автоматизация"
+
+#: tfrmtimeseries.tabsheet11.caption
+msgid "Post processing"
+msgstr "Постобработка"
+
+#: tfrmtimeseries.tabsheet2.caption
+msgctxt "tfrmtimeseries.tabsheet2.caption"
+msgid "Around point"
+msgstr "Вокруг точки"
+
+#: tfrmtimeseries.tabsheet3.caption
+msgctxt "tfrmtimeseries.tabsheet3.caption"
+msgid "Predefined area"
+msgstr "Предопр. область"
+
+#: tfrmtimeseries.tabsheet4.caption
+#, fuzzy
+#| msgid "SingleNode"
+msgctxt "tfrmtimeseries.tabsheet4.caption"
+msgid "Node"
+msgstr "Отдельный узел"
+
+#: tfrmtimeseries.tabsheet5.caption
+msgctxt "tfrmtimeseries.tabsheet5.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmtimeseries.tabsheet6.caption
+msgid "Seas. circle"
+msgstr "Сезонн. цикл"
+
+#: tfrmtimeseries.tabsheet7.caption
+msgctxt "tfrmtimeseries.tabsheet7.caption"
+msgid "Averaging"
+msgstr "Осреднение"
+
+#: tfrmtimeseries.tabsheet8.caption
+msgid "Matrix"
+msgstr "Матрица"
+
+#: tfrmtimeseries.tabsheet9.caption
+#, fuzzy
+#| msgid "Data"
+msgctxt "tfrmtimeseries.tabsheet9.caption"
+msgid "Time Series"
+msgstr "Данные"
+
+#: tfrmtimeserieslayers.btnanomalies.caption
+msgctxt "tfrmtimeserieslayers.btnanomalies.caption"
+msgid "Anomalies"
+msgstr "Аномалии"
+
+#: tfrmtimeserieslayers.btngettimeseries.caption
+msgctxt "tfrmtimeserieslayers.btngettimeseries.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmtimeserieslayers.btnopenfolder.hint
+msgctxt "tfrmtimeserieslayers.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmtimeserieslayers.caption
+msgid "TS in layers"
+msgstr ""
+
+#: tfrmtimeserieslayers.cblevel1.text
+msgctxt "tfrmtimeserieslayers.cblevel1.text"
+msgid "Level 1..."
+msgstr ""
+
+#: tfrmtimeserieslayers.cblevel2.text
+msgctxt "tfrmtimeserieslayers.cblevel2.text"
+msgid "Level 2..."
+msgstr ""
+
+#: tfrmtimeserieslayers.cbvariable.text
+msgctxt "tfrmtimeserieslayers.cbvariable.text"
+msgid "Select variable..."
+msgstr "Выберите переменную..."
+
+#: tfrmtimeserieslayers.edit1.text
+msgctxt "tfrmtimeserieslayers.edit1.text"
+msgid "eLatMax"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit2.text
+msgctxt "tfrmtimeserieslayers.edit2.text"
+msgid "eLatMin"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit3.text
+msgctxt "tfrmtimeserieslayers.edit3.text"
+msgid "eLonMin"
+msgstr ""
+
+#: tfrmtimeserieslayers.edit4.text
+msgctxt "tfrmtimeserieslayers.edit4.text"
+msgid "eLonMax"
+msgstr ""
+
+#: tfrmtimeserieslayers.eerr.text
+msgctxt "tfrmtimeserieslayers.eerr.text"
+msgid "0.25"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointlat.text
+msgctxt "tfrmtimeserieslayers.epointlat.text"
+msgid "66"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointlon.text
+msgctxt "tfrmtimeserieslayers.epointlon.text"
+msgid "2"
+msgstr ""
+
+#: tfrmtimeserieslayers.epointrad.text
+msgctxt "tfrmtimeserieslayers.epointrad.text"
+msgid "100"
+msgstr ""
+
+#: tfrmtimeserieslayers.gbaveraging.caption
+msgctxt "tfrmtimeserieslayers.gbaveraging.caption"
+msgid "Averaging"
+msgstr "Осреднение"
+
+#: tfrmtimeserieslayers.groupbox1.caption
+msgctxt "tfrmtimeserieslayers.groupbox1.caption"
+msgid "Layer"
+msgstr "Слой"
+
+#: tfrmtimeserieslayers.groupbox2.caption
+msgctxt "tfrmtimeserieslayers.groupbox2.caption"
+msgid "Variable"
+msgstr "Переменная"
+
+#: tfrmtimeserieslayers.label1.caption
+msgctxt "tfrmtimeserieslayers.label1.caption"
+msgid "Months:"
+msgstr "Месяцы:"
+
+#: tfrmtimeserieslayers.label2.caption
+msgctxt "tfrmtimeserieslayers.label2.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label3.caption
+msgctxt "tfrmtimeserieslayers.label3.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label4.caption
+msgctxt "tfrmtimeserieslayers.label4.caption"
+msgid "Years:"
+msgstr "Годы:"
+
+#: tfrmtimeserieslayers.label5.caption
+msgid "Rel. Err."
+msgstr "Отн. ош."
+
+#: tfrmtimeserieslayers.label6.caption
+msgctxt "tfrmtimeserieslayers.label6.caption"
+msgid "->"
+msgstr ""
+
+#: tfrmtimeserieslayers.label7.caption
+msgctxt "tfrmtimeserieslayers.label7.caption"
+msgid "Latitude"
+msgstr "Широта"
+
+#: tfrmtimeserieslayers.label8.caption
+msgctxt "tfrmtimeserieslayers.label8.caption"
+msgid "Longitude"
+msgstr "Долгота"
+
+#: tfrmtimeserieslayers.label9.caption
+msgctxt "tfrmtimeserieslayers.label9.caption"
+msgid "Radius, km"
+msgstr "Радиус, км"
+
+#: tfrmtimeserieslayers.rbdomain.caption
+msgctxt "tfrmtimeserieslayers.rbdomain.caption"
+msgid "Domain"
+msgstr "Область"
+
+#: tfrmtimeserieslayers.rbradius.caption
+msgid "Area around fixed point"
+msgstr "Область вокруг точки"
+
+#: tfrmtoolst_0.btnpreparefwc.caption
+msgid "Prepare FWC"
+msgstr ""
+
+#: tfrmtoolst_0.btnprepartt_0.caption
+msgid "Prepare T_0"
+msgstr ""
+
+#: tfrmtoolst_0.btnt_0_norma.caption
+msgid "T_0 norma"
+msgstr ""
+
+#: tfrmtoolst_0.button1.caption
+msgid "FWC norma"
+msgstr ""
+
+#: tfrmtoolst_0.button2.caption
+msgid "Prepare T_0 Andrey"
+msgstr ""
+
+#: tfrmtoolst_0.button3.caption
+msgid "Prepare FWC Andrey"
+msgstr ""
+
+#: tfrmtoolst_0.caption
+msgid "frmtoolsT_0"
+msgstr ""
+
+#: tfrmtopography3d.btnplot.caption
+#, fuzzy
+msgctxt "tfrmtopography3d.btnplot.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmtopography3d.caption
+msgid "3D topography"
+msgstr ""
+
+#: tfrmtopography3d.checkbox1.caption
+msgid "Over the sea only"
+msgstr ""
+
+#: tfrmtopography3d.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmtopography3d.groupbox1.caption"
+msgid "Region"
+msgstr "Регион"
+
+#: tfrmtopography3d.label1.caption
+msgctxt "tfrmtopography3d.label1.caption"
+msgid "Skip"
+msgstr ""
+
+#: tfrmtsdiagram.btngetdata.caption
+msgctxt "tfrmtsdiagram.btngetdata.caption"
+msgid "Get data"
+msgstr "Получить данные"
+
+#: tfrmtsdiagram.btnopenbln.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.btnopenbln.caption"
+msgid "..."
+msgstr "Норма"
+
+#: tfrmtsdiagram.btnopenfolder.hint
+#, fuzzy
+msgctxt "tfrmtsdiagram.btnopenfolder.hint"
+msgid "Open data folder"
+msgstr "Открыть папку"
+
+#: tfrmtsdiagram.btnplotpython.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.btnplotpython.caption"
+msgid "Plot"
+msgstr "Построить"
+
+#: tfrmtsdiagram.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.caption"
+msgid "TS-Diagram"
+msgstr "TS-диаграмма"
+
+#: tfrmtsdiagram.groupbox1.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.groupbox1.caption"
+msgid "Parameters"
+msgstr "Параметры"
+
+#: tfrmtsdiagram.groupbox2.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.groupbox2.caption"
+msgid "Select file with section coordinates"
+msgstr "Пожалуйста, выберите файл с координатами разреза"
+
+#: tfrmtsdiagram.label1.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.label1.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmtsdiagram.label2.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.label2.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmtsdiagram.label3.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.label3.caption"
+msgid "Temperature"
+msgstr "Температура"
+
+#: tfrmtsdiagram.label4.caption
+#, fuzzy
+msgctxt "tfrmtsdiagram.label4.caption"
+msgid "Salinity"
+msgstr "Соленость"
+
+#: tfrmtsdiagram.label5.caption
+msgid "Min"
+msgstr ""
+
+#: tfrmtsdiagram.label6.caption
+msgid "Max"
+msgstr ""
+
+#: tfrmtsdiagram.label7.caption
+msgid "Density isolines amount"
+msgstr ""
+
+#: tfrmtsdiagram.limits.caption
+msgid "Limits"
+msgstr ""
+

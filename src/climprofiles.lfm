@@ -1,0 +1,352 @@
+object frmclimprofiles: Tfrmclimprofiles
+  Left = 369
+  Height = 500
+  Top = 196
+  Width = 850
+  Caption = 'Profiles'
+  ClientHeight = 500
+  ClientWidth = 850
+  Constraints.MinHeight = 500
+  Constraints.MinWidth = 850
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '1.8.4.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 500
+    Top = 0
+    Width = 850
+    ActivePage = TabSheet5
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    OnChange = PageControl1Change
+    object TabSheet5: TTabSheet
+      Caption = 'Data'
+      ClientHeight = 472
+      ClientWidth = 842
+      object Panel1: TPanel
+        Left = 348
+        Height = 472
+        Top = 0
+        Width = 494
+        Align = alRight
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        BevelOuter = bvNone
+        Caption = 'Panel1'
+        ClientHeight = 472
+        ClientWidth = 494
+        TabOrder = 0
+        object Memo1: TMemo
+          Left = 251
+          Height = 472
+          Top = 0
+          Width = 243
+          Align = alRight
+          ScrollBars = ssAutoVertical
+          TabOrder = 0
+        end
+        object Chart1: TChart
+          Left = 0
+          Height = 472
+          Top = 0
+          Width = 246
+          AxisList = <          
+            item
+              Marks.LabelBrush.Style = bsClear
+              Minors = <>
+              Title.LabelFont.Orientation = 900
+              Title.LabelBrush.Style = bsClear
+            end          
+            item
+              Alignment = calBottom
+              Marks.LabelBrush.Style = bsClear
+              Minors = <>
+              Title.LabelBrush.Style = bsClear
+            end>
+          Foot.Brush.Color = clBtnFace
+          Foot.Font.Color = clBlue
+          Title.Brush.Color = clBtnFace
+          Title.Font.Color = clBlue
+          Title.Text.Strings = (
+            'TAChart'
+          )
+          Align = alClient
+        end
+        object Splitter1: TSplitter
+          Left = 246
+          Height = 472
+          Top = 0
+          Width = 5
+          Align = alRight
+          ResizeAnchor = akRight
+        end
+      end
+      object pgMain: TPageControl
+        Left = 16
+        Height = 104
+        Top = 48
+        Width = 312
+        ActivePage = TabSheet1
+        TabIndex = 0
+        TabOrder = 1
+        object TabSheet1: TTabSheet
+          Caption = 'Domain'
+          ClientHeight = 76
+          ClientWidth = 304
+          object Edit1: TEdit
+            Left = 116
+            Height = 23
+            Top = 8
+            Width = 65
+            Alignment = taCenter
+            TabOrder = 0
+            Text = 'eLatMax'
+          end
+          object Edit3: TEdit
+            Left = 28
+            Height = 23
+            Top = 26
+            Width = 65
+            Alignment = taCenter
+            TabOrder = 1
+            Text = 'eLonMin'
+          end
+          object Edit2: TEdit
+            Left = 116
+            Height = 23
+            Top = 42
+            Width = 65
+            Alignment = taCenter
+            TabOrder = 2
+            Text = 'eLatMin'
+          end
+          object Edit4: TEdit
+            Left = 204
+            Height = 23
+            Top = 26
+            Width = 65
+            Alignment = taCenter
+            TabOrder = 3
+            Text = 'eLonMax'
+          end
+        end
+        object TabSheet2: TTabSheet
+          Caption = 'Around point'
+          ClientHeight = 76
+          ClientWidth = 304
+          object ePointLat: TEdit
+            Left = 12
+            Height = 23
+            Top = 26
+            Width = 77
+            Alignment = taCenter
+            TabOrder = 0
+            Text = '66'
+          end
+          object ePointLon: TEdit
+            Left = 108
+            Height = 23
+            Top = 26
+            Width = 77
+            Alignment = taCenter
+            TabOrder = 1
+            Text = '2'
+          end
+          object ePointRad: TEdit
+            Left = 196
+            Height = 23
+            Top = 26
+            Width = 61
+            Alignment = taCenter
+            TabOrder = 2
+            Text = '100'
+          end
+          object Label7: TLabel
+            Left = 12
+            Height = 15
+            Top = 10
+            Width = 43
+            Caption = 'Latitude'
+            ParentColor = False
+          end
+          object Label8: TLabel
+            Left = 108
+            Height = 15
+            Top = 10
+            Width = 54
+            Caption = 'Longitude'
+            ParentColor = False
+          end
+          object Label9: TLabel
+            Left = 196
+            Height = 15
+            Top = 10
+            Width = 58
+            Caption = 'Radius, km'
+            ParentColor = False
+          end
+        end
+        object TabSheet3: TTabSheet
+          Caption = 'Predefined area'
+          ClientHeight = 76
+          ClientWidth = 304
+          object cbSeaBorders: TComboBox
+            Left = 28
+            Height = 23
+            Top = 24
+            Width = 248
+            ItemHeight = 15
+            TabOrder = 0
+            Text = 'cbSeaBorders'
+          end
+        end
+        object TabSheet4: TTabSheet
+          Caption = 'SingleNode'
+          ClientHeight = 76
+          ClientWidth = 304
+          object cbLat: TComboBox
+            Left = 28
+            Height = 23
+            Top = 24
+            Width = 95
+            ItemHeight = 15
+            TabOrder = 0
+            Text = 'lat...'
+          end
+          object cbLon: TComboBox
+            Left = 148
+            Height = 23
+            Top = 24
+            Width = 95
+            ItemHeight = 15
+            TabOrder = 1
+            Text = 'lon...'
+          end
+        end
+      end
+      object Label1: TLabel
+        Left = 16
+        Height = 15
+        Top = 16
+        Width = 57
+        Caption = 'Parameter:'
+        ParentColor = False
+      end
+      object lbVariable: TLabel
+        Left = 88
+        Height = 16
+        Top = 15
+        Width = 64
+        Caption = 'lbVariable'
+        Font.CharSet = RUSSIAN_CHARSET
+        Font.Color = clRed
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object btnGetProfile: TButton
+        Left = 208
+        Height = 25
+        Top = 168
+        Width = 120
+        Caption = 'Get profile'
+        OnClick = btnGetProfileClick
+        TabOrder = 2
+      end
+      object GroupBox1: TGroupBox
+        Left = 16
+        Height = 104
+        Top = 208
+        Width = 312
+        Caption = 'Interpolation'
+        ClientHeight = 84
+        ClientWidth = 308
+        TabOrder = 3
+        object Label2: TLabel
+          Left = 12
+          Height = 15
+          Top = 5
+          Width = 74
+          Caption = 'Required level'
+          ParentColor = False
+        end
+        object eIntLev: TEdit
+          Left = 12
+          Height = 23
+          Top = 24
+          Width = 77
+          TabOrder = 0
+        end
+        object eIntVal: TEdit
+          Left = 214
+          Height = 23
+          Top = 24
+          Width = 77
+          TabOrder = 1
+        end
+        object btnInterpolation: TButton
+          Left = 110
+          Height = 25
+          Top = 24
+          Width = 83
+          Caption = '=>'
+          OnClick = btnInterpolationClick
+          TabOrder = 2
+        end
+        object Label3: TLabel
+          Left = 238
+          Height = 15
+          Top = 5
+          Width = 28
+          Caption = 'Value'
+          ParentColor = False
+        end
+        object lbMethod: TLabel
+          Left = 14
+          Height = 15
+          Top = 58
+          Width = 48
+          Caption = 'Method: '
+          ParentColor = False
+        end
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'Map'
+      ClientHeight = 472
+      ClientWidth = 842
+      object Chart2: TChart
+        Left = 0
+        Height = 472
+        Top = 0
+        Width = 842
+        AxisList = <        
+          item
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Alignment = calBottom
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelBrush.Style = bsClear
+          end>
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clBlue
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alClient
+      end
+    end
+  end
+end

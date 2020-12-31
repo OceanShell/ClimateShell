@@ -1,0 +1,156 @@
+object frmcdoremap: Tfrmcdoremap
+  Left = 776
+  Height = 419
+  Top = 289
+  Width = 356
+  Caption = 'Remap grid'
+  ClientHeight = 419
+  ClientWidth = 356
+  DesignTimePPI = 144
+  LCLVersion = '2.0.6.0'
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 328
+    Top = 16
+    Width = 304
+    Caption = 'New grid definition'
+    ClientHeight = 298
+    ClientWidth = 300
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 16
+      Height = 25
+      Top = 16
+      Width = 73
+      Caption = 'Grid type'
+      ParentColor = False
+    end
+    object cbGridType: TComboBox
+      Left = 120
+      Height = 33
+      Top = 8
+      Width = 150
+      ItemHeight = 25
+      Items.Strings = (
+        'latlon'
+      )
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 16
+      Height = 25
+      Top = 256
+      Width = 37
+      Caption = 'Y inc'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 16
+      Height = 25
+      Top = 216
+      Width = 45
+      Caption = 'Y first'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Height = 25
+      Top = 96
+      Width = 46
+      Caption = 'X first'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 16
+      Height = 25
+      Top = 136
+      Width = 38
+      Caption = 'X inc'
+      ParentColor = False
+    end
+    object seXfirst: TFloatSpinEdit
+      Left = 120
+      Height = 33
+      Top = 88
+      Width = 150
+      MaxValue = 180
+      MinValue = -180
+      TabOrder = 1
+      Value = -179
+    end
+    object seXinc: TFloatSpinEdit
+      Left = 120
+      Height = 33
+      Top = 128
+      Width = 150
+      MaxValue = 0
+      MinValue = 0
+      TabOrder = 2
+      Value = 0.25
+    end
+    object seYfirst: TFloatSpinEdit
+      Left = 120
+      Height = 33
+      Top = 208
+      Width = 150
+      MaxValue = 180
+      MinValue = -180
+      TabOrder = 3
+      Value = 60
+    end
+    object seYinc: TFloatSpinEdit
+      Left = 120
+      Height = 33
+      Top = 248
+      Width = 150
+      MaxValue = 0
+      MinValue = 0
+      TabOrder = 4
+      Value = 0.25
+    end
+    object Label6: TLabel
+      Left = 16
+      Height = 25
+      Top = 56
+      Width = 45
+      Caption = 'X size'
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 16
+      Height = 25
+      Top = 176
+      Width = 44
+      Caption = 'Y size'
+      ParentColor = False
+    end
+    object seXsize: TSpinEdit
+      Left = 120
+      Height = 33
+      Top = 48
+      Width = 150
+      MaxValue = 0
+      TabOrder = 5
+      Value = 1437
+    end
+    object seYsize: TSpinEdit
+      Left = 120
+      Height = 33
+      Top = 168
+      Width = 150
+      MaxValue = 0
+      TabOrder = 6
+      Value = 121
+    end
+  end
+  object btnRemap: TButton
+    Left = 96
+    Height = 38
+    Top = 360
+    Width = 169
+    Caption = 'Remap'
+    OnClick = btnRemapClick
+    TabOrder = 1
+  end
+end

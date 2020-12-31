@@ -1,0 +1,28 @@
+object frmclimmetadatacorrection: Tfrmclimmetadatacorrection
+  Left = 488
+  Height = 89
+  Top = 255
+  Width = 286
+  Caption = 'Metadata Correction'
+  ClientHeight = 89
+  ClientWidth = 286
+  LCLVersion = '1.2.4.0'
+  object btnmonthlyfieldscorrection: TButton
+    Left = 16
+    Height = 25
+    Top = 10
+    Width = 256
+    Caption = 'Monthly fields (every month of every year)'
+    OnClick = btnmonthlyfieldscorrectionClick
+    TabOrder = 0
+  end
+  object btnvariantbcorrection: TButton
+    Left = 16
+    Height = 25
+    Top = 48
+    Width = 256
+    Caption = 'Variant B'
+    OnClick = btnvariantbcorrectionClick
+    TabOrder = 1
+  end
+end

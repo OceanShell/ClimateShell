@@ -1,0 +1,145 @@
+object frmweatherhazards: Tfrmweatherhazards
+  Left = 517
+  Height = 361
+  Top = 265
+  Width = 600
+  Caption = 'Weather Hazards'
+  ClientHeight = 361
+  ClientWidth = 600
+  OnShow = FormShow
+  LCLVersion = '1.4.4.0'
+  object btnWindSpeed: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 131
+    Caption = 'Wind speed >15 m/s'
+    OnClick = btnWindSpeedClick
+    TabOrder = 0
+  end
+  object btnPlot: TButton
+    Left = 120
+    Height = 25
+    Top = 168
+    Width = 107
+    Caption = 'btnPlot'
+    OnClick = btnPlotClick
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 16
+    Height = 96
+    Top = 64
+    Width = 211
+    Caption = 'Surfer''s colour files'
+    ClientHeight = 76
+    ClientWidth = 207
+    TabOrder = 2
+    object cbClr1: TComboBox
+      Left = 32
+      Height = 23
+      Top = 40
+      Width = 157
+      DropDownCount = 15
+      ItemHeight = 15
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object Label9: TLabel
+      Left = 8
+      Height = 15
+      Top = 48
+      Width = 13
+      Caption = 'clr'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 9
+      Height = 15
+      Top = 15
+      Width = 12
+      Caption = 'lvl'
+      ParentColor = False
+    end
+    object cbLvl1: TComboBox
+      Left = 31
+      Height = 23
+      Top = 8
+      Width = 158
+      DropDownCount = 15
+      ItemHeight = 15
+      Style = csDropDownList
+      TabOrder = 1
+    end
+  end
+  object btnSettings: TButton
+    Left = 16
+    Height = 25
+    Top = 168
+    Width = 96
+    Caption = 'Settings'
+    OnClick = btnSettingsClick
+    TabOrder = 3
+  end
+  object GroupBox2: TGroupBox
+    Left = 16
+    Height = 128
+    Top = 208
+    Width = 568
+    Caption = 'GroupBox2'
+    ClientHeight = 108
+    ClientWidth = 564
+    TabOrder = 4
+    object Edit1: TEdit
+      Left = 8
+      Height = 23
+      Top = 8
+      Width = 544
+      TabOrder = 0
+      Text = 'x:\My programs\_asnc\unload\weatherhazards04\'
+    end
+    object Edit2: TEdit
+      Left = 8
+      Height = 23
+      Top = 40
+      Width = 544
+      TabOrder = 1
+      Text = 'x:\My programs\_asnc\unload\weatherhazards79\'
+    end
+    object btndifference: TButton
+      Left = 464
+      Height = 25
+      Top = 72
+      Width = 88
+      Caption = 'btndifference'
+      OnClick = btndifferenceClick
+      TabOrder = 2
+    end
+  end
+  object btnW: TButton
+    Left = 192
+    Height = 25
+    Top = 8
+    Width = 120
+    Caption = 'w>15'
+    OnClick = btnWClick
+    TabOrder = 5
+  end
+  object btnT: TButton
+    Left = 328
+    Height = 25
+    Top = 8
+    Width = 123
+    Caption = 't<-20'
+    OnClick = btnTClick
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 384
+    Height = 15
+    Top = 101
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+end

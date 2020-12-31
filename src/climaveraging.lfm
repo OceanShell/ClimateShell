@@ -1,0 +1,200 @@
+object frmclimaveraging: Tfrmclimaveraging
+  Left = 436
+  Height = 365
+  Top = 220
+  Width = 804
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Create mean field'
+  ClientHeight = 365
+  ClientWidth = 804
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.2.6.0'
+  object ListBox2: TListBox
+    Left = 389
+    Height = 349
+    Top = 8
+    Width = 197
+    ItemHeight = 0
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 600
+    Height = 349
+    Top = 8
+    Width = 197
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 83
+    Top = 190
+    Width = 365
+    Caption = 'Step 1. Path to month-by-month fields'
+    ClientHeight = 65
+    ClientWidth = 361
+    TabOrder = 2
+    object Edit1: TEdit
+      Left = 6
+      Height = 21
+      Top = 6
+      Width = 318
+      TabOrder = 0
+      Text = 'x:\DIVA\climatologies\Nordic Seas v2\DATA\monthly-mean\'
+    end
+    object btnSurferPath: TButton
+      Left = 330
+      Height = 21
+      Top = 6
+      Width = 21
+      Caption = '...'
+      TabOrder = 1
+    end
+    object btnStep1: TButton
+      Left = 6
+      Height = 25
+      Top = 37
+      Width = 345
+      Caption = 'Create monthly means (var B) for 12 months'
+      OnClick = btnStep1Click
+      TabOrder = 2
+    end
+  end
+  object rbPeriods: TRadioGroup
+    Left = 8
+    Height = 169
+    Top = 8
+    Width = 96
+    AutoFill = True
+    Caption = 'Periods'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 151
+    ClientWidth = 92
+    ItemIndex = 0
+    Items.Strings = (
+      '1900-2012'
+      '1950-1970'
+      '1950-2000'
+      '1960-1970'
+      '1976-1982'
+      '1976-1999'
+      '1992-1998'
+      '2000-2012'
+    )
+    TabOrder = 3
+  end
+  object GroupBox3: TGroupBox
+    Left = 120
+    Height = 77
+    Top = 100
+    Width = 183
+    Caption = 'Thresholds'
+    ClientHeight = 59
+    ClientWidth = 179
+    TabOrder = 4
+    object Label8: TLabel
+      Left = 10
+      Height = 13
+      Top = 14
+      Width = 66
+      Caption = 'Relative Error'
+      ParentColor = False
+    end
+    object Label17: TLabel
+      Left = 10
+      Height = 13
+      Top = 41
+      Width = 94
+      Caption = 'Min amount of nods'
+      ParentColor = False
+    end
+    object eAvError: TEdit
+      Left = 122
+      Height = 21
+      Top = 6
+      Width = 49
+      TabOrder = 0
+      Text = '0.25'
+    end
+    object seMinNods: TSpinEdit
+      Left = 122
+      Height = 21
+      Top = 33
+      Width = 49
+      MaxValue = 0
+      TabOrder = 1
+      Value = 3
+    end
+  end
+  object rbParameters: TRadioGroup
+    Left = 120
+    Height = 86
+    Top = 8
+    Width = 183
+    AutoFill = True
+    Caption = 'Parameters'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 68
+    ClientWidth = 179
+    ItemIndex = 0
+    Items.Strings = (
+      'Temperature'
+      'Salinity'
+      'Density'
+    )
+    TabOrder = 5
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 78
+    Top = 279
+    Width = 365
+    Caption = 'Step 2. Path to monthly fields (var B)'
+    ClientHeight = 60
+    ClientWidth = 361
+    TabOrder = 6
+    object Edit2: TEdit
+      Left = 6
+      Height = 21
+      Top = 6
+      Width = 318
+      TabOrder = 0
+      Text = 'x:\DIVA\climatologies\Nordic Seas v2\periods by months\Var B\'
+    end
+    object Button1: TButton
+      Left = 330
+      Height = 21
+      Top = 6
+      Width = 21
+      Caption = '...'
+      TabOrder = 1
+    end
+    object btnStep2: TButton
+      Left = 6
+      Height = 25
+      Top = 33
+      Width = 345
+      Caption = 'Create yearly means for periods (var B) based on 12 months'
+      OnClick = btnStep2Click
+      TabOrder = 2
+    end
+  end
+end

@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <SaveClosedFiles Value="False"/>
+        <SaveOnlyProjectUnits Value="True"/>
+        <AlwaysBuild Value="True"/>
+        <LRSInOutputDirectory Value="False"/>
+        <SaveJumpHistory Value="False"/>
+        <SaveFoldState Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <Title Value="ClimateShell"/>
+      <Scaled Value="True"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="..\..\languages"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <BuildNr Value="15"/>
+      <Attributes pvaDebug="True"/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="DateTimeCtrls"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="67">
+      <Unit0>
+        <Filename Value="ClimateShell.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="35" Y="12"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="declarations_netcdf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="129" Y="89"/>
+        <UsageCount Value="201"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ncmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmmain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="460"/>
+        <CursorPos X="52" Y="466"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ncexportascii.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmexport"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="59" Y="5"/>
+        <UsageCount Value="201"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ncprocedures.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="211"/>
+        <CursorPos X="56" Y="229"/>
+        <UsageCount Value="201"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ncfields.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmfields"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="13"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="70" Y="67"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmsettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="119"/>
+        <CursorPos X="71" Y="132"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="surfer_settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmsurfersettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="169"/>
+        <CursorPos X="78" Y="197"/>
+        <UsageCount Value="202"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ncexportncep.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="200"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="nctimeseries.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmtimeseries"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="360"/>
+        <CursorPos X="55" Y="381"/>
+        <UsageCount Value="201"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="nclatlonseries.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmlatlonseries"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="647"/>
+        <CursorPos X="40" Y="660"/>
+        <UsageCount Value="202"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="nctimeserieslayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTimeSeriesLayers"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="59" Y="71"/>
+        <UsageCount Value="203"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="climfields.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimfields"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="424"/>
+        <CursorPos X="44" Y="437"/>
+        <UsageCount Value="200"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="climanomalies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimanomalies"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="97" Y="2"/>
+        <UsageCount Value="204"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="climaveraging.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimaveraging"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="370"/>
+        <CursorPos Y="377"/>
+        <UsageCount Value="200"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="climsections.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimsections"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="373"/>
+        <CursorPos X="29" Y="398"/>
+        <UsageCount Value="200"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="climhovmoeller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimhovmoeller"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="172"/>
+        <CursorPos X="44" Y="185"/>
+        <UsageCount Value="205"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="climprofiles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimprofiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="49" Y="80"/>
+        <UsageCount Value="201"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="climtimeseries.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimtimeseries"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="61"/>
+        <CursorPos X="59" Y="80"/>
+        <UsageCount Value="200"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="climtdd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimtdd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="289"/>
+        <CursorPos X="38" Y="302"/>
+        <UsageCount Value="216"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="nctimedepthdiagram.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmnctld"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="660"/>
+        <CursorPos X="34" Y="301"/>
+        <UsageCount Value="215"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="climmetadatacorrection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmclimmetadatacorrection"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="43" Y="97"/>
+        <UsageCount Value="200"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="climshfwchc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmshfwchc"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="453"/>
+        <CursorPos X="76" Y="465"/>
+        <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="ncaveraging.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmncaveraging"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="373"/>
+        <CursorPos X="45" Y="385"/>
+        <UsageCount Value="220"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="surfer_climfields.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="5" Y="979"/>
+        <UsageCount Value="200"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="tools_weatherhazards.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmweatherhazards"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="965"/>
+        <CursorPos X="50" Y="978"/>
+        <UsageCount Value="200"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="nclatmap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmnclatmap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="321"/>
+        <CursorPos X="5" Y="333"/>
+        <UsageCount Value="202"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="nctimeseriesnodes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmncexportfield"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="46" Y="121"/>
+        <UsageCount Value="200"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="ncsections_new.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmsections_new"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="87"/>
+        <CursorPos X="53" Y="95"/>
+        <UsageCount Value="201"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="ncxyz2grd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="28" Y="38"/>
+        <UsageCount Value="277"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="surfer_climsections.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="279"/>
+        <CursorPos X="36" Y="190"/>
+        <UsageCount Value="228"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="gibbsseawater.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GibbsSeaWater"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="3238"/>
+        <CursorPos Y="3255"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="ncprofiles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmncUnloadProfiles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="194"/>
+        <CursorPos X="70" Y="205"/>
+        <UsageCount Value="205"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="scriptgrapher.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="3" Y="81"/>
+        <UsageCount Value="200"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="ncantarcticfront.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="64" Y="8"/>
+        <UsageCount Value="200"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="nciceedge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="60" Y="8"/>
+        <UsageCount Value="200"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="cdoaveraging.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmaveragingcdo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="165"/>
+        <CursorPos X="36" Y="176"/>
+        <UsageCount Value="206"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="55" Y="53"/>
+        <UsageCount Value="225"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="surfer_ncfields.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="116"/>
+        <CursorPos Y="122"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="surfer_nctld.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="38" Y="8"/>
+        <UsageCount Value="201"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="surfer_nclatlon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="38" Y="8"/>
+        <UsageCount Value="201"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="surfer_climhovmoeller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="38" Y="8"/>
+        <UsageCount Value="201"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="ncdatainventory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmncdatainventory"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="54" Y="79"/>
+        <UsageCount Value="202"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="bathymetry.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="58"/>
+        <CursorPos X="49" Y="70"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="nccalculatedensity.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmdensity"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="6" Y="43"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="cdoanomalies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="41" Y="43"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="cdoextractsubset.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcdoextractsubset"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="13" Y="9"/>
+        <UsageCount Value="205"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="tools_cats.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcats"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="14" Y="38"/>
+        <UsageCount Value="239"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="cdocompressnetcdf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="51" Y="25"/>
+        <UsageCount Value="245"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="tools_t_0.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmtoolsT_0"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="224"/>
+        <CursorPos Y="231"/>
+        <UsageCount Value="224"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="export_kml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmexport_KML"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="export_KML"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="33" Y="67"/>
+        <UsageCount Value="246"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="nctsdiagram.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmtsdiagram"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="63" Y="64"/>
+        <UsageCount Value="201"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="nctopography3d.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmtopography3D"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="37" Y="80"/>
+        <UsageCount Value="305"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="ncsections.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmsections"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="497"/>
+        <CursorPos X="45" Y="511"/>
+        <UsageCount Value="298"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="ncnettransport.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmnettransport"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="235"/>
+        <CursorPos X="37" Y="250"/>
+        <UsageCount Value="275"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="ncsections_nodes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmncsections_nodes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="212"/>
+        <CursorPos X="61" Y="226"/>
+        <UsageCount Value="240"/>
+        <Bookmarks Count="1">
+          <Item0 X="18" Y="282" ID="9"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="tools_nettransport_nodes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="80" Y="51"/>
+        <UsageCount Value="200"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="cdosplittime.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcdosplit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="4" Y="84"/>
+        <UsageCount Value="236"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="tool_export_mercator_node.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="190"/>
+        <CursorPos X="29" Y="202"/>
+        <UsageCount Value="206"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="cdoremapgrid.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcdoremap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="41" Y="87"/>
+        <UsageCount Value="201"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="cdosplitdataset.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmsplitdataset"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="86" Y="107"/>
+        <UsageCount Value="200"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="ncfreshwatercontent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmfreshwatercontent"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="208"/>
+        <CursorPos X="70" Y="219"/>
+        <UsageCount Value="240"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="cdodeleteparameter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcdodeleteparam"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="58" Y="62"/>
+        <UsageCount Value="283"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="ncheatcontent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmheatcontent"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="157"/>
+        <CursorPos X="18" Y="341"/>
+        <UsageCount Value="258"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="arbytraryregion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="2" Y="16"/>
+        <UsageCount Value="203"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="ncmld.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmmld"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="56" Y="9"/>
+        <UsageCount Value="241"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="nccalculatefreezingtemp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcalculatefreezingtemp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="12"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="26" Y="209"/>
+        <UsageCount Value="95"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit66>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="..\ClimateShell"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <RelocatableUnit Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <DebugInfoType Value="dsStabs"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="C:\lazarus32\components\lazutils\laz_xmlstreaming.pas"/>
+        <Line Value="81"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,63 @@
+object frmexport: Tfrmexport
+  Left = 621
+  Height = 400
+  Top = 186
+  Width = 300
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Export'
+  ClientHeight = 400
+  ClientWidth = 300
+  Color = clBtnFace
+  Constraints.MaxWidth = 300
+  Constraints.MinHeight = 400
+  Constraints.MinWidth = 300
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.8.4.0'
+  object chkHeader: TCheckBox
+    Left = 8
+    Height = 19
+    Top = 8
+    Width = 55
+    Caption = 'Header'
+    TabOrder = 0
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 8
+    Height = 304
+    Top = 32
+    Width = 282
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object btnExport: TButton
+    Left = 8
+    Height = 25
+    Top = 364
+    Width = 282
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'Export'
+    OnClick = btnExportClick
+    TabOrder = 2
+  end
+  object lbCheckAll: TLabel
+    Cursor = crHandPoint
+    Left = 8
+    Height = 13
+    Top = 344
+    Width = 43
+    Caption = 'Check All'
+    Font.Color = clBlue
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = lbCheckAllClick
+  end
+end

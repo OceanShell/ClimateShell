@@ -1,0 +1,362 @@
+object frmshfwchc: Tfrmshfwchc
+  Left = 340
+  Height = 718
+  Top = 160
+  Width = 1051
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Steric Height, Heat Content & Fresh Water Content'
+  ClientHeight = 718
+  ClientWidth = 1051
+  Color = clBtnFace
+  DesignTimePPI = 144
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Tahoma'
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.6.0'
+  object btnStart: TButton
+    Left = 24
+    Height = 38
+    Top = 600
+    Width = 128
+    Caption = 'Start'
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    OnClick = btnStartClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object mLog: TMemo
+    Left = 324
+    Height = 434
+    Top = 252
+    Width = 710
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Lines.Strings = (
+      'mLog'
+    )
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object GroupBox2: TGroupBox
+    Left = 24
+    Height = 112
+    Top = 348
+    Width = 278
+    Caption = 'Layer'
+    ClientHeight = 86
+    ClientWidth = 274
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 2
+    object Label4: TLabel
+      Left = 12
+      Height = 21
+      Top = 56
+      Width = 115
+      Caption = 'Bottom limit, m'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 12
+      Height = 21
+      Top = 14
+      Width = 89
+      Caption = 'Top limit, m'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object cbTopLimit: TComboBox
+      Left = 172
+      Height = 29
+      Top = 2
+      Width = 86
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ItemHeight = 21
+      ParentFont = False
+      TabOrder = 0
+      Text = '0'
+    end
+    object cbBotLimit: TComboBox
+      Left = 172
+      Height = 29
+      Top = 44
+      Width = 86
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ItemHeight = 21
+      ParentFont = False
+      TabOrder = 1
+      Text = '1000'
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 24
+    Height = 112
+    Top = 468
+    Width = 278
+    Caption = 'Reference values'
+    ClientHeight = 86
+    ClientWidth = 274
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 3
+    object Label1: TLabel
+      Left = 12
+      Height = 21
+      Top = 56
+      Width = 70
+      Caption = 'S ref, psu'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 12
+      Height = 21
+      Top = 14
+      Width = 55
+      Caption = 'T ref, C'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object eTref: TEdit
+      Left = 172
+      Height = 29
+      Top = 2
+      Width = 86
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 0
+      Text = '0'
+    end
+    object eSref: TEdit
+      Left = 172
+      Height = 29
+      Top = 44
+      Width = 86
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 1
+      Text = '36'
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 24
+    Height = 84
+    Top = 252
+    Width = 278
+    Caption = 'Date'
+    ClientHeight = 58
+    ClientWidth = 274
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 4
+    object cbDate: TComboBox
+      Left = 22
+      Height = 29
+      Top = 6
+      Width = 236
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ItemHeight = 21
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 0
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 110
+    Top = 12
+    Width = 1010
+    Caption = 'Initial files'
+    ClientHeight = 84
+    ClientWidth = 1006
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 5
+    object Label3: TLabel
+      Left = 12
+      Height = 21
+      Top = 12
+      Width = 96
+      Caption = 'Temperature'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 12
+      Height = 21
+      Top = 48
+      Width = 53
+      Caption = 'Salinity'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object eSal: TEdit
+      Left = 132
+      Height = 29
+      Top = 36
+      Width = 816
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 0
+    end
+    object btnOpenSal: TButton
+      Left = 960
+      Height = 32
+      Top = 36
+      Width = 32
+      Caption = '...'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Label9: TLabel
+      Left = 132
+      Height = 21
+      Top = 12
+      Width = 261
+      Caption = 'File has to open via File-> open file'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Color = clBlack
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object GroupBox5: TGroupBox
+    Left = 24
+    Height = 110
+    Top = 132
+    Width = 1010
+    Caption = 'Norma'
+    ClientHeight = 84
+    ClientWidth = 1006
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    TabOrder = 6
+    object Label7: TLabel
+      Left = 12
+      Height = 21
+      Top = 12
+      Width = 96
+      Caption = 'Temperature'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object eTempN: TEdit
+      Left = 132
+      Height = 29
+      Top = 0
+      Width = 816
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 0
+      Text = 'eTempN'
+    end
+    object Label8: TLabel
+      Left = 12
+      Height = 21
+      Top = 48
+      Width = 53
+      Caption = 'Salinity'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentColor = False
+      ParentFont = False
+    end
+    object eSalN: TEdit
+      Left = 132
+      Height = 29
+      Top = 36
+      Width = 816
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 1
+      Text = 'eSalN'
+    end
+    object btnOpenTempN: TButton
+      Left = 960
+      Height = 32
+      Top = 0
+      Width = 32
+      Caption = '...'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 2
+    end
+    object btnOpenSalN: TButton
+      Left = 960
+      Height = 32
+      Top = 36
+      Width = 32
+      Caption = '...'
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      ParentFont = False
+      TabOrder = 3
+    end
+  end
+end

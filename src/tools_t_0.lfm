@@ -1,0 +1,70 @@
+object frmtoolsT_0: TfrmtoolsT_0
+  Left = 566
+  Height = 360
+  Top = 223
+  Width = 480
+  Caption = 'frmtoolsT_0'
+  ClientHeight = 360
+  ClientWidth = 480
+  DesignTimePPI = 144
+  LCLVersion = '2.0.6.0'
+  object btnPrepartT_0: TButton
+    Left = 24
+    Height = 38
+    Top = 24
+    Width = 156
+    Caption = 'Prepare T_0'
+    OnClick = btnPrepartT_0Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnT_0_norma: TButton
+    Left = 204
+    Height = 38
+    Top = 24
+    Width = 156
+    Caption = 'T_0 norma'
+    OnClick = btnT_0_normaClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnPrepareFWC: TButton
+    Left = 24
+    Height = 38
+    Top = 96
+    Width = 156
+    Caption = 'Prepare FWC'
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 204
+    Height = 38
+    Top = 96
+    Width = 160
+    Caption = 'FWC norma'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 38
+    Top = 168
+    Width = 180
+    Caption = 'Prepare T_0 Andrey'
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 24
+    Height = 38
+    Top = 216
+    Width = 180
+    Caption = 'Prepare FWC Andrey'
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 5
+  end
+end

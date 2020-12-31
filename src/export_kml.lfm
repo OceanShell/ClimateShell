@@ -1,0 +1,129 @@
+object frmexport_KML: Tfrmexport_KML
+  Left = 1039
+  Height = 295
+  Top = 343
+  Width = 267
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'KML export'
+  ClientHeight = 295
+  ClientWidth = 267
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.4.0'
+  object GroupBox4: TGroupBox
+    Left = 16
+    Height = 114
+    Top = 8
+    Width = 234
+    Caption = 'Region'
+    ClientHeight = 94
+    ClientWidth = 230
+    TabOrder = 0
+    object eMaxLat: TFloatSpinEdit
+      Left = 80
+      Height = 23
+      Top = 8
+      Width = 66
+      MaxValue = 90
+      MinValue = -90
+      TabOrder = 0
+      Value = 0
+    end
+    object eMinLat: TFloatSpinEdit
+      Left = 80
+      Height = 23
+      Top = 56
+      Width = 66
+      MaxValue = 90
+      MinValue = -90
+      TabOrder = 1
+      Value = 0
+    end
+    object eMinLon: TFloatSpinEdit
+      Left = 8
+      Height = 23
+      Top = 32
+      Width = 66
+      MaxValue = 180
+      MinValue = -180
+      TabOrder = 2
+      Value = 0
+    end
+    object eMaxLon: TFloatSpinEdit
+      Left = 152
+      Height = 23
+      Top = 32
+      Width = 66
+      MaxValue = 180
+      MinValue = -180
+      TabOrder = 3
+      Value = 0
+    end
+  end
+  object btnExport: TButton
+    Left = 96
+    Height = 25
+    Top = 256
+    Width = 73
+    Caption = 'Export'
+    OnClick = btnExportClick
+    TabOrder = 1
+  end
+  object chkOpenAfterExport: TCheckBox
+    Left = 16
+    Height = 19
+    Top = 224
+    Width = 120
+    Caption = 'Open Exported File'
+    Checked = True
+    State = cbChecked
+    TabOrder = 2
+  end
+  object rgOver: TRadioGroup
+    Left = 16
+    Height = 56
+    Top = 128
+    Width = 234
+    AutoFill = True
+    Caption = 'Data over...'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 38
+    ClientWidth = 230
+    Columns = 3
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    ItemIndex = 2
+    Items.Strings = (
+      'Water'
+      'Land'
+      'Both'
+    )
+    ParentFont = False
+    TabOrder = 3
+  end
+  object seScale: TFloatSpinEdit
+    Left = 96
+    Height = 23
+    Top = 192
+    Width = 74
+    MinValue = 0
+    TabOrder = 4
+    Value = 0.5
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 200
+    Width = 57
+    Caption = 'Label scale'
+    ParentColor = False
+  end
+end

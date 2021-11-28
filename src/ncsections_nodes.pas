@@ -252,7 +252,7 @@ begin
 
  GetClimSectionsScript(SectionPath, SectionPath+'dat'+PathDelim+'data.dat',
  '' , '', kf_s, (kf_s*dist_max), 100, 100, 4, false,
-                         'section_nodes', false, false,
+                         'section_nodes', false,
                          false);
 
    {$IFDEF Windows}

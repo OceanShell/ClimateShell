@@ -16,6 +16,7 @@ function ClearDir(Dir:string ): boolean;
 
 (* Заголовок файла. Определяем вывод данных: мемо (1) или файл (2) *)
 procedure GetHeader(fpath:string; outputid:integer);
+
 function  GetLatIndex(Lat:real): integer; // индекс широты
 function  GetLonIndex(Lon:real): integer; // индекс долготы
 procedure GetDates(ncDate:string); //начальная дата
@@ -29,6 +30,9 @@ procedure ODBPr_VertInt(IntLev,LU1,LU2,LD1,LD2,VU1,VU2,VD1,VD2:real;
 function  ODBPr_Line(x0,x1,x2,px1,px2:real) :real;
 procedure ODBPr_Lag(x,x1,x2,x3,px1,px2,px3:real; var value:real);
 procedure ODBPr_RR(level:real; l_arr,p_arr:array of real;    var value:real);
+
+{spatial interpolation}
+function BilinearInterpolation(x,y,x1,y1,x2,y2,Q11,Q12,Q21,Q22:double):double;
 
 procedure Depth_to_Pressure(z,lt_real:real; m:integer; var press:real);
 procedure IEOS80(press,t,s:real;var svan,dens:real);
@@ -1062,6 +1066,38 @@ Enable:=false;
 {!}end;
 end;
 
+(*
+Initial values:
+Q11 = (x1, y1)
+Q12 = (x1, y2)
+Q21 = (x2, y1)
+Q22 = (x2, y2)
+
+x, y - coordinates where we want to interpolate
+IntVal - interpolated value;
+
+Source:
+https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F
+*)
+function BilinearInterpolation(x,y,x1,y1,x2,y2,Q11,Q12,Q21,Q22:double):double;
+Var
+  IntVal:double;
+begin
+IntVal:=-9999;
+
+ if (x=x1) and (y=y1) then IntVal:=Q11;
+ if (x=x1) and (y=y2) then IntVal:=Q12;
+ if (x=x2) and (y=y1) then IntVal:=Q21;
+ if (x=x2) and (y=y2) then IntVal:=Q22;
+
+ if IntVal=-9999 then
+ IntVal:=Q11/((x2-x1)*(y2-y1))*(x2-x)*(y2-y)+
+         Q21/((x2-x1)*(y2-y1))*(x-x1)*(y2-y)+
+         Q12/((x2-x1)*(y2-y1))*(x2-x)*(y-y1)+
+         Q22/((x2-x1)*(y2-y1))*(x-x1)*(y-y1);
+
+Result:=IntVal;
+end;
 
 {m=0- depth to pressure, 1- pressure to depth}
 procedure Depth_to_Pressure(z,lt_real:real; m:integer; var press:real);

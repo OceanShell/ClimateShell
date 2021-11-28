@@ -10,9 +10,7 @@ Uses sysutils, IniFiles, dialogs, ncmain, ncprocedures;
 (* Sections for climatology *)
 procedure GetClimSectionsScript(ncSectionsPath, IniDat, lvl, clr:string; kf_s, disttr_max:real;
             ncol, nrow, col:integer; climsectionauto:boolean; ncexportfile:string;
-            polar_prj, plot_map, blank_data:boolean);
-
-procedure GetSectionCoordinatesEmpty(SectionPath:string; Polar_prj:boolean);
+            plot_map, blank_data:boolean);
 
 implementation
 
@@ -20,7 +18,7 @@ implementation
 (* Sections for climatology *)
 procedure GetClimSectionsScript(ncSectionsPath, IniDat, lvl, clr:string; kf_s, disttr_max:real;
           ncol, nrow, col:integer; climsectionauto:boolean; ncexportfile:string;
-          polar_prj, plot_map, blank_data:boolean);
+          plot_map, blank_data:boolean);
 var
 Ini:TIniFile;
 script:text;
@@ -35,17 +33,8 @@ begin
 
  AssignFile(script, ncSectionsPath+'tmp'+PathDelim+'script.bas'); rewrite(script);
 
- // showmessage('here');
+ Contour :=GlobalPath+lowercase('support\bln\World.bln');
 
-  if (polar_prj=false) then begin
-   Contour :=GlobalPath+lowercase('support\bln\World.bln');
-  end;
-  if (polar_prj=true) then begin
-   Contour :=GlobalPath+lowercase('support\bln\Arctic_polar.bln');
-   PolarGrd:=GlobalPath+lowercase('support\bln\Arctic_polar_net.bln');
-  end;
-
- //  showmessage('here2');
 
  try
   Ini := TIniFile.Create(IniFileName); // settings from file
@@ -306,14 +295,8 @@ begin
 
     (* Пост со значениями*)
    WriteLn(script, 'Set PostMap=Doc2.Shapes.AddPostMap(DataFileName:=FileP, _');
-   if polar_prj=false then begin
-    WriteLn(script, 'xCol:=4, _');
-    WriteLn(script, 'yCol:=3)');
-   end;
-   if polar_prj=true then begin
-    WriteLn(script, 'xCol:=5, _');
-    WriteLn(script, 'yCol:=6)');
-   end;
+   WriteLn(script, 'xCol:=4, _');
+   WriteLn(script, 'yCol:=3)');
    WriteLn(script, 'Set sampleMarks = PostMap.Overlays(1)');
    WriteLn(script, 'With SampleMarks');
    WriteLn(script, '  .Visible=True');
@@ -335,20 +318,12 @@ begin
    WriteLn(script, 'BaseMap1.Line.ForeColorRGBA.Color=srfColorBlack80');
    WriteLn(script, '');
 
-  if Polar_prj=true then begin
-   WriteLn(script, 'Set BaseMap=Doc2.Shapes.AddBaseMap(FilePolar)');
-   WriteLn(script, 'Set BaseMap1 = BaseMap.Overlays(1)');
-   WriteLn(script, 'BaseMap1.Line.ForeColorRGBA.Color=srfColorBlack50');
-   WriteLn(script, '');
-  end;
-
 
    (* Объединяем и задаём общие свойства *)
    WriteLn(script, 'Doc2.Shapes.SelectAll');
    WriteLn(script, 'Set NewMap = Doc2.Selection.OverlayMaps');
    WriteLn(script, '');
 
-   if polar_prj=false then begin
     WriteLn(script, 'Set Axes = NewMap.Axes');
     WriteLn(script, 'Set Axis = Axes("top axis")');
     WriteLn(script, 'Axis.ShowLabels=False');
@@ -383,35 +358,12 @@ begin
     WriteLn(script, 'Axis.LabelFont.Color= srfColorBlack ');
     WriteLn(script, 'Axis.SetScale(-90, 90, 10, -90, 90, -180, 0)');
     WriteLn(script, '');
-   end;
-
-   if polar_prj=true then begin
-    WriteLn(script, 'Set Axes = NewMap.Axes');
-    WriteLn(script, 'Set Axis = Axes("top axis")');
-    WriteLn(script, 'Axis.Visible=False');
-    WriteLn(script, '');
-    WriteLn(script, 'Set Axis = Axes("bottom axis")');
-    WriteLn(script, 'Axis.Visible=False');
-    WriteLn(script, '');
-    WriteLn(script, 'Set Axis = Axes("right axis")');
-    WriteLn(script, 'Axis.Visible=False');
-    WriteLn(script, '');
-    WriteLn(script, 'Set Axis = Axes("left axis")');
-    WriteLn(script, 'Axis.Visible=False');
-    WriteLn(script, '');
-   end;
-
 
    WriteLn(script, 'With NewMap');
-   if polar_prj=false then begin
      WriteLn(script, '  .SetLimits(-180, 180, -90, 90)');
      WriteLn(script, '  .xLength= 15');
      WriteLn(script, '  .yLength= 8');
-   end;
-   if polar_prj=true then begin
-    WriteLn(script, '  .xLength= 12');
-    WriteLn(script, '  .yLength= 12');
-   end;
+
    WriteLn(script, 'End With');
    WriteLn(script, '');
 
@@ -426,36 +378,11 @@ begin
    WriteLn(script, ' End With');
    WriteLn(script, '');
 
-   if polar_prj=true then begin
-    XL:='29'; YL:='15';
-    For c:=1 to 18 do begin
-     WriteLn(script, '');
-     case c of
-      1 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+5.75,  y:='+YL+'+0.5,   Text:="180" )');
-      2 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+3.5,   y:='+YL+'+0.25,  Text:="-160")');
-      3 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+1.25,  y:='+YL+'-1,     Text:="-140")');
-      4 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+',       y:='+YL+'-2.55,  Text:="-120")');
-      5 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'-0.75,  y:='+YL+'-4.75,  Text:="-100")');
-      6 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'-0.75,  y:='+YL+'-7,     Text:="-80" )');
-      7 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+',       y:='+YL+'-9,     Text:="-60" )');
-      8 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+1.25,  y:='+YL+'-10.75, Text:="-40" )');
-      9 : WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+3.5,   y:='+YL+'-11.75, Text:="-20" )');
-      10: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+5.9,   y:='+YL+'-12.25, Text:="0"   )');
-      11: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+8,     y:='+YL+'-11.75, Text:="20"  )');
-      12: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+10,    y:='+YL+'-10.75, Text:="40"  )');
-      13: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+11.5,  y:='+YL+'-9,     Text:="60"  )');
-      14: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+12.25, y:='+YL+'-7,     Text:="80"  )');
-      15: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+12,    y:='+YL+'-4.75,  Text:="100" )');
-      16: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+11.25, y:='+YL+'-2.55,  Text:="120" )');
-      17: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+10,    y:='+YL+'-1,     Text:="140" )');
-      18: WriteLn(script, 'Set Label =Doc.Shapes.AddText(x:='+XL+'+8,     y:='+YL+'+0.25,  Text:="160" )');
-     end;
-     WriteLn(script, '     Label.Font.Face = "Arial"');
+    WriteLn(script, '     Label.Font.Face = "Arial"');
      WriteLn(script, '     Label.Font.Size=10');
      WriteLn(script, '     Label.Font.Bold=True');
      WriteLn(script, '     Label.Font.ForeColorRGBA.Color = srfColorBlack80');
-    end; //18
-   end; // polar=true
+
 
   WriteLn(script, 'Doc2.Close(SaveChanges:=srfSaveChangesNo)');
   WriteLn(script, '');
@@ -479,126 +406,6 @@ begin
    CloseFile(script);
  end;
 end;
-
-
-
-procedure GetSectionCoordinatesEmpty(SectionPath:string; Polar_prj:boolean);
-Var
- f_scr:text;
- path, contour, polargrd:string;
-begin
-AssignFile(f_scr, ExtractFilePath(SectionPath)+'script.bas'); rewrite(f_scr);  // script file
- if (polar_prj=false) then begin
-  Contour :=GlobalPath+lowercase('support\bln\World.bln');
- end;
- if (polar_prj=true) then begin
-  Contour :=GlobalPath+lowercase('support\bln\Arctic_polar.bln');
-  PolarGrd:=GlobalPath+lowercase('support\bln\Arctic_polar_net.bln');
- end;
-
- try
-   WriteLn(f_scr, 'Sub Main');
-   WriteLn(f_scr, 'Dim Surfer, Diagram, Doc As Object');
-   WriteLn(f_scr, 'pathPolarGrd="' +polargrd+'"');
-   WriteLn(f_scr, 'pathBlankMap="' +contour +'"');
-   WriteLn(f_scr, 'SectionPath="'  +SectionPath +'"');
-   WriteLn(f_scr, '');
-
-   WriteLn(f_scr, 'Set Surfer=CreateObject("Surfer.Application")');
-   WriteLn(f_scr, '    Surfer.Visible=True');
-
-   WriteLn(f_scr, 'Set Doc=Surfer.Documents.Add');
-   WriteLn(f_scr, '    Doc.PageSetup.Orientation = srfLandscape');
-
-   WriteLn(f_scr, 'Set Diagram = Doc.Windows(1)');
-   WriteLn(f_scr, '    Diagram.AutoRedraw = False');
-   WriteLn(f_scr, '');
-
-
-   (* Карта - подложка: берега на нулевой изобате *)
-   WriteLn(f_scr, 'Set BaseMap=Doc.Shapes.AddBaseMap(pathBlankMap)');
-   WriteLn(f_scr, 'Set BaseMap1 = BaseMap.Overlays(1)');
-   WriteLn(f_scr, 'BaseMap1.Fill.Pattern="Solid"');
-   WriteLn(f_scr, 'BaseMap1.Fill.ForeColor=srfColorBlack40');
-   WriteLn(f_scr, 'BaseMap1.Line.ForeColorRGBA.Color=srfColorBlack80');
-   WriteLn(f_scr, '');
-
-   WriteLn(f_scr, 'Set BaseMap=Doc.Shapes.AddBaseMap(SectionPath)');
-   WriteLn(f_scr, 'Set BaseMap1 = BaseMap.Overlays(1)');
-   WriteLn(f_scr, 'BaseMap1.Fill.Pattern="Solid"');
-   WriteLn(f_scr, 'BaseMap1.Line.ForeColorRGBA.Color=srfColorRed');
-   WriteLn(f_scr, '');
-
-
-
-  if Polar_prj=true then begin
-   WriteLn(f_scr, 'Set BaseMap=Doc.Shapes.AddBaseMap(pathPolarGrd)');
-   WriteLn(f_scr, 'Set BaseMap1 = BaseMap.Overlays(1)');
-   WriteLn(f_scr, 'BaseMap1.Line.ForeColorRGBA.Color=srfColorBlack50');
-   WriteLn(f_scr, '');
-  end;
-
-  if polar_prj=false then begin
-    WriteLn(f_scr, 'Set Axes = Basemap.Axes');
-    WriteLn(f_scr, 'Set Axis = Axes("top axis")');
-    WriteLn(f_scr, 'Axis.ShowLabels=False');
-    WriteLn(f_scr, 'Axis.AxisLine.ForeColorRGBA.Color = srfColorBlack50');
-    WriteLn(f_scr, 'Axis.MajorTickLength=0');
-    WriteLn(f_scr, 'Axis.LabelFont.Size=8');
-    WriteLn(f_scr, 'Axis.LabelFont.Color= srfColorBlack');
-    WriteLn(f_scr, '');
-    WriteLn(f_scr, 'Set Axis = Axes("bottom axis")');
-    WriteLn(f_scr, 'Axis.ShowLabels=True');
-    WriteLn(f_scr, 'Axis.ShowMajorGridLines=True');
-    WriteLn(f_scr, 'Axis.MajorGridLine.ForeColorRGBA.Color =srfColorBlack50');
-    WriteLn(f_scr, 'Axis.AxisLine.ForeColorRGBA.Color = srfColorBlack50');
-    WriteLn(f_scr, 'Axis.MajorTickLength=1E-1');
-    WriteLn(f_scr, 'Axis.LabelFont.Size=8');
-    WriteLn(f_scr, 'Axis.LabelFont.Color= srfColorBlack');
-    WriteLn(f_scr, '');
-    WriteLn(f_scr, 'Set Axis = Axes("right axis")');
-    WriteLn(f_scr, 'Axis.ShowLabels=False');
-    WriteLn(f_scr, 'Axis.AxisLine.ForeColorRGBA.Color = srfColorBlack50');
-    WriteLn(f_scr, 'Axis.MajorTickLength=0');
-    WriteLn(f_scr, 'Axis.LabelFont.Color= srfColorBlack');
-    WriteLn(f_scr, '');
-    WriteLn(f_scr, 'Set Axis = Axes("left axis")');
-    WriteLn(f_scr, 'Axis.ShowLabels=True');
-    WriteLn(f_scr, 'Axis.ShowMajorGridLines=True');
-    WriteLn(f_scr, 'Axis.MajorGridLine.ForeColorRGBA.Color =srfColorBlack50');
-    WriteLn(f_scr, 'Axis.AxisLine.ForeColorRGBA.Color = srfColorBlack50');
-    WriteLn(f_scr, 'Axis.MajorTickLength=1E-1');
-    WriteLn(f_scr, 'Axis.LabelFont.Size=8');
-    WriteLn(f_scr, 'Axis.LabelFont.Color= srfColorBlack ');
-   WriteLn(f_scr, '');
-  end;
-
-   (* Объединяем и задаём общие свойства *)
-   WriteLn(f_scr, 'Doc.Shapes.SelectAll');
-   WriteLn(f_scr, 'Set NewMap = Doc.Selection.OverlayMaps');
-   WriteLn(f_scr, 'With NewMap');
-   if polar_prj=false then begin
-     WriteLn(f_scr, '  .xLength= 15');
-     WriteLn(f_scr, '  .yLength= 8');
-     WriteLn(f_scr, '  .Top= 26');
-     WriteLn(f_scr, '  .Left= 2');
-     WriteLn(f_scr, '  .BackgroundFill.Pattern = "10 Percent"');
-     WriteLn(f_scr, '  .BackgroundFill.ForeColor = srfGold');
-   end;
-   WriteLn(f_scr, '    L = .Left');
-   WriteLn(f_scr, '    B = .Top-.Height');
-   WriteLn(f_scr, 'End With');
-   WriteLn(f_scr, '');
-
-   WriteLn(f_scr, 'Diagram.Zoom(srfZoomFitToWindow)');
-   WriteLn(f_scr, 'Diagram.AutoRedraw = True');
-   WriteLn(f_scr, 'End Sub');
-
- finally
-   CloseFile(f_scr); // close script file
- end;
-end;
-
 
 end.
 

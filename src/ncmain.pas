@@ -310,7 +310,7 @@ uses
   (* tools - common *)
   ncfields, nctimeseries, nctimedepthdiagram, nclatlonseries,
   ncsections, nctsdiagram, ncsections_nodes,
-  ncnettransport, ncsections_new,  nctopography3d, nclatmap,
+  ncnettransport, nctopography3d, nclatmap,
   nctimeseriesnodes, ncprofiles, ncfreshwatercontent,
   ncheatcontent,
 
@@ -366,9 +366,14 @@ begin
   Ini := TIniFile.Create(IniFileName);
   try
     GlobalSupportPath := Ini.ReadString('main', 'SupportPath', GlobalPath+'support'+PathDelim);
-      if not DirectoryExists(GlobalSupportPath) then CreateDir(GlobalSupportPath);
+    if copy(GlobalSupportPath, length(GlobalSupportPath)-1, 1)<>PathDelim then
+       GlobalSupportPath:=GlobalSupportPath+PathDelim;
+    if not DirectoryExists(GlobalSupportPath) then CreateDir(GlobalSupportPath);
+
     GlobalUnloadPath  := Ini.ReadString('main', 'UnloadPath', GlobalPath+'unload'+PathDelim);
-      if not DirectoryExists(GlobalUnloadPath) then CreateDir(GlobalUnloadPath);
+    if copy(GlobalUnloadPath, length(GlobalUnloadPath)-1, 1)<>PathDelim then
+       GlobalUnloadPath:=GlobalUnloadPath+PathDelim;
+    if not DirectoryExists(GlobalUnloadPath) then CreateDir(GlobalUnloadPath);
   finally
     Ini.Free;
   end;
@@ -575,6 +580,15 @@ end;
 
 procedure Tfrmmain.iSectionsClick(Sender: TObject);
 begin
+ {frmsections_new := Tfrmsections_new.Create(Self);
+  try
+   if not frmsections_new.ShowModal = mrOk then exit;
+  finally
+    frmsections_new.Free;
+    frmsections_new := nil;
+  end;  }
+
+
  frmsections := Tfrmsections.Create(Self);
   try
    if not frmsections.ShowModal = mrOk then exit;
@@ -740,12 +754,17 @@ end;
 procedure Tfrmmain.MenuItem1Click(Sender: TObject);
 var
   cdo_info: string;
+  intval:double;
 begin
  // showmessage(inttostr(GetBathymetryNew(2.01, 65.99)));
  // showmessage(inttostr(GetBathymetry(2, 66)));
  // showmessage(floattostr(gsw_z_from_p(1000, 66)));
 
- if RunCommand('ncks', ['-r'], cdo_info, [poUsePipes, poWaitOnExit, poStderrToOutPut]) then mLog.Lines.add(cdo_info);
+// if RunCommand('ncks', ['-r'], cdo_info, [poUsePipes, poWaitOnExit, poStderrToOutPut]) then mLog.Lines.add(cdo_info);
+
+ //(x,y,x1,y1,x2,y2,Q11,Q12,Q21,Q22:double):double;
+intval:=BilinearInterpolation(0,1,0,0,1,1,0,1,1,0);
+showmessage(Floattostr(intval));
 end;
 
 

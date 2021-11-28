@@ -109,8 +109,12 @@ Var
   coordinates, long_name, standard_name, units, unit_long: string;
   short_name, cell_methods, alg_name, history:string;
   fillvalue, scale_factor, add_offset: array of single;
+
+  dat:text;
 begin
  try
+   AssignFile(dat, ncpath+fname+'.txt'); rewrite(dat);
+
    nc_open(pansichar(AnsiString(ncpath+fname)), NC_WRITE, ncid); // only for reading
 
    nc_inq_varid (ncid, pChar(cbVariableT.Text), varidpT);
@@ -195,7 +199,7 @@ begin
            Val0s:=fs[0];
 
     if (val0t<>missingT[0]) and (val0T<>-9999) and
-       (val0s<>missingT[0]) and (val0s<>-9999) then begin
+       (val0s<>missingS[0]) and (val0s<>-9999) then begin
            val1t:=scaleT[0]*val0t+offsetT[0];
            val1s:=scaleS[0]*val0s+offsetS[0];
 
@@ -213,11 +217,17 @@ begin
           fd[k]:=dens;
 
        end else fd[k]:=missingT[0];
+
+       writeln(dat, floattostr(nclat_arr[lt_i])+'   '+
+                    floattostr(nclon_arr[ln_i])+'   '+
+                    floattostr(nclev_arr[zz_i])+'   '+
+                    floattostr(fd[k]));
        inc(k);
       end; //Lon
     end; //Lat
   end; // Lev
   FreeMemory(start);
+  CloseFile(dat);
 
   short_name    := 'dens';
   coordinates   := 'time depth latitude longitude' ;
@@ -248,6 +258,7 @@ begin
     nc_put_att_text  (ncid, varidpD, pChar('units'),           length(units),         pansichar(AnsiString(units)));
     nc_put_att_text  (ncid, varidpD, pChar('unit_long'),       length(unit_long),     pansichar(AnsiString(unit_long)));
     nc_put_att_float (ncid, varidpD, pChar('_FillValue'),      NC_FLOAT, 1, fillvalue);
+    nc_put_att_float (ncid, varidpD, pChar('missing_value'),   NC_FLOAT, 1, fillvalue);
     nc_put_att_float (ncid, varidpD, pChar('add_offset'),      NC_FLOAT, 1, add_offset);
     nc_put_att_float (ncid, varidpD, pChar('scale_factor'),    NC_FLOAT, 1, scale_factor);
     nc_put_att_text  (ncid, varidpD, pChar('cell_methods'),    length(cell_methods),  pansichar(AnsiString(cell_methods)));

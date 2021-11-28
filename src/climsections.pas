@@ -381,7 +381,7 @@ end;
    if chkAnomalies.Checked=true then ncexportfile:=ncexportfile+'_'+ncnorma;
 
  GetClimSectionsScript(ClimSectionPath, ClimSectionPath+'tmp\data.dat', lvl , clr, kf_s, (kf_s*dist_max),
- 100, 100, col, climsectionsauto, ncexportfile, false, false, true);
+ 100, 100, col, climsectionsauto, ncexportfile, false, true);
 
    {$IFDEF Windows}
      frmmain.RunScript(2, '-x "'+ClimSectionPath+'tmp'+PathDelim+'script.bas"', nil);

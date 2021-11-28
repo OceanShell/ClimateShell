@@ -63,7 +63,7 @@ Var
  x, y, lat, lon, lat0, lon0, step, gebco:real;
 begin
 
-fout:=GlobalUnloadPath+'topography\'+
+fout:=GlobalUnloadPath+Pathdelim+'topography\'+
       selatmin.Text+'_'+selatmax.Text+'_'+
       selonmin.Text+'_'+selonmax.Text+'.dat';
 
@@ -77,7 +77,9 @@ ln0:=abs(trunc((lon0-selonmin.Value)/step)); // lon index 0
 lt1:=abs(trunc((lat0-selatmax.Value)/step)); // lat index 1
 ln1:=abs(trunc((lon0-selonmax.Value)/step)); // lon index 1
 
-fname:=GlobalSupportPath+'bathymetry'+PathDelim+'GEBCO_2019.nc';
+fname:=GlobalSupportPath+PathDelim+'bathymetry'+PathDelim+'GEBCO_2020.nc';
+
+//showmessage(fname);
 
    if not FileExists(fname) then begin
     showmessage('Topography is not found');

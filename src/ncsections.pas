@@ -498,7 +498,7 @@ end;
    GetClimSectionsScript(SectionPath, SectionPath+'dat'+
                          PathDelim+ncexportfile+'.dat', lvl , clr, kf_s,
                          (kf_s*dist_max), 100, 100, col, ncSectionsAuto,
-                         ncexportfile, chkPolar.Checked, chkMap.Checked,
+                         ncexportfile, chkMap.Checked,
                          chkBlank.Checked);
 
    {$IFDEF Windows}
@@ -961,11 +961,6 @@ begin
        end;
      writeln(dat, Floattostr(Lon1), ',', Floattostr(Lat1));
     CloseFile(dat);
-
-   GetSectionCoordinatesEmpty(frmmain.SD.FileName, rbPolarArctic.Checked);
- {$IFDEF WINDOWS}
-   frmmain.RunScript(2, '-x "'+ExtractFilePath(frmmain.SD.FileName)+'script.bas"', nil);
- {$ENDIF}
   end;
 end;
 

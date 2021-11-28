@@ -1,0 +1,15 @@
+{"version":1,"strings":[
+{"hash":195756483,"name":"tfrmncsections_nodes.caption","sourcebytes":[83,101,99,116,105,111,110,115],"value":"Sections"},
+{"hash":146466142,"name":"tfrmncsections_nodes.gbcoords.caption","sourcebytes":[68,105,114,101,99,116,105,111,110],"value":"Direction"},
+{"hash":782,"name":"tfrmncsections_nodes.label2.caption","sourcebytes":[45,62],"value":"->"},
+{"hash":199790460,"name":"tfrmncsections_nodes.rglatitudinal.caption","sourcebytes":[76,97,116,105,116,117,100,105,110,97,108],"value":"Latitudinal"},
+{"hash":244107900,"name":"tfrmncsections_nodes.rglongitudinal.caption","sourcebytes":[76,111,110,103,105,116,117,100,105,110,97,108],"value":"Longitudinal"},
+{"hash":782,"name":"tfrmncsections_nodes.label4.caption","sourcebytes":[45,62],"value":"->"},
+{"hash":357220,"name":"tfrmncsections_nodes.btnplot.caption","sourcebytes":[80,108,111,116],"value":"Plot"},
+{"hash":91129315,"name":"tfrmncsections_nodes.btnopenfolder.hint","sourcebytes":[79,112,101,110,32,102,111,108,100,101,114,32,119,105,116,104,32,114,101,115,117,108,116,115],"value":"Open folder with results"},
+{"hash":143621861,"name":"tfrmncsections_nodes.groupbox5.caption","sourcebytes":[86,97,114,105,97,98,108,101],"value":"Variable"},
+{"hash":49,"name":"tfrmncsections_nodes.eaddscale.text","sourcebytes":[49],"value":"1"},
+{"hash":48,"name":"tfrmncsections_nodes.eaddoffset.text","sourcebytes":[48],"value":"0"},
+{"hash":8253013,"name":"tfrmncsections_nodes.label5.caption","sourcebytes":[65,100,100,46,32,115,99,97,108,101],"value":"Add. scale"},
+{"hash":123249572,"name":"tfrmncsections_nodes.label3.caption","sourcebytes":[65,100,100,32,111,102,102,115,101,116],"value":"Add offset"}
+]}

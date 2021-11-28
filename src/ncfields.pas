@@ -61,7 +61,7 @@ type
 
     procedure btnAutomationClick(Sender: TObject);
     procedure btnPlotClick(Sender: TObject);
-    procedure cbVariableSelect(Sender: TObject);
+   // procedure cbVariableSelect(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnCancelClick(Sender: TObject);
     procedure btnOpenFolderClick(Sender: TObject);
@@ -117,10 +117,10 @@ begin
 
  if cblevel.Items.Count=0 then cblevel.Enabled:=false;
 
- if not DirectoryExists(GlobalUnloadPath+'fields'+PathDelim) then
-        CreateDir(GlobalUnloadPath+'fields'+PathDelim);
+ if not DirectoryExists(GlobalUnloadPath+PathDelim+'fields'+PathDelim) then
+        CreateDir(GlobalUnloadPath+PathDelim+'fields'+PathDelim);
 
- ncFieldPath:=GlobalUnloadPath+'fields'+PathDelim+ncname+PathDelim;
+ ncFieldPath:=GlobalUnloadPath+PathDelim+'fields'+PathDelim+ncname+PathDelim;
 
 (* загружаем список *.lvl файлов *)
   cbLvl1.onDropDown(self);
@@ -153,12 +153,6 @@ begin
 
  rgProjection.OnClick(self);
  chkIce.Enabled:=FileExists(GlobalSupportPath+'ice'+PathDelim+'HadISST_ice.nc');
-end;
-
-
-procedure Tfrmfields.cbVariableSelect(Sender: TObject);
-begin
-
 end;
 
 
@@ -563,7 +557,7 @@ try
    offset[0]:=0;
    missing[0]:=-9999;
    nc_inq_varnatts (ncid, varidp, varnattsp); // count of attributes for variable
-   setlength(attname, NC_MAX_NAME); // задаем длину названия аттрибута
+   setlength(attname, NC_MAX_NAME); // задаем длину названия атрибута
     for a:=0 to varnattsp-1 do begin
       nc_inq_attname(ncid, varidp, a, attname); // имя аттрибута
          if pAnsiChar(attname)='add_offset'    then begin

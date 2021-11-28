@@ -51,6 +51,7 @@ type
     procedure btnInstallMissingClick(Sender: TObject);
     procedure btnPythonPathClick(Sender: TObject);
     procedure btnShowInstalledClick(Sender: TObject);
+    procedure btnUnloadPathClick(Sender: TObject);
     procedure ePythonPathChange(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnGrapherPathClick(Sender: TObject);
@@ -166,6 +167,11 @@ memo2.Clear;
    Ini.Free;
   end;
 frmmain.RunScript(1, '-m pip freeze', memo2);
+end;
+
+procedure Tfrmsettings.btnUnloadPathClick(Sender: TObject);
+begin
+  if frmmain.SDD.Execute then eUnloadPath.Text:= frmmain.SDD.FileName;
 end;
 
 procedure Tfrmsettings.btnInstallMissingClick(Sender: TObject);

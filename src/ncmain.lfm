@@ -4,8 +4,8 @@ object frmmain: Tfrmmain
   Top = 166
   Width = 1354
   Caption = 'ASNC'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 720
+  ClientWidth = 1354
   Color = clBtnFace
   Constraints.MinHeight = 750
   Constraints.MinWidth = 1350

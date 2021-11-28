@@ -158,6 +158,7 @@ object frmsettings: Tfrmsettings
           Top = 12
           Width = 39
           Caption = '...'
+          OnClick = btnUnloadPathClick
           ParentFont = False
           TabOrder = 1
         end
